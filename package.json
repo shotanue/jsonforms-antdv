@@ -1,0 +1,66 @@
+{
+  "name": "@shotanue/jsonforms-antdv",
+  "version": "0.0.1",
+  "description": "JSON Forms renderer for Ant Design Vue",
+  "homepage": "https://github.com/shotanue/jsonforms-antdv",
+  "bugs": "https://github.com/shotanue/jsonforms-antdv/issues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shotanue/jsonforms-antdv"
+  },
+  "author": {
+    "name": "shotanue",
+    "email": "shotanue@gmail.com"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "main": "./dist/jsonforms-antdv.umd.js",
+  "module": "./dist/jsonforms-antdv.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/jsonforms-antdv.es.js",
+      "require": "./dist/jsonforms-antdv.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vue-tsc --noEmit && vite build",
+    "lint": "eslint --fix src/**",
+    "lint:check": "eslint src/**",
+    "format": "prettier -w src",
+    "format:check": "prettier -c src",
+    "qa": "run-s format:check lint:check",
+    "fix": "run-s format:fix lint:fix",
+    "clear": "rimraf dist"
+  },
+  "dependencies": {
+    "just-clone": "^3.2.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config-vue": "^0.7.0",
+    "@jsonforms/core": "^2.5.2",
+    "@jsonforms/vue": "^2.5.2",
+    "@types/node": "^16.6.1",
+    "@vitejs/plugin-vue": "^1.2.5",
+    "@vue/compiler-sfc": "^3.1.5",
+    "ant-design-vue": "^2.2.6",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.3.5",
+    "vite": "^2.4.3",
+    "vite-plugin-dts": "^0.6.0",
+    "vue": "^3.1.5",
+    "vue-global-api": "^0.4.1",
+    "vue-tsc": "^0.2.2"
+  },
+  "peerDependencies": {
+    "ant-design-vue": "^2.2.6",
+    "vue": "^3.0.0"
+  }
+}

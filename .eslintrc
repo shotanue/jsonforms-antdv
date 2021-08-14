@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "@antfu/eslint-config-vue",
+    "vue-global-api",
+    "prettier"
+  ]
+}
