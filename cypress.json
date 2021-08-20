@@ -1,0 +1,5 @@
+{
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "componentFolder": "src",
+  "testFiles": "**/*spec.{ts,tsx,vue}"
+}
