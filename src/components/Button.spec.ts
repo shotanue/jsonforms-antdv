@@ -3,5 +3,5 @@ import Button from './Button.vue';
 
 it('Button', () => {
   mount(Button);
-  cy.get('button').contains('Test button').click();
+  cy.findByRole('button', { name: 'Test button' }).click();
 });
