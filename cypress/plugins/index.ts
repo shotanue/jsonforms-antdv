@@ -1,7 +1,7 @@
-import { startDevServer } from '@cypress/vite-dev-server';
+import { startDevServer } from '@cypress/vite-dev-server/dist';
 import { UserConfigExport } from 'vite';
 
-export default function (on) {
+export default function (on: Cypress.PluginEvents) {
   on('dev-server:start', options => {
     const viteConfig: UserConfigExport = {
       plugins: [],
@@ -16,6 +16,7 @@ export default function (on) {
         vue: 'vue/dist/vue.esm-bundler.js',
       },
     };
+
     return startDevServer({ options, viteConfig });
   });
 }
