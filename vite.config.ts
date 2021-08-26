@@ -1,10 +1,12 @@
-import { resolve } from 'path'
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
-import dts from 'vite-plugin-dts'
+import { resolve } from 'path';
+import * as path from 'path';
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+import dts from 'vite-plugin-dts';
 
-const r = (...args: string[]) => resolve(__dirname, ...args)
+const r = (...args: string[]) => resolve(__dirname, ...args);
 
+// storybook and cypress do not refer this config.
 export default defineConfig(() => {
   return {
     build: {
@@ -16,17 +18,17 @@ export default defineConfig(() => {
         fileName: format => `jsonforms-antdv.${format}.js`,
       },
       rollupOptions: {
-        external: [
-          'vue',
-          'ant-design-vue',
-          '@jsonforms/core',
-          '@jsonforms/vue',
-        ],
+        external: ['vue', 'ant-design-vue', '@jsonforms/core', '@jsonforms/vue'],
         output: {
           globals: {
             vue: 'Vue',
           },
         },
+      },
+    },
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, '/src'),
       },
     },
     plugins: [
@@ -37,5 +39,5 @@ export default defineConfig(() => {
         insertTypesEntry: true,
       }),
     ],
-  }
-})
+  };
+});

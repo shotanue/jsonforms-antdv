@@ -1,3 +1,4 @@
+import path from 'path';
 import { startDevServer } from '@cypress/vite-dev-server/dist';
 import { UserConfigExport } from 'vite';
 
@@ -14,6 +15,7 @@ export default function (on: Cypress.PluginEvents) {
     viteConfig.resolve = {
       alias: {
         vue: 'vue/dist/vue.esm-bundler.js',
+        '@': path.resolve(__dirname, '/src'),
       },
     };
 
