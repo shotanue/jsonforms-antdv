@@ -1,5 +1,5 @@
 import { mount } from '@cypress/vue';
-import Button from './Button.vue';
+import Button from '@/components/Button.vue';
 
 it('Button', () => {
   mount(Button);
