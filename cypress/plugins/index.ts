@@ -1,11 +1,16 @@
 import path from 'path';
 import { startDevServer } from '@cypress/vite-dev-server/dist';
 import { UserConfigExport } from 'vite';
+import VitePluginComponents, { AntDesignVueResolver } from 'vite-plugin-components';
 
 export default function (on: Cypress.PluginEvents) {
   on('dev-server:start', options => {
     const viteConfig: UserConfigExport = {
-      plugins: [],
+      plugins: [
+        VitePluginComponents({
+          customComponentResolvers: [AntDesignVueResolver()],
+        }),
+      ],
     };
 
     viteConfig.esbuild = viteConfig.esbuild || {};
