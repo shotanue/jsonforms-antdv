@@ -9,3 +9,5 @@ components.d.ts
 .idea/
 *.log
 extension/manifest.json
+
+cypress/videos/
