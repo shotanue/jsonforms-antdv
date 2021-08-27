@@ -11,6 +11,7 @@ specifiers:
   '@storybook/addon-essentials': ^6.3.7
   '@storybook/addon-links': ^6.3.7
   '@storybook/cli': ^6.3.7
+  '@storybook/testing-vue3': ^0.0.1
   '@storybook/vue3': ^6.3.7
   '@testing-library/cypress': ^8.0.0
   '@types/node': ^16.7.1
@@ -51,6 +52,7 @@ devDependencies:
   '@storybook/addon-essentials': 6.3.7_d6059a7be175f6f712adf8e255bd6dff
   '@storybook/addon-links': 6.3.7
   '@storybook/cli': 6.3.7
+  '@storybook/testing-vue3': 0.0.1_@storybook+vue3@6.3.7+vue@3.2.4
   '@storybook/vue3': 6.3.7_d090bbe4a8c0540b2dd2f57739b40d2d
   '@testing-library/cypress': 8.0.0_cypress@8.3.0
   '@types/node': 16.7.1
@@ -3531,6 +3533,18 @@ packages:
       lodash: 4.17.21
       prettier: 2.2.1
       regenerator-runtime: 0.13.9
+    dev: true
+
+  /@storybook/testing-vue3/0.0.1_@storybook+vue3@6.3.7+vue@3.2.4:
+    resolution: {integrity: sha512-a4FqoDr5aUeA0BRcbTXkcjIELezB1iWCZuut97L+mvGje65Adg6JciaukTlcCBjex7FAohP/ZUXcRMNlwnmInA==}
+    peerDependencies:
+      '@storybook/addons': ^6.0.0
+      '@storybook/client-api': ^6.0.0
+      '@storybook/vue3': ^6.0.0
+      vue: ^3.0.0
+    dependencies:
+      '@storybook/vue3': 6.3.7_d090bbe4a8c0540b2dd2f57739b40d2d
+      vue: 3.2.4
     dev: true
 
   /@storybook/theming/6.3.7:
