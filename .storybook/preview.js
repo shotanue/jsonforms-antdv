@@ -1,6 +1,8 @@
 import { app } from '@storybook/vue3';
-import { Button } from 'ant-design-vue';
+import { Button, Form } from 'ant-design-vue';
+
 app.use(Button);
+app.use(Form);
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
