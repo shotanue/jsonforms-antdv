@@ -3,5 +3,8 @@
     "@antfu/eslint-config-vue",
     "vue-global-api",
     "prettier"
-  ]
+  ],
+  "rules": {
+    "import/named": 0
+  }
 }
