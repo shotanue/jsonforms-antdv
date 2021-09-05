@@ -16,5 +16,7 @@
   const {
     bind,
     on: { updateValue },
-  } = useNumberControl(useJsonFormsControl(props));
+  } =
+    // @ts-ignore
+    useNumberControl(useJsonFormsControl(props));
 </script>

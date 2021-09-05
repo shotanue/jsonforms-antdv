@@ -22,5 +22,7 @@
     ...rendererProps<Layout>(),
   });
 
-  const { layout, elements, formLayout } = useLayout(useJsonFormsLayout(props));
+  const { layout, elements, formLayout } =
+    // @ts-ignore
+    useLayout(useJsonFormsLayout(props));
 </script>
