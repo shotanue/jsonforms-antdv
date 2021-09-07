@@ -41,6 +41,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "just-clone": "^3.2.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {

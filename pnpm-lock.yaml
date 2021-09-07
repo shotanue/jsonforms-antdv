@@ -23,6 +23,7 @@ specifiers:
   cypress: ^8.3.1
   eslint: ^7.32.0
   eslint-config-prettier: ^8.3.0
+  just-clone: ^3.2.1
   npm-run-all: ^4.1.5
   prettier: ^2.3.2
   rimraf: ^3.0.2
@@ -39,6 +40,7 @@ specifiers:
   vue-tsc: ^0.2.3
 
 dependencies:
+  just-clone: 3.2.1
   uuid: 8.3.2
 
 devDependencies:
@@ -9056,6 +9058,10 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /just-clone/3.2.1:
+    resolution: {integrity: sha512-PFotEVrrzAnwuWTUOFquDShWrHnUnhxNrVs1VFqkNfnoH3Sn5XUlDOePYn2Vv5cN8xV2y69jf8qEoQHm7eoLnw==}
+    dev: false
+
   /keyv/3.1.0:
     resolution: {integrity: sha512-9ykJ/46SN/9KPM/sichzQ7OvXyGDYKGTaDlKMGCAlg2UK8KRy4jb0d8sFc+0Tt0YYnThq8X2RZgCg74RPxgcVA==}
     dependencies:
@@ -13420,8 +13426,8 @@ packages:
       vscode-typescript-languageservice: 0.27.6
     dev: true
 
-  /vue-demi/0.11.3_vue@3.2.4:
-    resolution: {integrity: sha512-DpM0TTMpclRZDV6AIacgg837zrim/C9Zn+2ztXBs9hsESJN9vC83ztjTe4KC4HgJuVle8YUjPp7HTwWtwOHfmg==}
+  /vue-demi/0.11.4_vue@3.2.4:
+    resolution: {integrity: sha512-/3xFwzSykLW2HiiLie43a+FFgNOcokbBJ+fzvFXd0r2T8MYohqvphUyDQ8lbAwzQ3Dlcrb1c9ykifGkhSIAk6A==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
@@ -13490,7 +13496,7 @@ packages:
     resolution: {integrity: sha512-283vpYOhVHJCpMkjNVEwZdgaAb+Y93zFaXGAWTI378MLoNuwQydjD/BAy1e81QYEmyA+JbxqcmMZVWcM9rbriw==}
     dependencies:
       eslint-config-vue-global-api: 0.4.1
-      vue-demi: 0.11.3_vue@3.2.4
+      vue-demi: 0.11.4_vue@3.2.4
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
