@@ -1,21 +1,26 @@
 import { useJsonFormsControl } from '@jsonforms/vue';
 import { ComputedRef } from 'vue';
-import { InputNumberProps } from 'ant-design-vue';
 import { DispatchPropsOfControl } from '@jsonforms/core/src/util/renderer';
+import clone from 'just-clone';
 
 type ControlProps = {
   control: ComputedRef<ReturnType<typeof useJsonFormsControl>['control']>;
 } & DispatchPropsOfControl;
 
-type _NumberControlOptions = Partial<InputNumberProps>;
-
 // this library should control value
-export type NumberControlOptions = Omit<_NumberControlOptions, 'value'>;
-
-export const useNumberControl = (input: ControlProps) => {
-  const options = input.control.value.uischema.options as _NumberControlOptions;
+export type ControlOptions<T> = Omit<Partial<T>, 'value'>;
+const removeValue = <T extends Record<string | 'value', any>>(options: T): ControlOptions<T> => {
   // delete value for sure
   delete options.value;
+  return options;
+};
+
+export const _useControl = (input: ControlProps) => {
+  if (!input.control.value.uischema?.options) {
+    throw new Error('property required: input.control.value.uischema.options');
+  }
+
+  const options: Record<string, any> = removeValue(clone(input.control.value.uischema.options));
 
   return {
     bind: {
@@ -23,9 +28,21 @@ export const useNumberControl = (input: ControlProps) => {
       value: input.control.value.data,
     },
     on: {
-      updateValue: (value: number | null) => {
+      updateValue: (value: unknown) => {
         input.handleChange(input.control.value.path, value);
       },
     },
+  };
+};
+
+export const useNumberControl = (input: ControlProps) => {
+  return {
+    ..._useControl(input),
+  };
+};
+
+export const useStringControl = (input: ControlProps) => {
+  return {
+    ..._useControl(input),
   };
 };
