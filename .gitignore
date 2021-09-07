@@ -11,3 +11,4 @@ components.d.ts
 extension/manifest.json
 
 cypress/videos/
+cypress/screenshots/
