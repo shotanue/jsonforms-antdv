@@ -17,18 +17,20 @@ const removeValue = <T extends Record<string | 'value', any>>(options: T): Contr
   return options;
 };
 
-export const _useControl = (input: ControlProps) => {
+// a-checkbox requires `checked` as value property, not `value`.
+type ComposeBind = (args: { options: Record<string, any>; value: unknown }) => Record<string, unknown>;
+export const _useControl = (input: ControlProps, bind: ComposeBind) => {
   if (!input.control.value.uischema?.options) {
     throw new Error('property required: input.control.value.uischema.options');
   }
 
-  const options: Record<string, any> = removeValue(clone(input.control.value.uischema.options));
-
   return {
-    bind: computed(() => ({
-      ...options,
-      value: input.control.value.data,
-    })),
+    bind: computed(() => {
+      return bind({
+        options: removeValue(clone(input.control.value.uischema.options ?? {})),
+        value: input.control.value.data,
+      });
+    }),
     formItemBind: computed<FormItemProps & ValidateInfo>(() => ({
       autoLink: false,
       required: input.control.value.required,
@@ -45,12 +47,23 @@ export const _useControl = (input: ControlProps) => {
 
 export const useNumberControl = (input: ControlProps) => {
   return {
-    ..._useControl(input),
+    ..._useControl(input, args => args),
+  };
+};
+
+export const useBooleanControl = (input: ControlProps) => {
+  return {
+    ..._useControl(input, args => {
+      return {
+        options: args.options,
+        checked: args.value,
+      };
+    }),
   };
 };
 
 export const useStringControl = (input: ControlProps) => {
   return {
-    ..._useControl(input),
+    ..._useControl(input, args => args),
   };
 };
