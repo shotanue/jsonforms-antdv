@@ -19,6 +19,13 @@ describe('Basic number input', () => {
     cy.get('input').should('have.value', 0);
   });
 
+  it('should have label', () => {
+    mount(Basic() as any).then(createdVm => {
+      vm = createdVm;
+    });
+    cy.get('label').should('exist').should('contain.text', 'foo');
+  });
+
   it('can increase value with button', () => {
     mount(Basic() as any).then(createdVm => {
       vm = createdVm;

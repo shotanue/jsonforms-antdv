@@ -18,6 +18,13 @@ describe('Basic', () => {
     cy.get('input').should('exist');
     cy.get('input').should('have.value', 'foo');
   });
+
+  it('should have label', () => {
+    mount(Basic() as any).then(createdVm => {
+      vm = createdVm;
+    });
+    cy.get('label').should('exist').should('contain.text', 'foo');
+  });
 });
 
 describe('Invalid Text', () => {
