@@ -5,6 +5,8 @@ import invalidTextUiSchema from '@/renderers/controls/stringControlRenderer/stor
 import invalidTextJsonSchema from '@/renderers/controls/stringControlRenderer/stories/invalidText/schema.json';
 
 import { jsonFormsTemplate } from '@/storybookUtils/jsonFormsTemplate';
+import withLabelJsonSchema from '@/renderers/controls/booleanControlRenderer/stories/withLabel/schema.json';
+import withLabelUiSchema from '@/renderers/controls/booleanControlRenderer/stories/withLabel/uiSchema.json';
 
 export default {
   title: 'Basic/Controls/StringControlRenderer',
@@ -22,6 +24,16 @@ Basic.args = {
   },
   schema: basicJsonSchema,
   uischema: basicUiSchema,
+};
+
+export const WithLabel = jsonFormsTemplate.bind({});
+WithLabel.args = {
+  data: {
+    prop: 'foo',
+    propB: 'bar',
+  },
+  schema: withLabelJsonSchema,
+  uischema: withLabelUiSchema,
 };
 
 export const InvalidText = jsonFormsTemplate.bind({});

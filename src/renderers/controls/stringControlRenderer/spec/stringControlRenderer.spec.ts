@@ -3,7 +3,7 @@ import { mount } from '@cypress/vue';
 import { App } from 'vue';
 import * as stories from '@/renderers/controls/stringControlRenderer/stories/stringControlRenderer.stories';
 
-const { Basic, InvalidText } = composeStories(stories);
+const { Basic, WithLabel, InvalidText } = composeStories(stories);
 
 let vm: App;
 beforeEach(() => {
@@ -18,11 +18,14 @@ describe('Basic', () => {
     cy.get('input').should('exist');
     cy.get('input').should('have.value', 'foo');
   });
+});
 
+describe('With Label', () => {
   it('should have label', () => {
-    mount(Basic() as any).then(createdVm => {
+    mount(WithLabel() as any).then(createdVm => {
       vm = createdVm;
     });
+    cy.get('input').should('exist');
     cy.get('label').should('exist').should('contain.text', 'foo');
   });
 });

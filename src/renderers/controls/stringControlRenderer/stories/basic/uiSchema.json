@@ -5,7 +5,6 @@
     {
       "type": "Control",
       "scope": "#/properties/prop",
-      "label": "foo",
       "options": {
         "name": "basic"
       }

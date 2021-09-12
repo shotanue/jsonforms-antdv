@@ -3,7 +3,7 @@ import { mount } from '@cypress/vue';
 import { App } from 'vue';
 import * as stories from '@/renderers/controls/numberControlRenderer/stories/numberControlRenderer.stories';
 
-const { Basic, InvalidNumber } = composeStories(stories);
+const { Basic, WithLabel, InvalidNumber } = composeStories(stories);
 
 let vm: App;
 beforeEach(() => {
@@ -17,13 +17,6 @@ describe('Basic number input', () => {
     });
     cy.get('input').should('exist');
     cy.get('input').should('have.value', 0);
-  });
-
-  it('should have label', () => {
-    mount(Basic() as any).then(createdVm => {
-      vm = createdVm;
-    });
-    cy.get('label').should('exist').should('contain.text', 'foo');
   });
 
   it('can increase value with button', () => {
@@ -42,6 +35,16 @@ describe('Basic number input', () => {
     cy.findByRole('button', { name: 'Decrease Value' }).should('exist');
     cy.findByRole('button', { name: 'Decrease Value' }).click();
     cy.get('input').should('have.value', -1);
+  });
+});
+
+describe('withLabel', () => {
+  it('should have label', () => {
+    mount(WithLabel() as any).then(createdVm => {
+      vm = createdVm;
+    });
+    cy.get('input').should('exist');
+    cy.get('label').should('exist').should('contain.text', 'foo');
   });
 });
 
