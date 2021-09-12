@@ -5,6 +5,7 @@
     {
       "type": "Control",
       "scope": "#/properties/number",
+      "label": false,
       "options": {
         "name": "basic"
       }

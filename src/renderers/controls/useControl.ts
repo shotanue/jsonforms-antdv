@@ -4,7 +4,6 @@ import { DispatchPropsOfControl } from '@jsonforms/core/src/util/renderer';
 import clone from 'just-clone';
 import { ValidateInfo } from 'ant-design-vue/es/form/useForm';
 import { FormItemProps } from 'ant-design-vue';
-import { ControlElement } from '@jsonforms/core';
 
 type ControlProps = {
   control: ComputedRef<ReturnType<typeof useJsonFormsControl>['control']>;
@@ -16,22 +15,6 @@ const removeValue = <T extends Record<string | 'value', any>>(options: T): Contr
   // delete value for sure
   delete options.value;
   return options;
-};
-
-const getLabel = (label: ControlElement['label']): string | undefined => {
-  if (label === undefined) {
-    return '';
-  }
-  if (typeof label === 'boolean') {
-    return label ? '' : undefined;
-  }
-  if (typeof label === 'string') {
-    return label;
-  }
-  if (label.show === false) {
-    return undefined;
-  }
-  return label.text;
 };
 
 // a-checkbox requires `checked` as value property, not `value`.
@@ -49,7 +32,7 @@ export const _useControl = (input: ControlProps, bind: ComposeBind) => {
       });
     }),
     formItemBind: computed<FormItemProps & ValidateInfo>(() => ({
-      label: getLabel(input.control.value.uischema.label),
+      label: input.control.value.label,
       autoLink: false,
       required: input.control.value.required,
       validateStatus: input.control.value.errors ? 'error' : '',
