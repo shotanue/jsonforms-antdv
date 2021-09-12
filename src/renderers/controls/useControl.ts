@@ -2,6 +2,8 @@ import { useJsonFormsControl } from '@jsonforms/vue';
 import { computed, ComputedRef } from 'vue';
 import { DispatchPropsOfControl } from '@jsonforms/core/src/util/renderer';
 import clone from 'just-clone';
+import { ValidateInfo } from 'ant-design-vue/es/form/useForm';
+import { FormItemProps } from 'ant-design-vue';
 
 type ControlProps = {
   control: ComputedRef<ReturnType<typeof useJsonFormsControl>['control']>;
@@ -27,7 +29,12 @@ export const _useControl = (input: ControlProps) => {
       ...options,
       value: input.control.value.data,
     })),
-    errors: computed(() => input.control.value.errors),
+    formItemBind: computed<FormItemProps & ValidateInfo>(() => ({
+      autoLink: false,
+      required: input.control.value.required,
+      validateStatus: input.control.value.errors ? 'error' : '',
+      help: input.control.value.errors.split('\n'),
+    })),
     on: {
       updateValue: (value: unknown) => {
         input.handleChange(input.control.value.path, value);

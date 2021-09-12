@@ -7,7 +7,7 @@ import { antdvRenderers } from '@/renderers';
 
 export type JsonFormsTemplateProps = JsonFormsProps & { data: Record<string, unknown> };
 
-// if not export, jsonFormsTemplate referer has type error
+// if not export, stories which reference `jsonFormsTemplate` throws type error
 export type JsonFormsTemplate = Story<JsonFormsTemplateProps>;
 
 export const jsonFormsTemplate: JsonFormsTemplate = args => ({

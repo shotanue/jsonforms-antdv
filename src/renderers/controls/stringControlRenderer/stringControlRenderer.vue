@@ -1,5 +1,5 @@
 <template>
-  <control-wrapper>
+  <control-wrapper :form-item-bind="formItemBind">
     <a-input v-bind="bind" @update:value="updateValue" />
   </control-wrapper>
 </template>
@@ -16,6 +16,7 @@
 
   const {
     bind,
+    formItemBind,
     on: { updateValue },
   } =
     // @ts-ignore
