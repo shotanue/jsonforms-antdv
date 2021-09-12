@@ -48,7 +48,7 @@ export const _useControl = (input: ControlProps, bind: ComposeBind) => {
 
 export const useNumberControl = (input: ControlProps) => {
   return {
-    ..._useControl(input, args => args),
+    ..._useControl(input, args => ({ ...args.options, value: args.value })),
   };
 };
 
@@ -56,7 +56,7 @@ export const useBooleanControl = (input: ControlProps) => {
   return {
     ..._useControl(input, args => {
       return {
-        options: args.options,
+        ...args.options,
         checked: args.value,
       };
     }),
@@ -65,6 +65,6 @@ export const useBooleanControl = (input: ControlProps) => {
 
 export const useStringControl = (input: ControlProps) => {
   return {
-    ..._useControl(input, args => args),
+    ..._useControl(input, args => ({ ...args.options, value: args.value })),
   };
 };
