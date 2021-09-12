@@ -1,5 +1,4 @@
 import { computed, ComputedRef } from 'vue';
-import { v4 } from 'uuid';
 import { useJsonFormsLayout } from '@jsonforms/vue';
 import { Layout, UISchemaElement } from '@jsonforms/core';
 import { FormLayout } from 'ant-design-vue/lib/form/Form';
@@ -16,7 +15,6 @@ export const useLayout = (input: LayoutProps) => {
     if (assertLayout(input.layout.value.uischema)) {
       return input.layout.value.uischema.elements.map(element => {
         element.options = element.options || {};
-        element.options.antdvFormUuid = v4();
         return element;
       });
     }

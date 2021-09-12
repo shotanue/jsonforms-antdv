@@ -16,6 +16,7 @@ export const Basic = jsonFormsTemplate.bind({});
 Basic.args = {
   data: {
     prop: 'foo',
+    propB: 'bar',
   },
   schema: basicJsonSchema,
   uischema: basicUiSchema,

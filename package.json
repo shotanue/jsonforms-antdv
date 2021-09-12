@@ -41,8 +41,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "just-clone": "^3.2.1",
-    "uuid": "^8.3.2"
+    "just-clone": "^3.2.1"
   },
   "devDependencies": {
     "@antfu/eslint-config-vue": "^0.7.0",
@@ -59,7 +58,6 @@
     "@storybook/vue3": "^6.3.7",
     "@testing-library/cypress": "^8.0.0",
     "@types/node": "^16.7.1",
-    "@types/uuid": "^8.3.1",
     "@vitejs/plugin-vue": "^1.4.0",
     "@vue/compiler-sfc": "^3.2.4",
     "ant-design-vue": "^2.2.6",

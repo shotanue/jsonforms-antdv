@@ -1,5 +1,5 @@
 import { useJsonFormsControl } from '@jsonforms/vue';
-import { ComputedRef } from 'vue';
+import { computed, ComputedRef } from 'vue';
 import { DispatchPropsOfControl } from '@jsonforms/core/src/util/renderer';
 import clone from 'just-clone';
 
@@ -23,10 +23,11 @@ export const _useControl = (input: ControlProps) => {
   const options: Record<string, any> = removeValue(clone(input.control.value.uischema.options));
 
   return {
-    bind: {
+    bind: computed(() => ({
       ...options,
       value: input.control.value.data,
-    },
+    })),
+    errors: computed(() => input.control.value.errors),
     on: {
       updateValue: (value: unknown) => {
         input.handleChange(input.control.value.path, value);

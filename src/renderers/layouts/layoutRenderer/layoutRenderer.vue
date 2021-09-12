@@ -1,6 +1,6 @@
 <template>
   <a-form :layout="formLayout">
-    <template v-for="element in elements" :key="element.options.antdvFormUuid">
+    <template v-for="(element, index) in elements" :key="`${layout.path}-${index}`">
       <dispatch-renderer
         :schema="layout.schema"
         :uischema="element"
