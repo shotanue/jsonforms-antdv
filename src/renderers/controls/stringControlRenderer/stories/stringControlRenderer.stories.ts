@@ -5,8 +5,8 @@ import invalidTextUiSchema from '@/renderers/controls/stringControlRenderer/stor
 import invalidTextJsonSchema from '@/renderers/controls/stringControlRenderer/stories/invalidText/schema.json';
 
 import { jsonFormsTemplate } from '@/storybookUtils/jsonFormsTemplate';
-import withLabelJsonSchema from '@/renderers/controls/booleanControlRenderer/stories/withLabel/schema.json';
-import withLabelUiSchema from '@/renderers/controls/booleanControlRenderer/stories/withLabel/uiSchema.json';
+import withLabelJsonSchema from '@/renderers/controls/stringControlRenderer/stories/withLabel/schema.json';
+import withLabelUiSchema from '@/renderers/controls/stringControlRenderer/stories/withLabel/uiSchema.json';
 
 export default {
   title: 'Basic/Controls/StringControlRenderer',
