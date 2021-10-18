@@ -3,6 +3,10 @@ const { AntDesignVueResolver } = require('vite-plugin-components');
 const path = require('path');
 module.exports = {
   async viteFinal(config) {
+    // https://issueexplorer.com/issue/eirslett/storybook-builder-vite/55
+    config.root = path.dirname(require.resolve('storybook-builder-vite'));
+    config.server.fsServe = undefined;
+
     // suppress storybook error
     // https://github.com/storybookjs/storybook/issues/10887#issuecomment-901109891
     config.resolve.dedupe = ['@storybook/client-api'];
@@ -13,7 +17,7 @@ module.exports = {
       Configure your bundler to alias "vue" to "vue/dist/vue.esm-bundler.js".
       * */
       vue: 'vue/dist/vue.esm-bundler.js',
-      '@': path.resolve(__dirname, '/src'),
+      '@': path.join(path.dirname(__dirname), 'src'),
     };
     config.plugins.push(
       VitePluginComponents({
