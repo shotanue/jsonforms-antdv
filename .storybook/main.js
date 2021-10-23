@@ -5,7 +5,16 @@ module.exports = {
   async viteFinal(config) {
     // https://issueexplorer.com/issue/eirslett/storybook-builder-vite/55
     config.root = path.dirname(require.resolve('storybook-builder-vite'));
-    config.server.fsServe = undefined;
+
+    // build-storybook does not give config.server
+    let buildingStorybook = config.server === undefined;
+    if (buildingStorybook) {
+      if (process.env.BUILD_BASE_URL !== undefined) {
+        config.base = process.env.BUILD_BASE_URL;
+      }
+    } else {
+      config.server.fsServe = undefined;
+    }
 
     // suppress storybook error
     // https://github.com/storybookjs/storybook/issues/10887#issuecomment-901109891
