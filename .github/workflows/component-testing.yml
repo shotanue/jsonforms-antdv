@@ -25,12 +25,14 @@ jobs:
       # On the first run, the tests often fail, probably due to the build, so run the test twice.
       - name: "Cypress component testing: Warm up"
         uses: cypress-io/github-action@v2
+        timeout-minutes: 10
         continue-on-error: true
         with:
           install: false
           command: pnpm test
       - name: "Cypress component testing: Run"
         uses: cypress-io/github-action@v2
+        timeout-minutes: 10
         # The second running test failure stops ci.
         continue-on-error: false
         with:
