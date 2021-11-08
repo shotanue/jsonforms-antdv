@@ -42,8 +42,8 @@ describe('Invalid Text', () => {
     cy.findAllByRole('alert').should('exist');
 
     cy.findAllByRole('alert').then(el => {
-      expect(el[0].textContent).to.be.equal('should NOT be longer than 2 characters');
-      expect(el[1].textContent).to.be.equal('should match pattern "^a\\w.*"');
+      expect(el[0].textContent).to.be.equal('must NOT have more than 2 characters');
+      expect(el[1].textContent).to.be.equal('must match pattern "^a\\w.*"');
     });
   });
 
@@ -54,8 +54,8 @@ describe('Invalid Text', () => {
 
     cy.findAllByRole('alert').should('exist');
     cy.findAllByRole('alert').then(el => {
-      expect(el[0].textContent).to.be.equal('should NOT be longer than 2 characters');
-      expect(el[1].textContent).to.be.equal('should match pattern "^a\\w.*"');
+      expect(el[0].textContent).to.be.equal('must NOT have more than 2 characters');
+      expect(el[1].textContent).to.be.equal('must match pattern "^a\\w.*"');
     });
   });
 
@@ -68,7 +68,7 @@ describe('Invalid Text', () => {
     cy.get('input').clear();
     cy.get('input').type('asdf');
     cy.findByRole('alert').should($div => {
-      expect($div.text()).to.be.equal('should NOT be longer than 2 characters');
+      expect($div.text()).to.be.equal('must NOT have more than 2 characters');
     });
   });
 
@@ -81,7 +81,7 @@ describe('Invalid Text', () => {
     cy.get('input').clear();
     cy.get('input').type('f');
     cy.findByRole('alert').should($div => {
-      expect($div.text()).to.be.equal('should match pattern "^a\\w.*"');
+      expect($div.text()).to.be.equal('must match pattern "^a\\w.*"');
     });
   });
 

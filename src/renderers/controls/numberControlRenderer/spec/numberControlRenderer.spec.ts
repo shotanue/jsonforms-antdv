@@ -66,7 +66,7 @@ describe('Invalid Number', () => {
     cy.findByRole('alert')
       .should('exist')
       .should($div => {
-        expect($div.text()).to.be.equal('should be >= 1');
+        expect($div.text()).to.be.equal('must be >= 1');
       });
   });
 
@@ -108,7 +108,7 @@ describe('Invalid Number', () => {
     cy.findByRole('alert')
       .should('exist')
       .should($div => {
-        expect($div.text()).to.be.equal('should be >= 1');
+        expect($div.text()).to.be.equal('must be >= 1');
       });
   });
 });
