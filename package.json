@@ -41,7 +41,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "just-clone": "^3.2.1"
+    "just-clone": "^4.0.0"
   },
   "devDependencies": {
     "@antfu/eslint-config-vue": "0.10.0",
