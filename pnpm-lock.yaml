@@ -23,7 +23,7 @@ specifiers:
   esbuild-darwin-64: 0.13.8
   eslint: 8.2.0
   eslint-config-prettier: 8.3.0
-  just-clone: ^4.0.0
+  just-clone: ^5.0.0
   npm-run-all: 4.1.5
   prettier: 2.4.1
   rimraf: 3.0.2
@@ -39,7 +39,7 @@ specifiers:
   vue-tsc: 0.29.0
 
 dependencies:
-  just-clone: 4.1.1
+  just-clone: 5.0.0
 
 devDependencies:
   '@antfu/eslint-config-vue': 0.10.0_eslint@8.2.0+typescript@4.4.4
@@ -9317,8 +9317,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /just-clone/4.1.1:
-    resolution: {integrity: sha512-LYavd6qj7jNUWAGEC/Wdxr2Y533Fjx2+AAIjkxflT1QpQfPXFcMG1kZwfnxs+3iJinB8ByklW6kEegGJhcZmrA==}
+  /just-clone/5.0.0:
+    resolution: {integrity: sha512-XZ/N6GYZvmFQ+qnXFLaRNAOsnGF5EYXDJ8M9Xu8XaKMlvRe4lVrVv1GBbYXR3jT7KW3ywcrQSbk/70grC8MYbw==}
     dev: false
 
   /keyv/3.1.0:
