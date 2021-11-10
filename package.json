@@ -47,7 +47,7 @@
     "@antfu/eslint-config-vue": "0.10.0",
     "@babel/core": "7.16.0",
     "@cypress/vite-dev-server": "2.2.0",
-    "@cypress/vue": "3.0.3",
+    "@cypress/vue": "3.0.5",
     "@jsonforms/core": "3.0.0-alpha.2",
     "@jsonforms/vue": "3.0.0-alpha.2",
     "@storybook/addon-actions": "6.3.12",
