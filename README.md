@@ -3,3 +3,11 @@
 ## Storybook
 
 https://shotanue.github.io/jsonforms-antdv
+
+## hygen
+
+### create controlRenderer
+
+```shell
+pnpm run gen:controlRenderer
+```
