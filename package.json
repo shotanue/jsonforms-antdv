@@ -38,7 +38,8 @@
     "cypress-ct": "cypress open-ct",
     "clean": "rimraf dist",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "gen:controlRenderer": "hygen generator createControlRenderer"
   },
   "dependencies": {
     "just-clone": "^5.0.0"
@@ -66,6 +67,7 @@
     "esbuild-darwin-64": "0.13.14",
     "eslint": "8.2.0",
     "eslint-config-prettier": "8.3.0",
+    "hygen": "^6.1.0",
     "npm-run-all": "4.1.5",
     "prettier": "2.4.1",
     "rimraf": "3.0.2",
