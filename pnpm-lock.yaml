@@ -20,7 +20,7 @@ specifiers:
   ant-design-vue: 2.2.8
   babel-loader: 8.2.3
   cypress: 9.0.0
-  esbuild-darwin-64: 0.13.14
+  esbuild-darwin-64: 0.13.15
   eslint: 8.2.0
   eslint-config-prettier: 8.3.0
   hygen: 6.1.0
@@ -62,7 +62,7 @@ devDependencies:
   ant-design-vue: 2.2.8_d993d7eb47a5c30940fe6565e4c82216
   babel-loader: 8.2.3_@babel+core@7.16.0
   cypress: 9.0.0
-  esbuild-darwin-64: 0.13.14
+  esbuild-darwin-64: 0.13.15
   eslint: 8.2.0
   eslint-config-prettier: 8.3.0_eslint@8.2.0
   hygen: 6.1.0
@@ -6782,8 +6782,8 @@ packages:
     dev: true
     optional: true
 
-  /esbuild-darwin-64/0.13.14:
-    resolution: {integrity: sha512-YmOhRns6QBNSjpVdTahi/yZ8dscx9ai7a6OY6z5ACgOuQuaQ2Qk2qgJ0/siZ6LgD0gJFMV8UINFV5oky5TFNQQ==}
+  /esbuild-darwin-64/0.13.15:
+    resolution: {integrity: sha512-ihOQRGs2yyp7t5bArCwnvn2Atr6X4axqPpEdCFPVp7iUj4cVSdisgvEKdNR7yH3JDjW6aQDw40iQFoTqejqxvQ==}
     cpu: [x64]
     os: [darwin]
     dev: true
