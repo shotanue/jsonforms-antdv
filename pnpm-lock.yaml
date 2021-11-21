@@ -32,7 +32,7 @@ specifiers:
   typescript: 4.5.2
   vite: 2.6.14
   vite-plugin-components: 0.13.3
-  vite-plugin-dts: 0.9.4
+  vite-plugin-dts: 0.9.5
   vue: 3.2.22
   vue-global-api: 0.4.1
   vue-loader: 16.8.3
@@ -73,7 +73,7 @@ devDependencies:
   typescript: 4.5.2
   vite: 2.6.14
   vite-plugin-components: 0.13.3_vite@2.6.14
-  vite-plugin-dts: 0.9.4_vite@2.6.14
+  vite-plugin-dts: 0.9.5_vite@2.6.14
   vue: 3.2.22
   vue-global-api: 0.4.1_vue@3.2.22
   vue-loader: 16.8.3
@@ -3774,8 +3774,8 @@ packages:
       pretty-format: 27.3.0
     dev: true
 
-  /@ts-morph/common/0.10.1:
-    resolution: {integrity: sha512-rKN/VtZUUlW4M+6vjLFSaFc1Z9sK+1hh0832ucPtPkXqOw/mSWE80Lau4z2zTPNTqtxAjfZbvKpQcEwJy0KIEg==}
+  /@ts-morph/common/0.12.0:
+    resolution: {integrity: sha512-ni7pjqtuyfee4Z21180jrtIkv8/YPciHZhAIz6QIsHGJprheqFbNx3CrsYao48aV3aKx5a4YijADWOcnLzd2aQ==}
     dependencies:
       fast-glob: 3.2.7
       minimatch: 3.0.4
@@ -5736,8 +5736,10 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /code-block-writer/10.1.1:
-    resolution: {integrity: sha512-67ueh2IRGst/51p0n6FvPrnRjAGHY5F8xdjkgrYE7DDzpJe6qA07RYQ9VcoUeo5ATOjSOiWpSL3SWBRRbempMw==}
+  /code-block-writer/11.0.0:
+    resolution: {integrity: sha512-GEqWvEWWsOvER+g9keO4ohFoD3ymwyCnqY3hoTr7GZipYFwEhMHJw+TtV0rfgRhNImM6QWZGO2XYjlJVyYT62w==}
+    dependencies:
+      tslib: 2.3.1
     dev: true
 
   /code-point-at/1.1.0:
@@ -13119,11 +13121,11 @@ packages:
     resolution: {integrity: sha512-vDWbsl26LIcPGmDpoVzjEP6+hvHZkBkLW7JpvwbCv/5IYPJlsbzCVXY3wsCeAxAUeTclNOUZxnLdGh3VBD/J6w==}
     dev: true
 
-  /ts-morph/11.0.3:
-    resolution: {integrity: sha512-ymuPkndv9rzqTLiHWMkVrFXWcN4nBiBGhRP/kTC9F5amAAl7BNLfyrsTzMD1o9A0zishKoF1KQT/0yyFhJnPgA==}
+  /ts-morph/13.0.0:
+    resolution: {integrity: sha512-DWKKq0uhILFUPZmhBqB+2vljrQ6fwrYJWEdESxOqh9iJk/ti0ZIBB4CUB95I0Gy7FynMRWFEJ3q+kTHzFU98gQ==}
     dependencies:
-      '@ts-morph/common': 0.10.1
-      code-block-writer: 10.1.1
+      '@ts-morph/common': 0.12.0
+      code-block-writer: 11.0.0
     dev: true
 
   /ts-pnp/1.2.0_typescript@4.5.2:
@@ -13666,15 +13668,15 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-dts/0.9.4_vite@2.6.14:
-    resolution: {integrity: sha512-eBzaCRvzQltIj712hrjYHoDgDYeTMWRg0zXtr0ZES1tPpHMTDLJaeHhCeNWp2OfCVcbQQV0qKHegBh//+v1Lig==}
+  /vite-plugin-dts/0.9.5_vite@2.6.14:
+    resolution: {integrity: sha512-b0PLSyllnSWI/ct8YGxVRPDjNuH8p1zGAhmAvB4LS9+OMSHj/DSONvfHptD/Nzbw0T7gv6IjKIlkBontnPWpkw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: '>=2.4.4'
     dependencies:
       fast-glob: 3.2.7
       fs-extra: 10.0.0
-      ts-morph: 11.0.3
+      ts-morph: 13.0.0
       vite: 2.6.14
     dev: true
 
