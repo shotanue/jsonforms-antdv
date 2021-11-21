@@ -28,11 +28,12 @@
   "scripts": {
     "dev": "vite dev --root=dev --config=vite.config.ts",
     "build": "vue-tsc --noEmit && vite build",
+    "typeCheck": "vue-tsc --noEmit",
     "lint": "eslint src/**",
     "lint:fix": "eslint --fix src/**",
     "format": "prettier -c src",
     "format:fix": "prettier -w src",
-    "qa": "run-s format lint",
+    "qa": "run-s format lint typeCheck",
     "qa:fix": "run-s format:fix lint:fix",
     "test": "cypress run-ct",
     "cypress-ct": "cypress open-ct",
@@ -40,6 +41,10 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "gen:controlRenderer": "hygen generator createControlRenderer"
+  },
+  "resolutions": {
+    "//@types/react": "see https://github.com/johnsoncodehk/volar/discussions/592#discussioncomment-1580518",
+    "@types/react": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.1.tgz"
   },
   "dependencies": {
     "just-clone": "^5.0.0"
