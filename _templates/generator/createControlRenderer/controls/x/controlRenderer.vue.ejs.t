@@ -15,19 +15,17 @@ to: src/renderers/controls/<%= name %>ControlRenderer/<%= name %>ControlRenderer
 <script lang="ts" setup>
   import { rendererProps, useJsonFormsControl } from '@jsonforms/vue';
   import { ControlElement } from '@jsonforms/core';
-  import { useBooleanControl } from '../../../../../src/renderers/controls/useControl';
-  import ControlWrapper from '../../../../../src/renderers/controls/controlWrapper.vue';
+  import { useControl } from '@/renderers/controls/useControl';
+  import ControlWrapper from '@/renderers/controls/controlWrapper.vue';
 
   const props = defineProps({
     ...rendererProps<ControlElement>(),
   });
 
   const {
-    bind,
-    formItemBind,
+    inputBind,
+    controlWrapperBind,
     on: { updateValue },
-  } =
-          // @ts-ignore todo implement here. use valid useXXXControl.
-          useBooleanControl(useJsonFormsControl(props));
+  } = useControl(useJsonFormsControl(props));
 </script>
 

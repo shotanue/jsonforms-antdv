@@ -5,33 +5,37 @@ import clone from 'just-clone';
 import { ValidateInfo } from 'ant-design-vue/es/form/useForm';
 import { FormItemProps } from 'ant-design-vue';
 
-type ControlProps = {
-  control: ComputedRef<ReturnType<typeof useJsonFormsControl>['control']>;
-} & DispatchPropsOfControl;
-
-// this library should control value
-export type ControlOptions<T> = Omit<Partial<T>, 'value'>;
-const removeValue = <T extends Record<string | 'value', any>>(options: T): ControlOptions<T> => {
-  // delete value for sure
-  delete options.value;
-  return options;
+type UseControl = (
+  input: {
+    control: ComputedRef<ReturnType<typeof useJsonFormsControl>['control']>;
+  } & DispatchPropsOfControl
+) => {
+  // An object binds to Input component(input, textarea, checkbox...),
+  // allowing options defined in the corresponding Ant design component.
+  inputBind: ComputedRef<Record<string, unknown>>;
+  // An object binds to ControlWrapper component,
+  // containing validation result and input meta data (label, required...).
+  controlWrapperBind: ComputedRef<FormItemProps & ValidateInfo>;
+  on: {
+    // This dispatches value-changed event to JSONForms state.
+    updateValue: (value: unknown) => void;
+  };
 };
 
-// a-checkbox requires `checked` as value property, not `value`.
-type ComposeBind = (args: { options: Record<string, any>; value: unknown }) => Record<string, unknown>;
-export const _useControl = (input: ControlProps, bind: ComposeBind) => {
+export const useControl: UseControl = input => {
   if (!input.control.value.uischema?.options) {
     throw new Error('property required: input.control.value.uischema.options');
   }
 
   return {
-    bind: computed(() => {
-      return bind({
-        options: removeValue(clone(input.control.value.uischema.options ?? {})),
+    inputBind: computed(() => {
+      return {
+        ...clone(input.control.value.uischema.options ?? {}),
+        // uischema.options.value must be overridden if it exists
         value: input.control.value.data,
-      });
+      };
     }),
-    formItemBind: computed<FormItemProps & ValidateInfo>(() => ({
+    controlWrapperBind: computed(() => ({
       label: input.control.value.label,
       autoLink: false,
       required: input.control.value.required,
@@ -39,32 +43,9 @@ export const _useControl = (input: ControlProps, bind: ComposeBind) => {
       help: input.control.value.errors.split('\n'),
     })),
     on: {
-      updateValue: (value: unknown) => {
+      updateValue: value => {
         input.handleChange(input.control.value.path, value);
       },
     },
-  };
-};
-
-export const useNumberControl = (input: ControlProps) => {
-  return {
-    ..._useControl(input, args => ({ ...args.options, value: args.value })),
-  };
-};
-
-export const useBooleanControl = (input: ControlProps) => {
-  return {
-    ..._useControl(input, args => {
-      return {
-        ...args.options,
-        checked: args.value,
-      };
-    }),
-  };
-};
-
-export const useStringControl = (input: ControlProps) => {
-  return {
-    ..._useControl(input, args => ({ ...args.options, value: args.value })),
   };
 };

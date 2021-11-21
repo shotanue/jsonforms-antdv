@@ -1,13 +1,13 @@
 <template>
-  <control-wrapper :form-item-bind="formItemBind">
-    <a-input-number v-bind="bind" @update:value="updateValue" />
+  <control-wrapper :form-item-bind="controlWrapperBind">
+    <a-input-number v-bind="inputBind" @update:value="updateValue" />
   </control-wrapper>
 </template>
 
 <script lang="ts" setup>
   import { rendererProps, useJsonFormsControl } from '@jsonforms/vue';
   import { ControlElement } from '@jsonforms/core';
-  import { useNumberControl } from '@/renderers/controls/useControl';
+  import { useControl } from '@/renderers/controls/useControl';
   import ControlWrapper from '@/renderers/controls/controlWrapper.vue';
 
   const props = defineProps({
@@ -15,10 +15,8 @@
   });
 
   const {
-    bind,
-    formItemBind,
+    inputBind,
+    controlWrapperBind,
     on: { updateValue },
-  } =
-    // @ts-ignore
-    useNumberControl(useJsonFormsControl(props));
+  } = useControl(useJsonFormsControl(props));
 </script>
