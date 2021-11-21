@@ -33,7 +33,7 @@
     "lint:fix": "eslint --fix src/**",
     "format": "prettier -c src",
     "format:fix": "prettier -w src",
-    "qa": "run-s format lint",
+    "qa": "run-s format lint typeCheck",
     "qa:fix": "run-s format:fix lint:fix",
     "test": "cypress run-ct",
     "cypress-ct": "cypress open-ct",
