@@ -2,7 +2,7 @@
 to: src/renderers/controls/<%= name %>ControlRenderer/<%= name %>ControlRenderer.vue
 ---
 <template>
-  <control-wrapper :form-item-bind="formItemBind">
+  <control-wrapper :form-item-bind="controlWrapperBind">
     <!--
     todo implement me
     sample)
