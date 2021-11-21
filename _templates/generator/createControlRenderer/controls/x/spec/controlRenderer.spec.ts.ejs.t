@@ -20,7 +20,6 @@ describe('Basic', () => {
     });
     // todo implement here
     cy.get('input').should('exist');
-    cy.get('input').should('not.be.checked');
   });
 });
 

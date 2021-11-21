@@ -1,14 +1,6 @@
----
-to: src/renderers/controls/<%= name %>ControlRenderer/<%= name %>ControlRenderer.vue
----
 <template>
   <control-wrapper :form-item-bind="controlWrapperBind">
-    <!--
-    todo implement me
-    sample)
-    <a-checkbox v-bind="bind" :checked="bind.checked" @update:checked="updateValue" />
-    -->
-    <%= name %>
+    <a-textarea v-bind="inputBind" @update:value="updateValue" />
   </control-wrapper>
 </template>
 
@@ -28,4 +20,3 @@ to: src/renderers/controls/<%= name %>ControlRenderer/<%= name %>ControlRenderer
     on: { updateValue },
   } = useControl(useJsonFormsControl(props));
 </script>
-
