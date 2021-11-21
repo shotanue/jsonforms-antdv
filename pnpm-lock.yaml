@@ -1,5 +1,9 @@
 lockfileVersion: 5.3
 
+overrides:
+  //@types/react: see https://github.com/johnsoncodehk/volar/discussions/592#discussioncomment-1580518
+  '@types/react': https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.1.tgz
+
 specifiers:
   '@antfu/eslint-config-vue': 0.10.0
   '@babel/core': 7.16.0
@@ -3863,7 +3867,7 @@ packages:
   /@types/markdown-to-jsx/6.11.3:
     resolution: {integrity: sha512-30nFYpceM/ZEvhGiqWjm5quLUxNeld0HCzJEXMZZDpq53FPkS85mTwkWtCXzCqq8s5JYLgM5W392a02xn8Bdaw==}
     dependencies:
-      '@types/react': 17.0.30
+      '@types/react': '@registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.1.tgz'
     dev: true
 
   /@types/mdast/3.0.10:
@@ -3925,10 +3929,6 @@ packages:
     resolution: {integrity: sha512-VjID5MJb1eGKthz2qUerWT8+R4b9N+CHvGCzg9fn4kWZgaF9AhdYikQio3R7wV8YY1NsQKPaCwKz1Yff+aHNUQ==}
     dev: true
 
-  /@types/prop-types/15.7.4:
-    resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
-    dev: true
-
   /@types/qs/6.9.7:
     resolution: {integrity: sha512-FGa1F62FT09qcrueBA6qYTrJPVDzah9a+493+o2PCXsesWHIn27G98TsSMs3WPNbZIEj4+VJf6saSFpvD+3Zsw==}
     dev: true
@@ -3936,25 +3936,13 @@ packages:
   /@types/reach__router/1.3.9:
     resolution: {integrity: sha512-N6rqQqTTAV/zKLfK3iq9Ww3wqCEhTZvsilhl0zI09zETdVq1QGmJH6+/xnj8AFUWIrle2Cqo+PGM/Ltr1vBb9w==}
     dependencies:
-      '@types/react': 17.0.30
+      '@types/react': '@registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.1.tgz'
     dev: true
 
   /@types/react-syntax-highlighter/11.0.5:
     resolution: {integrity: sha512-VIOi9i2Oj5XsmWWoB72p3KlZoEbdRAcechJa8Ztebw7bDl2YmR+odxIqhtJGp1q2EozHs02US+gzxJ9nuf56qg==}
     dependencies:
-      '@types/react': 17.0.30
-    dev: true
-
-  /@types/react/17.0.30:
-    resolution: {integrity: sha512-3Dt/A8gd3TCXi2aRe84y7cK1K8G+N9CZRDG8kDGguOKa0kf/ZkSwTmVIDPsm/KbQOVMaDJXwhBtuOXxqwdpWVg==}
-    dependencies:
-      '@types/prop-types': 15.7.4
-      '@types/scheduler': 0.16.2
-      csstype: 3.0.9
-    dev: true
-
-  /@types/scheduler/0.16.2:
-    resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
+      '@types/react': '@registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.1.tgz'
     dev: true
 
   /@types/sinonjs__fake-timers/6.0.4:
@@ -6166,10 +6154,6 @@ packages:
 
   /csstype/2.6.18:
     resolution: {integrity: sha512-RSU6Hyeg14am3Ah4VZEmeX8H7kLwEEirXe6aU2IPfKNvhXwTflK5HQRDNI0ypQXoqmm+QPyG2IaPuQE5zMwSIQ==}
-    dev: true
-
-  /csstype/3.0.9:
-    resolution: {integrity: sha512-rpw6JPxK6Rfg1zLOYCSwle2GFOOsnjmDYDaBwEcwoOg4qlsIVCN789VkBZDJAGi4T07gI4YSutR43t9Zz4Lzuw==}
     dev: true
 
   /cyclist/1.0.1:
@@ -14289,4 +14273,11 @@ packages:
 
   /zwitch/1.0.5:
     resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==}
+    dev: true
+
+  '@registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.1.tgz':
+    resolution: {tarball: https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.1.tgz}
+    name: '@favware/skip-dependency'
+    version: 1.1.1
+    engines: {node: '>=10', npm: '>=6', yarn: ^1}
     dev: true

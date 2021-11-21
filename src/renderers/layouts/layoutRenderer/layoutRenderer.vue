@@ -1,15 +1,15 @@
 <template>
   <a-form :layout="formLayout">
-    <template v-for="(element, index) in elements" :key="`${layout.path}-${index}`">
-      <dispatch-renderer
-        :schema="layout.schema"
-        :uischema="element"
-        :path="layout.path"
-        :enabled="layout.enabled"
-        :renderers="layout.renderers"
-        :cells="layout.cells"
-      />
-    </template>
+    <dispatch-renderer
+      v-for="(element, index) in elements"
+      :key="`${layout.path}-${index}`"
+      :schema="layout.schema"
+      :uischema="element"
+      :path="layout.path"
+      :enabled="layout.enabled"
+      :renderers="layout.renderers"
+      :cells="layout.cells"
+    />
   </a-form>
 </template>
 
@@ -22,7 +22,5 @@
     ...rendererProps<Layout>(),
   });
 
-  const { layout, elements, formLayout } =
-    // @ts-ignore
-    useLayout(useJsonFormsLayout(props));
+  const { layout, elements, formLayout } = useLayout(useJsonFormsLayout(props));
 </script>

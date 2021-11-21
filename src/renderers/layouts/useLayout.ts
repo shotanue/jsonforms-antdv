@@ -1,19 +1,19 @@
-import { computed, ComputedRef } from 'vue';
+import { computed, isRef } from 'vue';
 import { useJsonFormsLayout } from '@jsonforms/vue';
 import { Layout, UISchemaElement } from '@jsonforms/core';
 import { FormLayout } from 'ant-design-vue/lib/form/Form';
 
-type LayoutProps = {
-  layout: ComputedRef<ReturnType<typeof useJsonFormsLayout>['layout']>;
-};
-
 const assertLayout = (arg: UISchemaElement): arg is Layout => {
   return 'elements' in arg;
 };
-export const useLayout = (input: LayoutProps) => {
+export const useLayout = (input: ReturnType<typeof useJsonFormsLayout>) => {
+  const layout = input.layout;
+  if (!isRef<ReturnType<typeof useJsonFormsLayout>['layout']>(layout)) {
+    throw new Error('input.control should be Ref');
+  }
   const elements = computed(() => {
-    if (assertLayout(input.layout.value.uischema)) {
-      return input.layout.value.uischema.elements.map(element => {
+    if (assertLayout(layout.value.uischema)) {
+      return layout.value.uischema.elements.map(element => {
         element.options = element.options || {};
         return element;
       });
@@ -23,7 +23,7 @@ export const useLayout = (input: LayoutProps) => {
   });
 
   const formLayout = computed((): FormLayout => {
-    switch (input.layout.value.direction) {
+    switch (layout.value.direction) {
       case 'row':
         return 'horizontal';
       case 'column':
