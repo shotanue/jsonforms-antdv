@@ -5,7 +5,10 @@ import { markRaw } from 'vue';
 import LayoutRenderer from '@/renderers/layouts/layoutRenderer/layoutRenderer.vue';
 import { antdvRenderers } from '@/renderers';
 
-export type JsonFormsTemplateProps = JsonFormsProps & { data: Record<string, unknown> };
+export type JsonFormsTemplateProps = JsonFormsProps & {
+  data: Record<string, unknown>;
+  onChange: (ev: { data: Record<string, unknown> }) => void;
+};
 
 // if not export, stories which reference `jsonFormsTemplate` throws type error
 export type JsonFormsTemplate = Story<JsonFormsTemplateProps>;
