@@ -24,11 +24,13 @@ specifiers:
   ant-design-vue: 2.2.8
   babel-loader: 8.2.3
   cypress: 9.0.0
+  cypress-real-events: 1.5.1
   esbuild-darwin-64: 0.13.15
   eslint: 8.3.0
   eslint-config-prettier: 8.3.0
   hygen: 6.1.0
   just-clone: ^5.0.0
+  moment: 2.29.1
   npm-run-all: 4.1.5
   prettier: 2.4.1
   rimraf: 3.0.2
@@ -66,10 +68,12 @@ devDependencies:
   ant-design-vue: 2.2.8_d993d7eb47a5c30940fe6565e4c82216
   babel-loader: 8.2.3_@babel+core@7.16.0
   cypress: 9.0.0
+  cypress-real-events: 1.5.1_cypress@9.0.0
   esbuild-darwin-64: 0.13.15
   eslint: 8.3.0
   eslint-config-prettier: 8.3.0_eslint@8.3.0
   hygen: 6.1.0
+  moment: 2.29.1
   npm-run-all: 4.1.5
   prettier: 2.4.1
   rimraf: 3.0.2
@@ -6158,6 +6162,14 @@ packages:
 
   /cyclist/1.0.1:
     resolution: {integrity: sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=}
+    dev: true
+
+  /cypress-real-events/1.5.1_cypress@9.0.0:
+    resolution: {integrity: sha512-Jwi/IJePcZrKyhdtVddaf+mqJrj3y1vpREMDgtWwz+oxvj5FbBpeU0ASu9zpB3bMbsMo7g//buopZIe4jx3iSA==}
+    peerDependencies:
+      cypress: ^4.x || ^5.x || ^6.x || ^7.x || ^8.x
+    dependencies:
+      cypress: 9.0.0
     dev: true
 
   /cypress/9.0.0:

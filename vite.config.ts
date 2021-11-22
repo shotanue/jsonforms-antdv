@@ -18,7 +18,7 @@ export default defineConfig(() => {
         fileName: format => `jsonforms-antdv.${format}.js`,
       },
       rollupOptions: {
-        external: ['vue', 'ant-design-vue', '@jsonforms/core', '@jsonforms/vue'],
+        external: ['vue', 'ant-design-vue', '@jsonforms/core', '@jsonforms/vue', 'moment'],
         output: {
           globals: {
             vue: 'Vue',
