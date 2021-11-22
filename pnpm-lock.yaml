@@ -19,7 +19,7 @@ specifiers:
   '@storybook/vue3': 6.3.12
   '@testing-library/cypress': 8.0.2
   '@types/node': 16.11.9
-  '@vitejs/plugin-vue': 1.9.4
+  '@vitejs/plugin-vue': 1.10.0
   '@vue/compiler-sfc': 3.2.22
   ant-design-vue: 2.2.8
   babel-loader: 8.2.3
@@ -63,7 +63,7 @@ devDependencies:
   '@storybook/vue3': 6.3.12_4d5dd460cb6a22e779af5ac1d9cd8769
   '@testing-library/cypress': 8.0.2_cypress@9.0.0
   '@types/node': 16.11.9
-  '@vitejs/plugin-vue': 1.9.4_vite@2.6.14
+  '@vitejs/plugin-vue': 1.10.0_vite@2.6.14
   '@vue/compiler-sfc': 3.2.22
   ant-design-vue: 2.2.8_d993d7eb47a5c30940fe6565e4c82216
   babel-loader: 8.2.3_@babel+core@7.16.0
@@ -4144,8 +4144,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-vue/1.9.4_vite@2.6.14:
-    resolution: {integrity: sha512-0CZqaCoChriPTTtGkERy1LGPcYjGFpi2uYRhBPIkqJqUGV5JnJFhQAgh6oH9j5XZHfrRaisX8W0xSpO4T7S78A==}
+  /@vitejs/plugin-vue/1.10.0_vite@2.6.14:
+    resolution: {integrity: sha512-XkSN7lduhQ3z/WMXv2spqt9TCS0znCjnvIGmbud2bxViWWWR4JWXE+x/cQZ/klR0Ug4Ts9eubL7LXAysON5Uvg==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
