@@ -27,7 +27,7 @@ describe('Basic', () => {
 
   it('should have a placeholder', () => {
     const placeholder = cy.get('input').should('exist').should('have.attr', 'placeholder');
-    placeholder.should('equal', 'Select date');
+    placeholder.should('equal', 'date placeholder');
   });
 
   it('emits a data change', () => {
