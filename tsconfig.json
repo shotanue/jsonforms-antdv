@@ -17,6 +17,7 @@
     "types": [
       "@testing-library/cypress",
       "cypress",
+      "cypress-real-events",
       "vite/client"
     ],
     "baseUrl": ".",
