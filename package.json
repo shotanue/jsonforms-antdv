@@ -57,7 +57,7 @@
     "@jsonforms/core": "3.0.0-alpha.2",
     "@jsonforms/vue": "3.0.0-alpha.2",
     "@storybook/addon-actions": "6.4.3",
-    "@storybook/addon-essentials": "6.4.3",
+    "@storybook/addon-essentials": "6.4.4",
     "@storybook/addon-links": "6.4.3",
     "@storybook/cli": "6.4.3",
     "@storybook/testing-vue3": "0.0.1",
