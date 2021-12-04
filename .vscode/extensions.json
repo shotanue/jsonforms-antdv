@@ -1,4 +1,9 @@
 {
-  "recommendations": ["johnsoncodehk.volar", "dbaeumer.vscode-eslint"],
+  "recommendations": [
+    "johnsoncodehk.volar",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "ant-design-vue.vscode-ant-design-vue-helper",
+  ],
   "unwantedRecommendations": ["octref.vetur"]
 }
