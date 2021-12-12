@@ -1,4 +1,4 @@
-import { useJsonFormsControl } from '@jsonforms/vue';
+import { useJsonFormsControl, useJsonFormsEnumControl } from '@jsonforms/vue';
 import { computed, ComputedRef, isRef } from 'vue';
 import clone from 'just-clone';
 import { ValidateInfo } from 'ant-design-vue/es/form/useForm';
@@ -18,7 +18,8 @@ type UseControl = (input: ReturnType<typeof useJsonFormsControl>) => {
 };
 export const useControl: UseControl = input => {
   const control = input.control;
-  if (!isRef<ReturnType<typeof useJsonFormsControl>['control']>(control)) {
+  type Controls = typeof useJsonFormsControl & typeof useJsonFormsEnumControl;
+  if (!isRef<ReturnType<Controls>['control']>(control)) {
     throw new Error('input.control should be Ref');
   }
 
@@ -28,6 +29,7 @@ export const useControl: UseControl = input => {
         ...clone(control.value.uischema.options ?? {}),
         // uischema.options.value must be overridden if it exists
         value: control.value.data,
+        options: control.value.options,
       };
     }),
     controlWrapperBind: computed(() => ({
