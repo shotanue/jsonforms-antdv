@@ -1,13 +1,11 @@
 {
-  "cSpell.words": ["Vitesse"],
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "volar.tsPlugin": true,
-  "volar.tsPluginStatus": false,
-  "vite.autoStart": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.enable": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "files.associations": {
-    "*.css": "postcss"
-  }
+  "eslint.format.enable": false,
+  "eslint.packageManager": "pnpm",
+  "volar.codeLens.scriptSetupTools": true
 }
