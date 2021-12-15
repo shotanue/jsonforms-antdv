@@ -1,6 +1,6 @@
 import { composeStories } from '@storybook/testing-vue3';
 import { mount } from '@cypress/vue';
-import { App } from 'vue';
+import type { App } from 'vue';
 import * as stories from '@/renderers/controls/multiStringControlRenderer/stories/multiStringControlRenderer.stories';
 
 const { Basic } = composeStories(stories);

@@ -1,5 +1,5 @@
-import { Story } from '@storybook/vue3';
-import { JsonFormsProps } from '@jsonforms/core';
+import type { Story } from '@storybook/vue3';
+import type { JsonFormsProps } from '@jsonforms/core';
 import { JsonForms } from '@jsonforms/vue';
 import { markRaw } from 'vue';
 import LayoutRenderer from '@/renderers/layouts/layoutRenderer/layoutRenderer.vue';

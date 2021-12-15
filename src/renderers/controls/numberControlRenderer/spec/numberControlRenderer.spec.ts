@@ -1,6 +1,6 @@
 import { composeStories } from '@storybook/testing-vue3';
 import { mount } from '@cypress/vue';
-import { App } from 'vue';
+import type { App } from 'vue';
 import * as stories from '@/renderers/controls/numberControlRenderer/stories/numberControlRenderer.stories';
 
 const { Basic, WithLabel, InvalidNumber } = composeStories(stories);

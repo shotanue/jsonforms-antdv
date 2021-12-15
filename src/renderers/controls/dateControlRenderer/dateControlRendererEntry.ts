@@ -1,4 +1,5 @@
-import { isDateControl, JsonFormsRendererRegistryEntry, rankWith } from '@jsonforms/core';
+import type { JsonFormsRendererRegistryEntry } from '@jsonforms/core';
+import { isDateControl, rankWith } from '@jsonforms/core';
 import renderer from '@/renderers/controls/dateControlRenderer/dateControlRenderer.vue';
 
 export const dateControlRendererEntry: JsonFormsRendererRegistryEntry = {

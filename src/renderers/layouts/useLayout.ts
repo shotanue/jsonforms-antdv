@@ -1,7 +1,7 @@
 import { computed, isRef } from 'vue';
-import { useJsonFormsLayout } from '@jsonforms/vue';
-import { Layout, UISchemaElement } from '@jsonforms/core';
-import { FormLayout } from 'ant-design-vue/lib/form/Form';
+import type { useJsonFormsLayout } from '@jsonforms/vue';
+import type { Layout, UISchemaElement } from '@jsonforms/core';
+import type { FormLayout } from 'ant-design-vue/lib/form/Form';
 
 const assertLayout = (arg: UISchemaElement): arg is Layout => {
   return 'elements' in arg;

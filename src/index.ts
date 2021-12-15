@@ -1,4 +1,4 @@
-import { Main } from '../types/Main';
+import type { Main } from '../types/Main';
 
 export type { Foo } from '../types/Foo';
 

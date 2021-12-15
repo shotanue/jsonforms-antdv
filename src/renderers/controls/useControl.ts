@@ -1,8 +1,9 @@
-import { useJsonFormsControl, useJsonFormsEnumControl } from '@jsonforms/vue';
-import { computed, ComputedRef, isRef } from 'vue';
+import type { useJsonFormsControl, useJsonFormsEnumControl } from '@jsonforms/vue';
+import type { ComputedRef } from 'vue';
+import { computed, isRef } from 'vue';
 import clone from 'just-clone';
-import { ValidateInfo } from 'ant-design-vue/es/form/useForm';
-import { FormItemProps } from 'ant-design-vue';
+import type { ValidateInfo } from 'ant-design-vue/es/form/useForm';
+import type { FormItemProps } from 'ant-design-vue';
 
 type UseControl = (input: ReturnType<typeof useJsonFormsControl>) => {
   // An object binds to Input component(input, textarea, checkbox...),
