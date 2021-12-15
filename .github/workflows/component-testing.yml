@@ -16,11 +16,16 @@ jobs:
           path: ~/.pnpm-store
           key: ${{ runner.os }}-node${{ matrix.node-version }}-${{ hashFiles('**/pnpm-lock.yaml') }}
 
-      - uses: pnpm/action-setup@v2.0.1
+      - uses: actions/setup-node@v2
         with:
-          version: 6.23.6
-          run_install: true
+          node-version: '16'
 
+      - name: enable corepack
+        run: corepack enable
+
+      - name: install packages
+        run: pnpm install
+        
       # Flaky test, run test twice. 
       - name: "Cypress component testing: Warm up"
         uses: cypress-io/github-action@v2
