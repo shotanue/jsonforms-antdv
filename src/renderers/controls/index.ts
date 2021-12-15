@@ -1,3 +1,4 @@
+import { enumOneOfControlRendererEntry } from '@/renderers/controls/enumOneOfControlRenderer/enumOneOfControlRendererEntry';
 import { enumControlRendererEntry } from '@/renderers/controls/enumControlRenderer/enumControlRendererEntry';
 import { timeControlRendererEntry } from '@/renderers/controls/timeControlRenderer/timeControlRendererEntry';
 import { dateTimeControlRendererEntry } from '@/renderers/controls/dateTimeControlRenderer/dateTimeControlRendererEntry';
@@ -8,6 +9,7 @@ import { stringControlRendererEntry } from '@/renderers/controls/stringControlRe
 import { booleanControlRendererEntry } from '@/renderers/controls/booleanControlRenderer/booleanControlRendererEntry';
 
 export const controlRenderers = [
+  enumOneOfControlRendererEntry,
   enumControlRendererEntry,
   timeControlRendererEntry,
   dateTimeControlRendererEntry,
