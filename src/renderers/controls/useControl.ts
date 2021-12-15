@@ -1,4 +1,4 @@
-import type { useJsonFormsControl, useJsonFormsEnumControl } from '@jsonforms/vue';
+import type { useJsonFormsControl, useJsonFormsEnumControl, useJsonFormsOneOfEnumControl } from '@jsonforms/vue';
 import type { ComputedRef } from 'vue';
 import { computed, isRef } from 'vue';
 import clone from 'just-clone';
@@ -19,7 +19,7 @@ type UseControl = (input: ReturnType<typeof useJsonFormsControl>) => {
 };
 export const useControl: UseControl = input => {
   const control = input.control;
-  type Controls = typeof useJsonFormsControl & typeof useJsonFormsEnumControl;
+  type Controls = typeof useJsonFormsControl & typeof useJsonFormsEnumControl & typeof useJsonFormsOneOfEnumControl;
   if (!isRef<ReturnType<Controls>['control']>(control)) {
     throw new Error('input.control should be Ref');
   }
