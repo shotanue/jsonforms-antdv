@@ -6,8 +6,9 @@
 
 <script lang="ts" setup>
   import { rendererProps, useJsonFormsControl } from '@jsonforms/vue';
-  import { ControlElement } from '@jsonforms/core';
-  import moment, { Moment } from 'moment';
+  import type { ControlElement } from '@jsonforms/core';
+  import type { Moment } from 'moment';
+  import moment from 'moment';
   import { computed } from 'vue';
   import { useControl } from '@/renderers/controls/useControl';
   import ControlWrapper from '@/renderers/controls/controlWrapper.vue';

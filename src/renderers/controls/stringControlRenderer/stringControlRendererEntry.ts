@@ -1,4 +1,5 @@
-import { isStringControl, JsonFormsRendererRegistryEntry, rankWith } from '@jsonforms/core';
+import type { JsonFormsRendererRegistryEntry } from '@jsonforms/core';
+import { isStringControl, rankWith } from '@jsonforms/core';
 import renderer from '@/renderers/controls/stringControlRenderer/stringControlRenderer.vue';
 
 export const stringControlRendererEntry: JsonFormsRendererRegistryEntry = {

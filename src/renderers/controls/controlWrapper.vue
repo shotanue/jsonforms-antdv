@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { FormItemProps } from 'ant-design-vue';
+  import type { FormItemProps } from 'ant-design-vue';
   type Props = {
     formItemBind: FormItemProps;
   };

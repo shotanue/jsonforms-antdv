@@ -1,4 +1,5 @@
-import { and, isMultiLineControl, isStringControl, JsonFormsRendererRegistryEntry, rankWith } from '@jsonforms/core';
+import type { JsonFormsRendererRegistryEntry } from '@jsonforms/core';
+import { and, isMultiLineControl, isStringControl, rankWith } from '@jsonforms/core';
 import renderer from '@/renderers/controls/multiStringControlRenderer/multiStringControlRenderer.vue';
 
 export const multiStringControlRendererEntry: JsonFormsRendererRegistryEntry = {

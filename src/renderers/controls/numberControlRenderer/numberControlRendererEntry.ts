@@ -1,4 +1,5 @@
-import { isNumberControl, JsonFormsRendererRegistryEntry, rankWith } from '@jsonforms/core';
+import type { JsonFormsRendererRegistryEntry } from '@jsonforms/core';
+import { isNumberControl, rankWith } from '@jsonforms/core';
 import renderer from '@/renderers/controls/numberControlRenderer/numberControlRenderer.vue';
 
 export const numberControlRendererEntry: JsonFormsRendererRegistryEntry = {
