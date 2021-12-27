@@ -14,7 +14,7 @@
 </template>
 
 <script lang="ts" setup>
-  import { rendererProps, useJsonFormsLayout, DispatchRenderer } from '@jsonforms/vue';
+  import { DispatchRenderer, rendererProps, useJsonFormsLayout } from '@jsonforms/vue';
   import type { Layout } from '@jsonforms/core';
   import { useLayout } from '@/renderers/layouts/useLayout';
 
