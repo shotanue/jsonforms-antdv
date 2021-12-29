@@ -1,5 +1,4 @@
-import type { Main } from '../types/Main';
+import { layoutRenderers } from '@/renderers/layouts';
+import { controlRenderers } from '@/renderers/controls';
 
-export type { Foo } from '../types/Foo';
-
-export const index: Main = () => {};
+export const antdvRenderers = [...layoutRenderers, ...controlRenderers];
