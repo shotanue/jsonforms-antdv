@@ -34,7 +34,7 @@ specifiers:
   npm-run-all: 4.1.5
   prettier: 2.5.1
   rimraf: 3.0.2
-  storybook-builder-vite: 0.1.12
+  storybook-builder-vite: 0.1.13
   typescript: 4.5.4
   vite: 2.7.9
   vite-plugin-components: 0.13.3
@@ -77,7 +77,7 @@ devDependencies:
   npm-run-all: 4.1.5
   prettier: 2.5.1
   rimraf: 3.0.2
-  storybook-builder-vite: 0.1.12_vite@2.7.9
+  storybook-builder-vite: 0.1.13_vite@2.7.9
   typescript: 4.5.4
   vite: 2.7.9
   vite-plugin-components: 0.13.3_vite@2.7.9
@@ -12723,8 +12723,8 @@ packages:
     resolution: {integrity: sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==}
     dev: true
 
-  /storybook-builder-vite/0.1.12_vite@2.7.9:
-    resolution: {integrity: sha512-yK/JAhQm0M1nSWUU12fySr/WZyeL0jFYWtx7gH8qB15fHSEV5ASIiCdi07EvyoMZWLdrubpZBZDygWb7ZYmxPg==}
+  /storybook-builder-vite/0.1.13_vite@2.7.9:
+    resolution: {integrity: sha512-eSfCluvVFit46iaYYyv9l/WhHuztHQflN6EvjPc63yr5PESVQawEDZnmVPvcLxO1r7NOOJGVO4LtSPJmGIg0Qw==}
     peerDependencies:
       vite: '>=2.6.7'
     dependencies:
