@@ -3,7 +3,7 @@ import type { JsonFormsProps } from '@jsonforms/core';
 import { JsonForms } from '@jsonforms/vue';
 import { markRaw } from 'vue';
 import LayoutRenderer from '@/renderers/layouts/layoutRenderer/layoutRenderer.vue';
-import { antdvRenderers } from '@/renderers';
+import { antdvRenderers } from '@/index';
 
 export type JsonFormsTemplateProps = JsonFormsProps & {
   data: Record<string, unknown>;

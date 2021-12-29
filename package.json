@@ -27,7 +27,7 @@
   },
   "scripts": {
     "dev": "vite dev --root=dev --config=vite.config.ts",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "pnpm qa && vite build",
     "typeCheck": "vue-tsc --noEmit",
     "lint": "eslint src/**",
     "lint:fix": "eslint --fix src/**",
