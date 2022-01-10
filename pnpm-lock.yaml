@@ -23,7 +23,7 @@ specifiers:
   '@vue/compiler-sfc': 3.2.26
   ant-design-vue: 2.2.8
   babel-loader: 8.2.3
-  cypress: 9.2.0
+  cypress: 9.2.1
   cypress-real-events: 1.6.0
   esbuild-darwin-64: 0.14.11
   eslint: 8.6.0
@@ -52,7 +52,7 @@ devDependencies:
   '@antfu/eslint-config-vue': 0.14.2_eslint@8.6.0+typescript@4.5.4
   '@babel/core': 7.16.7
   '@cypress/vite-dev-server': 2.2.2_vite@2.7.10
-  '@cypress/vue': 3.1.0_430ef9e08118614a3504e50afc56efba
+  '@cypress/vue': 3.1.0_d3bd6fb4555196d2e901a477ff19509a
   '@jsonforms/core': 3.0.0-beta.0
   '@jsonforms/vue': 3.0.0-beta.0_afd0a009596d9a5faba99e3ed9238661
   '@storybook/addon-actions': 6.4.10
@@ -61,14 +61,14 @@ devDependencies:
   '@storybook/cli': 6.4.10_129b1c2cd06edd677c60bef99774a852
   '@storybook/testing-vue3': 0.0.1_2e76e43908fba811d77c7c1043218dde
   '@storybook/vue3': 6.4.10_7d01943bf241cbf292c62a4654af8cd2
-  '@testing-library/cypress': 8.0.2_cypress@9.2.0
+  '@testing-library/cypress': 8.0.2_cypress@9.2.1
   '@types/node': 16.11.19
   '@vitejs/plugin-vue': 2.0.1_vite@2.7.10+vue@3.2.26
   '@vue/compiler-sfc': 3.2.26
   ant-design-vue: 2.2.8_ae87cbba5ec93a01f3fe1197df446ca3
   babel-loader: 8.2.3_@babel+core@7.16.7
-  cypress: 9.2.0
-  cypress-real-events: 1.6.0_cypress@9.2.0
+  cypress: 9.2.1
+  cypress-real-events: 1.6.0_cypress@9.2.1
   esbuild-darwin-64: 0.14.11
   eslint: 8.6.0
   eslint-config-prettier: 8.3.0_eslint@8.6.0
@@ -1686,7 +1686,7 @@ packages:
       - supports-color
     dev: true
 
-  /@cypress/vue/3.1.0_430ef9e08118614a3504e50afc56efba:
+  /@cypress/vue/3.1.0_d3bd6fb4555196d2e901a477ff19509a:
     resolution: {integrity: sha512-E2aFQtPvLLW9yKZz7t94VN1SuO53Jx9wN12gi7pvpHId5E6p+8Z+v2zlzzREpA8Gbi2QGNMwK8ciSYcwZG2bXg==}
     engines: {node: '>=8'}
     peerDependencies:
@@ -1703,7 +1703,7 @@ packages:
       '@cypress/mount-utils': 1.0.2
       '@vue/test-utils': 2.0.0-rc.16_vue@3.2.26
       babel-loader: 8.2.3_@babel+core@7.16.7
-      cypress: 9.2.0
+      cypress: 9.2.1
       vue: 3.2.26
     dev: true
 
@@ -4116,7 +4116,7 @@ packages:
       defer-to-connect: 1.1.3
     dev: true
 
-  /@testing-library/cypress/8.0.2_cypress@9.2.0:
+  /@testing-library/cypress/8.0.2_cypress@9.2.1:
     resolution: {integrity: sha512-KVdm7n37sg/A4e3wKMD4zUl0NpzzVhx06V9Tf0hZHZ7nrZ4yFva6Zwg2EFF1VzHkEfN/ahUzRtT1qiW+vuWnJw==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -4124,7 +4124,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.4
       '@testing-library/dom': 8.10.1
-      cypress: 9.2.0
+      cypress: 9.2.1
     dev: true
 
   /@testing-library/dom/8.10.1:
@@ -6000,16 +6000,6 @@ packages:
       restore-cursor: 3.1.0
     dev: true
 
-  /cli-table3/0.6.0:
-    resolution: {integrity: sha512-gnB85c3MGC7Nm9I/FkiasNBOKjOiO1RNuXXarQms37q4QMpWdlbBgD/VnOStA2faG1dpXMv31RFApjX1/QdgWQ==}
-    engines: {node: 10.* || >= 12.*}
-    dependencies:
-      object-assign: 4.1.1
-      string-width: 4.2.3
-    optionalDependencies:
-      colors: 1.4.0
-    dev: true
-
   /cli-table3/0.6.1:
     resolution: {integrity: sha512-w0q/enDHhPLq44ovMGdQeeDLvwxwavsJX7oQGYt/LrBlYsyaxyDnp6z3QzFut/6kLLKnlcUVJLrpB7KBfgG/RA==}
     engines: {node: 10.* || >= 12.*}
@@ -6470,16 +6460,16 @@ packages:
     resolution: {integrity: sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=}
     dev: true
 
-  /cypress-real-events/1.6.0_cypress@9.2.0:
+  /cypress-real-events/1.6.0_cypress@9.2.1:
     resolution: {integrity: sha512-QxXm0JsQkCrb2uH+fMXNDQ5kNWTzX3OtndBafdsZmNV19j+6JuTK9n52B1YVxrDrr/qzPAojcHJc5PNoQvwp+w==}
     peerDependencies:
       cypress: ^4.x || ^5.x || ^6.x || ^7.x || ^8.x || ^9.x
     dependencies:
-      cypress: 9.2.0
+      cypress: 9.2.1
     dev: true
 
-  /cypress/9.2.0:
-    resolution: {integrity: sha512-Jn26Tprhfzh/a66Sdj9SoaYlnNX6Mjfmj5PHu2a7l3YHXhrgmavM368wjCmgrxC6KHTOv9SpMQGhAJn+upDViA==}
+  /cypress/9.2.1:
+    resolution: {integrity: sha512-LVEe4yWCo4xO0Vd8iYjFHRyd5ulRvM56XqMgAdn05Qb9kJ6iJdO/MmjKD8gNd768698cp1FDuSmFQZHVZGk+Og==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
@@ -6496,7 +6486,7 @@ packages:
       chalk: 4.1.2
       check-more-types: 2.24.0
       cli-cursor: 3.1.0
-      cli-table3: 0.6.0
+      cli-table3: 0.6.1
       commander: 5.1.0
       common-tags: 1.8.0
       dayjs: 1.10.7
