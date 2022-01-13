@@ -6,8 +6,8 @@
 
 <script lang="ts" setup>
   import type { FormItemProps } from 'ant-design-vue';
-  type Props = {
+  interface Props {
     formItemBind: FormItemProps;
-  };
+  }
   const props = defineProps<Props>();
 </script>
