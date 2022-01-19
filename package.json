@@ -56,7 +56,7 @@
     "@cypress/vite-dev-server": "2.2.2",
     "@cypress/vue": "3.1.0",
     "@jsonforms/core": "3.0.0-beta.1",
-    "@jsonforms/vue": "3.0.0-beta.0",
+    "@jsonforms/vue": "3.0.0-beta.1",
     "@storybook/addon-actions": "6.4.13",
     "@storybook/addon-essentials": "6.4.13",
     "@storybook/addon-links": "6.4.13",
