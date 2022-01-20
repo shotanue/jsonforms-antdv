@@ -36,7 +36,7 @@ specifiers:
   rimraf: 3.0.2
   storybook-builder-vite: 0.1.13
   typescript: 4.5.4
-  vite: 2.7.12
+  vite: 2.7.13
   vite-plugin-components: 0.13.3
   vite-plugin-dts: 0.9.9
   vue: 3.2.27
@@ -51,7 +51,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config-vue': 0.16.0_eslint@8.7.0+typescript@4.5.4
   '@babel/core': 7.16.7
-  '@cypress/vite-dev-server': 2.2.2_vite@2.7.12
+  '@cypress/vite-dev-server': 2.2.2_vite@2.7.13
   '@cypress/vue': 3.1.0_718de54b54a45aff4e0deac2968cc181
   '@jsonforms/core': 3.0.0-beta.1
   '@jsonforms/vue': 3.0.0-beta.1_b8505e0ae4b45f888df3b5d2cb729860
@@ -63,7 +63,7 @@ devDependencies:
   '@storybook/vue3': 6.4.13_9db3c95c36cea3d26da8b1437e73afdd
   '@testing-library/cypress': 8.0.2_cypress@9.2.1
   '@types/node': 16.11.21
-  '@vitejs/plugin-vue': 2.0.1_vite@2.7.12+vue@3.2.27
+  '@vitejs/plugin-vue': 2.0.1_vite@2.7.13+vue@3.2.27
   '@vue/compiler-sfc': 3.2.27
   ant-design-vue: 2.2.8_1d3c0f59c01af099101b44516eefc99f
   babel-loader: 8.2.3_@babel+core@7.16.7
@@ -77,11 +77,11 @@ devDependencies:
   npm-run-all: 4.1.5
   prettier: 2.5.1
   rimraf: 3.0.2
-  storybook-builder-vite: 0.1.13_vite@2.7.12
+  storybook-builder-vite: 0.1.13_vite@2.7.13
   typescript: 4.5.4
-  vite: 2.7.12
-  vite-plugin-components: 0.13.3_vite@2.7.12
-  vite-plugin-dts: 0.9.9_vite@2.7.12
+  vite: 2.7.13
+  vite-plugin-components: 0.13.3_vite@2.7.13
+  vite-plugin-dts: 0.9.9_vite@2.7.13
   vue: 3.2.27
   vue-global-api: 0.4.1_vue@3.2.27
   vue-loader: 17.0.0
@@ -1643,14 +1643,14 @@ packages:
       uuid: 8.3.2
     dev: true
 
-  /@cypress/vite-dev-server/2.2.2_vite@2.7.12:
+  /@cypress/vite-dev-server/2.2.2_vite@2.7.13:
     resolution: {integrity: sha512-02y/Fm0N+CQjKbSjjRtktPgPbp91kOvtc8+WW2l2odIYQkKlG6IOCpmgc898muW0lBAcCszdEIHR/ItdZDiYPw==}
     peerDependencies:
       vite: '>= 2.1.3'
     dependencies:
       debug: 4.3.2
       get-port: 5.1.1
-      vite: 2.7.12
+      vite: 2.7.13
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4464,14 +4464,14 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-vue/2.0.1_vite@2.7.12+vue@3.2.27:
+  /@vitejs/plugin-vue/2.0.1_vite@2.7.13+vue@3.2.27:
     resolution: {integrity: sha512-wtdMnGVvys9K8tg+DxowU1ytTrdVveXr3LzdhaKakysgGXyrsfaeds2cDywtvujEASjWOwWL/OgWM+qoeM8Plg==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.7.12
+      vite: 2.7.13
       vue: 3.2.27
     dev: true
 
@@ -12709,7 +12709,7 @@ packages:
     resolution: {integrity: sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==}
     dev: true
 
-  /storybook-builder-vite/0.1.13_vite@2.7.12:
+  /storybook-builder-vite/0.1.13_vite@2.7.13:
     resolution: {integrity: sha512-eSfCluvVFit46iaYYyv9l/WhHuztHQflN6EvjPc63yr5PESVQawEDZnmVPvcLxO1r7NOOJGVO4LtSPJmGIg0Qw==}
     peerDependencies:
       vite: '>=2.6.7'
@@ -12721,8 +12721,8 @@ packages:
       es-module-lexer: 0.9.3
       glob: 7.2.0
       glob-promise: 4.2.1_glob@7.2.0
-      vite: 2.7.12
-      vite-plugin-mdx: 3.5.8_@mdx-js+mdx@1.6.22+vite@2.7.12
+      vite: 2.7.13
+      vite-plugin-mdx: 3.5.8_@mdx-js+mdx@1.6.22+vite@2.7.13
     transitivePeerDependencies:
       - react
       - react-dom
@@ -13736,7 +13736,7 @@ packages:
       vfile-message: 2.0.4
     dev: true
 
-  /vite-plugin-components/0.13.3_vite@2.7.12:
+  /vite-plugin-components/0.13.3_vite@2.7.13:
     resolution: {integrity: sha512-6vLWPrEqFSW7REYvux/WVwxsytg/DcstVhdgAT806cZi/KGiQgB8dyFnLkrkFawxUQruuGkLWfS99Z/64mMC0w==}
     deprecated: renamed to `unplugin-vue-components`, see https://github.com/antfu/unplugin-vue-components/releases/tag/v0.14.0
     peerDependencies:
@@ -13746,12 +13746,12 @@ packages:
       fast-glob: 3.2.7
       magic-string: 0.25.7
       minimatch: 3.0.4
-      vite: 2.7.12
+      vite: 2.7.13
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-dts/0.9.9_vite@2.7.12:
+  /vite-plugin-dts/0.9.9_vite@2.7.13:
     resolution: {integrity: sha512-HzLTCBbsN9gotphtIe97TCigeco6aGLBoeSHdxD9QGGl8prO7uykus0fphLkjWCbFlrerb8Uxp9fu82BfIiaIg==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -13760,10 +13760,10 @@ packages:
       fast-glob: 3.2.7
       fs-extra: 10.0.0
       ts-morph: 13.0.0
-      vite: 2.7.12
+      vite: 2.7.13
     dev: true
 
-  /vite-plugin-mdx/3.5.8_@mdx-js+mdx@1.6.22+vite@2.7.12:
+  /vite-plugin-mdx/3.5.8_@mdx-js+mdx@1.6.22+vite@2.7.13:
     resolution: {integrity: sha512-UvJc+xpbgfjHGKPkvO38yALDmilIXe6m5C/VJewkERmEDEtqb5DkKh4XsxCw1Mv/oeAL+PyFSIHZCafMGkrZ4w==}
     peerDependencies:
       '@mdx-js/mdx': '*'
@@ -13774,11 +13774,11 @@ packages:
       esbuild: 0.8.57
       resolve: 1.20.0
       unified: 9.2.2
-      vite: 2.7.12
+      vite: 2.7.13
     dev: true
 
-  /vite/2.7.12:
-    resolution: {integrity: sha512-KvPYToRQWhRfBeVkyhkZ5hASuHQkqZUUdUcE3xyYtq5oYEPIJ0h9LWiWTO6v990glmSac2cEPeYeXzpX5Z6qKQ==}
+  /vite/2.7.13:
+    resolution: {integrity: sha512-Mq8et7f3aK0SgSxjDNfOAimZGW9XryfHRa/uV0jseQSilg+KhYDSoNb9h1rknOy6SuMkvNDLKCYAYYUMCE+IgQ==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
