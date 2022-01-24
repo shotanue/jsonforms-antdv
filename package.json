@@ -47,7 +47,7 @@
     "//@types/react": "see https://github.com/johnsoncodehk/volar/discussions/592#discussioncomment-1580518",
     "@types/react": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.1.tgz"
   },
-  "packageManager": "pnpm@6.23.6",
+  "packageManager": "pnpm@6.28.0",
   "dependencies": {
     "just-clone": "^5.0.0"
   },
