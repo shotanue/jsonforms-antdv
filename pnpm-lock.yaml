@@ -34,7 +34,7 @@ specifiers:
   npm-run-all: 4.1.5
   prettier: 2.5.1
   rimraf: 3.0.2
-  storybook-builder-vite: 0.1.13
+  storybook-builder-vite: 0.1.14
   typescript: 4.5.5
   vite: 2.7.13
   vite-plugin-components: 0.13.3
@@ -77,7 +77,7 @@ devDependencies:
   npm-run-all: 4.1.5
   prettier: 2.5.1
   rimraf: 3.0.2
-  storybook-builder-vite: 0.1.13_vite@2.7.13
+  storybook-builder-vite: 0.1.14_vite@2.7.13
   typescript: 4.5.5
   vite: 2.7.13
   vite-plugin-components: 0.13.3_vite@2.7.13
@@ -2503,25 +2503,6 @@ packages:
       regenerator-runtime: 0.13.9
     dev: true
 
-  /@storybook/addons/6.4.9:
-    resolution: {integrity: sha512-y+oiN2zd+pbRWwkf6aQj4tPDFn+rQkrv7fiVoMxsYub+kKyZ3CNOuTSJH+A1A+eBL6DmzocChUyO6jvZFuh6Dg==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-    dependencies:
-      '@storybook/api': 6.4.9
-      '@storybook/channels': 6.4.9
-      '@storybook/client-logger': 6.4.9
-      '@storybook/core-events': 6.4.9
-      '@storybook/csf': 0.0.2--canary.87bc651.0
-      '@storybook/router': 6.4.9
-      '@storybook/theming': 6.4.9
-      '@types/webpack-env': 1.16.3
-      core-js: 3.18.3
-      global: 4.4.0
-      regenerator-runtime: 0.13.9
-    dev: true
-
   /@storybook/api/6.4.14:
     resolution: {integrity: sha512-GGGwB5+EquoausTXYx4dnLBBk2sOiS1Z58mDj0swBXCZdjfyUfLyxjxvvb/hl65ltufWP3IdmlKKaLiuARXNtw==}
     peerDependencies:
@@ -2567,31 +2548,6 @@ packages:
       memoizerific: 1.11.3
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
-      regenerator-runtime: 0.13.9
-      store2: 2.12.0
-      telejson: 5.3.3
-      ts-dedent: 2.2.0
-      util-deprecate: 1.0.2
-    dev: true
-
-  /@storybook/api/6.4.9:
-    resolution: {integrity: sha512-U+YKcDQg8xal9sE5eSMXB9vcqk8fD1pSyewyAjjbsW5hV0B3L3i4u7z/EAD9Ujbnor+Cvxq+XGvp+Qnc5Gd40A==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-    dependencies:
-      '@storybook/channels': 6.4.9
-      '@storybook/client-logger': 6.4.9
-      '@storybook/core-events': 6.4.9
-      '@storybook/csf': 0.0.2--canary.87bc651.0
-      '@storybook/router': 6.4.9
-      '@storybook/semver': 7.3.2
-      '@storybook/theming': 6.4.9
-      core-js: 3.18.3
-      fast-deep-equal: 3.1.3
-      global: 4.4.0
-      lodash: 4.17.21
-      memoizerific: 1.11.3
       regenerator-runtime: 0.13.9
       store2: 2.12.0
       telejson: 5.3.3
@@ -2809,14 +2765,6 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/channels/6.4.9:
-    resolution: {integrity: sha512-DNW1qDg+1WFS2aMdGh658WJXh8xBXliO5KAn0786DKcWCsKjfsPPQg/QCHczHK0+s5SZyzQT5aOBb4kTRHELQA==}
-    dependencies:
-      core-js: 3.18.3
-      ts-dedent: 2.2.0
-      util-deprecate: 1.0.2
-    dev: true
-
   /@storybook/cli/6.4.14_6c9b94f617dda097c9379e84707e0d1b:
     resolution: {integrity: sha512-ix+mfwqegthExaIze10rpwMf3F9Zam3Luk/SEV2a3DhoAcEFqqot8/n6QGLtvfOltSFQLODg/YCPxcntdsDHBQ==}
     hasBin: true
@@ -2922,13 +2870,6 @@ packages:
 
   /@storybook/client-logger/6.4.14:
     resolution: {integrity: sha512-4VmFWZxhpeiG5fDhfqAyQbCfXZSBKS4fNKf35ABWiHStZRDndxml8K5WFtmOmMvVzjrGQx8HesenYMawK6xo/Q==}
-    dependencies:
-      core-js: 3.18.3
-      global: 4.4.0
-    dev: true
-
-  /@storybook/client-logger/6.4.9:
-    resolution: {integrity: sha512-BVagmmHcuKDZ/XROADfN3tiolaDW2qG0iLmDhyV1gONnbGE6X5Qm19Jt2VYu3LvjKF1zMPSWm4mz7HtgdwKbuQ==}
     dependencies:
       core-js: 3.18.3
       global: 4.4.0
@@ -3281,12 +3222,6 @@ packages:
       core-js: 3.18.3
     dev: true
 
-  /@storybook/core-events/6.4.9:
-    resolution: {integrity: sha512-YhU2zJr6wzvh5naYYuy/0UKNJ/SaXu73sIr0Tx60ur3bL08XkRg7eZ9vBhNBTlAa35oZqI0iiGCh0ljiX7yEVQ==}
-    dependencies:
-      core-js: 3.18.3
-    dev: true
-
   /@storybook/core-server/6.4.14_0bcfffdc4f11d7c5e8a31b5d9df09a48:
     resolution: {integrity: sha512-SzO8SaLTZ36Q4PNhJD4XJjlnonbR2Os0gzTknDBbwyIRPUtFUdk6isSG14RM5yYWPM0QQIs9og5ztSPX58YZlw==}
     peerDependencies:
@@ -3508,30 +3443,6 @@ packages:
       js-string-escape: 1.0.1
       lodash: 4.17.21
       prettier: 2.3.0
-      regenerator-runtime: 0.13.9
-      ts-dedent: 2.2.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@storybook/csf-tools/6.4.9:
-    resolution: {integrity: sha512-zbgsx9vY5XOA9bBmyw+KyuRspFXAjEJ6I3d/6Z3G1kNBeOEj9i3DT7O99Rd/THfL/3mWl8DJ/7CJVPk1ZYxunA==}
-    dependencies:
-      '@babel/core': 7.16.12
-      '@babel/generator': 7.16.8
-      '@babel/parser': 7.16.12
-      '@babel/plugin-transform-react-jsx': 7.14.9_@babel+core@7.16.12
-      '@babel/preset-env': 7.15.8_@babel+core@7.16.12
-      '@babel/traverse': 7.16.10
-      '@babel/types': 7.16.8
-      '@mdx-js/mdx': 1.6.22
-      '@storybook/csf': 0.0.2--canary.87bc651.0
-      core-js: 3.18.3
-      fs-extra: 9.1.0
-      global: 4.4.0
-      js-string-escape: 1.0.1
-      lodash: 4.17.21
-      prettier: 2.5.1
       regenerator-runtime: 0.13.9
       ts-dedent: 2.2.0
     transitivePeerDependencies:
@@ -3764,25 +3675,6 @@ packages:
       ts-dedent: 2.2.0
     dev: true
 
-  /@storybook/router/6.4.9:
-    resolution: {integrity: sha512-GT2KtVHo/mBjxDBFB5ZtVJVf8vC+3p5kRlQC4jao68caVp7H24ikPOkcY54VnQwwe4A1aXpGbJXUyTisEPFlhQ==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-    dependencies:
-      '@storybook/client-logger': 6.4.9
-      core-js: 3.18.3
-      fast-deep-equal: 3.1.3
-      global: 4.4.0
-      history: 5.0.0
-      lodash: 4.17.21
-      memoizerific: 1.11.3
-      qs: 6.10.1
-      react-router: 6.0.2
-      react-router-dom: 6.0.2
-      ts-dedent: 2.2.0
-    dev: true
-
   /@storybook/semver/7.3.2:
     resolution: {integrity: sha512-SWeszlsiPsMI0Ps0jVNtH64cI5c0UF3f7KgjVKJoNP30crQ6wUSddY2hsdeczZXEKVJGEn50Q60flcGsQGIcrg==}
     engines: {node: '>=10'}
@@ -3807,24 +3699,6 @@ packages:
       loader-utils: 2.0.0
       lodash: 4.17.21
       prettier: 2.3.0
-      regenerator-runtime: 0.13.9
-    dev: true
-
-  /@storybook/source-loader/6.4.9:
-    resolution: {integrity: sha512-J/Jpcc15hnWa2DB/EZ4gVJvdsY3b3CDIGW/NahuNXk36neS+g4lF3qqVNAEqQ1pPZ0O8gMgazyZPGm0MHwUWlw==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-    dependencies:
-      '@storybook/addons': 6.4.9
-      '@storybook/client-logger': 6.4.9
-      '@storybook/csf': 0.0.2--canary.87bc651.0
-      core-js: 3.18.3
-      estraverse: 5.2.0
-      global: 4.4.0
-      loader-utils: 2.0.0
-      lodash: 4.17.21
-      prettier: 2.5.1
       regenerator-runtime: 0.13.9
     dev: true
 
@@ -3926,26 +3800,6 @@ packages:
       polished: 4.1.3
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
-      resolve-from: 5.0.0
-      ts-dedent: 2.2.0
-    dev: true
-
-  /@storybook/theming/6.4.9:
-    resolution: {integrity: sha512-Do6GH6nKjxfnBg6djcIYAjss5FW9SRKASKxLYxX2RyWJBpz0m/8GfcGcRyORy0yFTk6jByA3Hs+WFH3GnEbWkw==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0
-      react-dom: ^16.8.0 || ^17.0.0
-    dependencies:
-      '@emotion/core': 10.1.1
-      '@emotion/is-prop-valid': 0.8.8
-      '@emotion/styled': 10.0.27_@emotion+core@10.1.1
-      '@storybook/client-logger': 6.4.9
-      core-js: 3.18.3
-      deep-object-diff: 1.1.0
-      emotion-theming: 10.0.27_@emotion+core@10.1.1
-      global: 4.4.0
-      memoizerific: 1.11.3
-      polished: 4.1.3
       resolve-from: 5.0.0
       ts-dedent: 2.2.0
     dev: true
@@ -12705,18 +12559,20 @@ packages:
     resolution: {integrity: sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==}
     dev: true
 
-  /storybook-builder-vite/0.1.13_vite@2.7.13:
-    resolution: {integrity: sha512-eSfCluvVFit46iaYYyv9l/WhHuztHQflN6EvjPc63yr5PESVQawEDZnmVPvcLxO1r7NOOJGVO4LtSPJmGIg0Qw==}
+  /storybook-builder-vite/0.1.14_vite@2.7.13:
+    resolution: {integrity: sha512-xEyGU1jOm6T3+KtWq1YQXhM+SobvNhBoNMy9cYFWz+F4AJBjLB28ngOzhjbLe5GzyMGcJuCQOvkJSsYTwS1BZw==}
     peerDependencies:
+      '@storybook/core-common': ^6.4.3
       vite: '>=2.6.7'
     dependencies:
       '@mdx-js/mdx': 1.6.22
-      '@storybook/csf-tools': 6.4.9
-      '@storybook/source-loader': 6.4.9
+      '@storybook/csf-tools': 6.4.14
+      '@storybook/source-loader': 6.4.14
       '@vitejs/plugin-react': 1.0.9
       es-module-lexer: 0.9.3
       glob: 7.2.0
       glob-promise: 4.2.1_glob@7.2.0
+      slash: 3.0.0
       vite: 2.7.13
       vite-plugin-mdx: 3.5.8_@mdx-js+mdx@1.6.22+vite@2.7.13
     transitivePeerDependencies:
