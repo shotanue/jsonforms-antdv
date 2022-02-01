@@ -23,7 +23,7 @@ specifiers:
   '@vue/compiler-sfc': 3.2.29
   ant-design-vue: 2.2.8
   babel-loader: 8.2.3
-  cypress: 9.3.1
+  cypress: 9.4.1
   cypress-real-events: 1.6.0
   esbuild-darwin-64: 0.14.14
   eslint: 8.8.0
@@ -52,7 +52,7 @@ devDependencies:
   '@antfu/eslint-config-vue': 0.16.1_eslint@8.8.0+typescript@4.5.5
   '@babel/core': 7.16.12
   '@cypress/vite-dev-server': 2.2.2_vite@2.7.13
-  '@cypress/vue': 3.1.0_2d4aaa5abf2b39cf38e7d896407d41e6
+  '@cypress/vue': 3.1.0_30579171f45fae8c287e316f7fe9afbb
   '@jsonforms/core': 3.0.0-beta.1
   '@jsonforms/vue': 3.0.0-beta.1_9452b3a3c9d638d5599bc585c9544181
   '@storybook/addon-actions': 6.4.17
@@ -61,14 +61,14 @@ devDependencies:
   '@storybook/cli': 6.4.17_d18437b8d94e1cca96967b75e1e29b85
   '@storybook/testing-vue3': 0.0.1_3d5545655070677ced2d2b9c1af85532
   '@storybook/vue3': 6.4.17_b4dd109a7d0966e53f7b1328d611757d
-  '@testing-library/cypress': 8.0.2_cypress@9.3.1
+  '@testing-library/cypress': 8.0.2_cypress@9.4.1
   '@types/node': 16.11.21
   '@vitejs/plugin-vue': 2.1.0_vite@2.7.13+vue@3.2.29
   '@vue/compiler-sfc': 3.2.29
   ant-design-vue: 2.2.8_7b9c5f8a4a835fb1fc33e1e095e7e31c
   babel-loader: 8.2.3_@babel+core@7.16.12
-  cypress: 9.3.1
-  cypress-real-events: 1.6.0_cypress@9.3.1
+  cypress: 9.4.1
+  cypress-real-events: 1.6.0_cypress@9.4.1
   esbuild-darwin-64: 0.14.14
   eslint: 8.8.0
   eslint-config-prettier: 8.3.0_eslint@8.8.0
@@ -1652,7 +1652,7 @@ packages:
       - supports-color
     dev: true
 
-  /@cypress/vue/3.1.0_2d4aaa5abf2b39cf38e7d896407d41e6:
+  /@cypress/vue/3.1.0_30579171f45fae8c287e316f7fe9afbb:
     resolution: {integrity: sha512-E2aFQtPvLLW9yKZz7t94VN1SuO53Jx9wN12gi7pvpHId5E6p+8Z+v2zlzzREpA8Gbi2QGNMwK8ciSYcwZG2bXg==}
     engines: {node: '>=8'}
     peerDependencies:
@@ -1669,7 +1669,7 @@ packages:
       '@cypress/mount-utils': 1.0.2
       '@vue/test-utils': 2.0.0-rc.16_vue@3.2.29
       babel-loader: 8.2.3_@babel+core@7.16.12
-      cypress: 9.3.1
+      cypress: 9.4.1
       vue: 3.2.29
     dev: true
 
@@ -4081,7 +4081,7 @@ packages:
       defer-to-connect: 1.1.3
     dev: true
 
-  /@testing-library/cypress/8.0.2_cypress@9.3.1:
+  /@testing-library/cypress/8.0.2_cypress@9.4.1:
     resolution: {integrity: sha512-KVdm7n37sg/A4e3wKMD4zUl0NpzzVhx06V9Tf0hZHZ7nrZ4yFva6Zwg2EFF1VzHkEfN/ahUzRtT1qiW+vuWnJw==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -4089,7 +4089,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.4
       '@testing-library/dom': 8.10.1
-      cypress: 9.3.1
+      cypress: 9.4.1
     dev: true
 
   /@testing-library/dom/8.10.1:
@@ -6442,16 +6442,16 @@ packages:
     resolution: {integrity: sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=}
     dev: true
 
-  /cypress-real-events/1.6.0_cypress@9.3.1:
+  /cypress-real-events/1.6.0_cypress@9.4.1:
     resolution: {integrity: sha512-QxXm0JsQkCrb2uH+fMXNDQ5kNWTzX3OtndBafdsZmNV19j+6JuTK9n52B1YVxrDrr/qzPAojcHJc5PNoQvwp+w==}
     peerDependencies:
       cypress: ^4.x || ^5.x || ^6.x || ^7.x || ^8.x || ^9.x
     dependencies:
-      cypress: 9.3.1
+      cypress: 9.4.1
     dev: true
 
-  /cypress/9.3.1:
-    resolution: {integrity: sha512-BODdPesxX6bkVUnH8BVsV8I/jn57zQtO1FEOUTiuG2us3kslW7g0tcuwiny7CKCmJUZz8S/D587ppC+s58a+5Q==}
+  /cypress/9.4.1:
+    resolution: {integrity: sha512-+JgMG9uT+QFx97JU9kOHE3jO3+0UdkQ9H1oCBiC7A74qme7Jkdy2sYDBCPjjGczutnWnGUTMRlwiNMP/Uq6LrQ==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
@@ -6493,10 +6493,10 @@ packages:
       pretty-bytes: 5.6.0
       proxy-from-env: 1.0.0
       request-progress: 3.0.0
+      semver: 7.3.5
       supports-color: 8.1.1
       tmp: 0.2.1
       untildify: 4.0.0
-      url: 0.11.0
       yauzl: 2.10.0
     dev: true
 
