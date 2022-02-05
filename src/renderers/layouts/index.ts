@@ -1,3 +1,6 @@
 import { entry as layoutRendererEntry } from '@/renderers/layouts/layoutRenderer/layoutRendererEntry';
 
-export const layoutRenderers = [layoutRendererEntry];
+export const layoutRenderers = [
+  // tmp
+  layoutRendererEntry,
+];
