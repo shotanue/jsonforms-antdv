@@ -14,7 +14,7 @@ specifiers:
   '@storybook/addon-essentials': 6.4.18
   '@storybook/addon-links': 6.4.18
   '@storybook/cli': 6.4.18
-  '@storybook/testing-vue3': 0.0.1
+  '@storybook/testing-vue3': 0.0.2
   '@storybook/vue3': 6.4.18
   '@testing-library/cypress': 8.0.2
   '@types/node': 16.11.22
@@ -58,7 +58,7 @@ devDependencies:
   '@storybook/addon-essentials': 6.4.18_70bef2b816ebf00d75f7c12fba560ed2
   '@storybook/addon-links': 6.4.18
   '@storybook/cli': 6.4.18_d18437b8d94e1cca96967b75e1e29b85
-  '@storybook/testing-vue3': 0.0.1_b78896b38259b53822280365780d5206
+  '@storybook/testing-vue3': 0.0.2_b78896b38259b53822280365780d5206
   '@storybook/vue3': 6.4.18_4d111078e2758d101127327859de85c0
   '@testing-library/cypress': 8.0.2_cypress@9.4.1
   '@types/node': 16.11.22
@@ -3775,8 +3775,8 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
-  /@storybook/testing-vue3/0.0.1_b78896b38259b53822280365780d5206:
-    resolution: {integrity: sha512-a4FqoDr5aUeA0BRcbTXkcjIELezB1iWCZuut97L+mvGje65Adg6JciaukTlcCBjex7FAohP/ZUXcRMNlwnmInA==}
+  /@storybook/testing-vue3/0.0.2_b78896b38259b53822280365780d5206:
+    resolution: {integrity: sha512-kmgv+zddTzZwQx5AYz0zM/ySJ/2lmNNij8WvXDy9u84fnc3HZPQ1yckUYtviaKty8VFB/TZaqxEqNm37wKd03Q==}
     peerDependencies:
       '@storybook/addons': ^6.0.0
       '@storybook/client-api': ^6.0.0
