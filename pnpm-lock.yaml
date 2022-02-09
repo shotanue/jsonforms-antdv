@@ -24,7 +24,7 @@ specifiers:
   babel-loader: 8.2.3
   cypress: 9.4.1
   cypress-real-events: 1.6.0
-  esbuild-darwin-64: 0.14.20
+  esbuild-darwin-64: 0.14.21
   eslint: 8.8.0
   eslint-config-prettier: 8.3.0
   hygen: 6.1.0
@@ -68,7 +68,7 @@ devDependencies:
   babel-loader: 8.2.3_@babel+core@7.17.2
   cypress: 9.4.1
   cypress-real-events: 1.6.0_cypress@9.4.1
-  esbuild-darwin-64: 0.14.20
+  esbuild-darwin-64: 0.14.21
   eslint: 8.8.0
   eslint-config-prettier: 8.3.0_eslint@8.8.0
   hygen: 6.1.0
@@ -6917,8 +6917,8 @@ packages:
     dev: true
     optional: true
 
-  /esbuild-darwin-64/0.14.20:
-    resolution: {integrity: sha512-09PPWejM3rRFsGHvtaTuRlG+KOQlOMwPW4HwwzRlO4TuP+FNV1nTW4x2Nid3dYLzCkcjznJWQ0oylLBQvGTRyQ==}
+  /esbuild-darwin-64/0.14.21:
+    resolution: {integrity: sha512-j+Eg+e13djzyYINVvAbOo2/zvZ2DivuJJTaBrJnJHSD7kUNuGHRkHoSfFjbI80KHkn091w350wdmXDNSgRjfYQ==}
     engines: {node: '>=12'}
     cpu: [x64]
     os: [darwin]
