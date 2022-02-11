@@ -6,7 +6,7 @@ import LayoutRenderer from '@/renderers/layouts/layoutRenderer/layoutRenderer.vu
 import { antdvRenderers } from '@/index';
 
 export type JsonFormsTemplateProps = JsonFormsProps & {
-  data: Record<string, unknown>;
+  data: Record<string, unknown> | Array<unknown>;
   onChange: (ev: { data: Record<string, unknown> }) => void;
 };
 
