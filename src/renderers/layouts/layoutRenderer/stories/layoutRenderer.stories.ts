@@ -6,7 +6,7 @@ import horizontalLayoutJsonSchema from '@/renderers/layouts/layoutRenderer/stori
 import { jsonFormsTemplate } from '@/storybookUtils/jsonFormsTemplate';
 
 export default {
-  title: 'Basic/LayoutRenderer',
+  title: 'Basic/Layouts/LayoutRenderer',
   component: LayoutRenderer,
   argTypes: {
     onClick: {},
