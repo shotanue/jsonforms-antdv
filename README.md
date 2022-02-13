@@ -9,5 +9,11 @@ https://shotanue.github.io/jsonforms-antdv
 ### create controlRenderer
 
 ```shell
-pnpm run gen:controlRenderer
+pnpm run hygen:controlRenderer
+```
+
+### create layoutRenderer
+
+```shell
+pnpm run hygen:layoutRenderer
 ```
