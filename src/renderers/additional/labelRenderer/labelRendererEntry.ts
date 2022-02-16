@@ -1,0 +1,7 @@
+import { JsonFormsRendererRegistryEntry, rankWith, uiTypeIs } from '@jsonforms/core';
+import renderer from '@/renderers/additional/labelRenderer/labelRenderer.vue';
+
+export const labelRendererEntry: JsonFormsRendererRegistryEntry = {
+  renderer,
+  tester: rankWith(1, uiTypeIs('Label')),
+};
