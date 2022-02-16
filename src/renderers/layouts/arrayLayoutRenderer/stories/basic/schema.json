@@ -3,7 +3,16 @@
   "type": "array",
   "title": "My Array",
   "items": {
-    "type": "string",
-    "title": "input title"
+    "type": "object",
+    "properties": {
+      "foo": {
+        "type": "string",
+        "title": "foo"
+      },
+      "bar": {
+        "type": "string",
+        "title": "bar"
+      }
+    }
   }
 }
