@@ -17,3 +17,9 @@ pnpm run hygen:controlRenderer
 ```shell
 pnpm run hygen:layoutRenderer
 ```
+
+### create additionalRenderer
+
+```shell
+pnpm run hygen:additionalRenderer
+```

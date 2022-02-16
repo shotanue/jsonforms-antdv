@@ -42,7 +42,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "hygen:controlRenderer": "hygen generator createControlRenderer",
-    "hygen:layoutRenderer": "hygen generator createLayoutRenderer"
+    "hygen:layoutRenderer": "hygen generator createLayoutRenderer",
+    "hygen:additionalRenderer": "hygen generator createAdditionalRenderer"
   },
   "resolutions": {
     "@types/react": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.1.tgz"
