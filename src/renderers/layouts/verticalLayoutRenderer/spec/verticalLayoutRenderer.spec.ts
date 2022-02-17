@@ -18,8 +18,7 @@ describe('Basic', () => {
   );
 
   it('renders a vertical input', () => {
-    // todo implement here
     cy.get('input').should('exist');
-    expect(data).deep.equal({});
+    expect(data).to.deep.equal({ prop: false });
   });
 });
