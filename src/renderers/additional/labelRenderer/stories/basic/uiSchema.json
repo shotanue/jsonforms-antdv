@@ -4,7 +4,7 @@
   "elements": [
     {
       "type": "Label",
-      "text": "label"
+      "text": "label-text"
     }
   ]
 }

@@ -14,7 +14,6 @@ describe('Basic', () => {
   );
 
   it('renders a label input', () => {
-    // todo implement here
-    cy.get('input').should('exist');
+    cy.contains('label-text');
   });
 });
