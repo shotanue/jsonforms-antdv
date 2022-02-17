@@ -1,4 +1,5 @@
-import { computed, ComputedRef, isRef, Ref } from 'vue';
+import type { ComputedRef, Ref } from 'vue';
+import { computed, isRef } from 'vue';
 import type { useJsonFormsLayout } from '@jsonforms/vue';
 import type { Layout, UISchemaElement } from '@jsonforms/core';
 import type { FormLayout } from 'ant-design-vue/lib/form/Form';

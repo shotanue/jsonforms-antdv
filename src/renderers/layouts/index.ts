@@ -3,7 +3,7 @@ import { verticalLayoutRendererEntry } from '@/renderers/layouts/verticalLayoutR
 import { arrayLayoutRendererEntry } from '@/renderers/layouts/arrayLayoutRenderer/arrayLayoutRendererEntry';
 
 export const layoutRenderers = [
-  //tmp
+  // tmp
   horizontalLayoutRendererEntry,
   verticalLayoutRendererEntry,
   arrayLayoutRendererEntry,

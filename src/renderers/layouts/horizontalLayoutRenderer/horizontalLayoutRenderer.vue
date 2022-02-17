@@ -1,7 +1,7 @@
 <template>
   <a-card :bordered="false" :hoverable="true">
     <a-row>
-      <a-col v-for="(element, index) in elements">
+      <a-col v-for="(element, index) in elements" :key="index">
         <dispatch-renderer
           :key="`${layout.path}-${index}`"
           :schema="layout.schema"

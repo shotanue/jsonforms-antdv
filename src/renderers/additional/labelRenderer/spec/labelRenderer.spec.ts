@@ -5,6 +5,14 @@ import * as stories from '@/renderers/additional/labelRenderer/stories/labelRend
 const { Basic } = composeStories(stories);
 
 describe('Basic', () => {
+  beforeEach(
+    mountCallback({
+      ...Basic({
+        onChange: () => {},
+      }),
+    })
+  );
+
   it('renders a label input', () => {
     // todo implement here
     cy.get('input').should('exist');

@@ -5,14 +5,10 @@ import * as stories from '@/renderers/layouts/horizontalLayoutRenderer/stories/h
 const { Basic } = composeStories(stories);
 
 describe('Basic', () => {
-  let data = {};
-
   beforeEach(
     mountCallback({
       ...Basic({
-        onChange: ev => {
-          data = ev.data;
-        },
+        onChange: () => {},
       }),
     })
   );
@@ -22,4 +18,3 @@ describe('Basic', () => {
     cy.get('input').should('exist');
   });
 });
-

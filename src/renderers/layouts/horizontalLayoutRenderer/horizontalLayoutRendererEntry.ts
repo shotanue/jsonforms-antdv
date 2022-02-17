@@ -1,4 +1,5 @@
-import { JsonFormsRendererRegistryEntry, uiTypeIs, rankWith } from '@jsonforms/core';
+import type { JsonFormsRendererRegistryEntry } from '@jsonforms/core';
+import { rankWith, uiTypeIs } from '@jsonforms/core';
 import renderer from '@/renderers/layouts/horizontalLayoutRenderer/horizontalLayoutRenderer.vue';
 
 export const horizontalLayoutRendererEntry: JsonFormsRendererRegistryEntry = {

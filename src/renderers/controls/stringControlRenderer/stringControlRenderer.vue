@@ -19,10 +19,10 @@
 <script lang="ts" setup>
   import { rendererProps, useJsonFormsControl } from '@jsonforms/vue';
   import type { ControlElement } from '@jsonforms/core';
-  import { useControl } from '@/renderers/controls/useControl';
-  import ControlWrapper from '@/renderers/controls/controlWrapper.vue';
   import { ref } from 'vue';
   import clone from 'just-clone';
+  import { useControl } from '@/renderers/controls/useControl';
+  import ControlWrapper from '@/renderers/controls/controlWrapper.vue';
 
   const props = defineProps({
     ...rendererProps<ControlElement>(),
@@ -43,11 +43,11 @@
       }
 
       if (!Array.isArray(items)) {
-        throw TypeError('[jsonforms antdv] suggestion type should be Array<string>');
+        throw new TypeError('[jsonforms antdv] suggestion type should be Array<string>');
       }
       items.forEach(suggestion => {
         if (typeof suggestion !== 'string') {
-          throw TypeError('[jsonforms antdv] suggestion type should be Array<string>');
+          throw new TypeError('[jsonforms antdv] suggestion type should be Array<string>');
         }
       });
 
@@ -59,7 +59,7 @@
 
   const onSearch = (searchText: string) => {
     result.value = suggestions.value.filter((x: string) => {
-      return x.toUpperCase().indexOf(searchText.toUpperCase()) >= 0;
+      return x.toUpperCase().includes(searchText.toUpperCase());
     });
   };
 </script>

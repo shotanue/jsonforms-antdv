@@ -20,4 +20,3 @@ Basic.args = {
   schema: basicJsonSchema,
   uischema: basicUiSchema,
 };
-

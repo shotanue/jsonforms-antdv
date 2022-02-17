@@ -6,9 +6,9 @@
 
 <script lang="ts" setup>
   import { rendererProps, useJsonFormsLayout } from '@jsonforms/vue';
-  import type { Layout, UISchemaElement, LabelElement } from '@jsonforms/core';
-  import { useLayout } from '@/renderers/layouts/useLayout';
+  import type { LabelElement, Layout, UISchemaElement } from '@jsonforms/core';
   import { ref } from 'vue';
+  import { useLayout } from '@/renderers/layouts/useLayout';
 
   const props = defineProps({
     ...rendererProps<Layout>(),
@@ -19,7 +19,7 @@
 
   const pickText = (uiSchemaElement: UISchemaElement): string => {
     if (assertUiSchemaElement(uiSchemaElement)) {
-      return uiSchemaElement['text'];
+      return uiSchemaElement.text;
     }
     return '';
   };
