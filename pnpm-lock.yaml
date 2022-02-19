@@ -26,7 +26,7 @@ specifiers:
   cypress-real-events: 1.7.0
   esbuild-darwin-64: 0.14.23
   eslint: 8.9.0
-  eslint-config-prettier: 8.3.0
+  eslint-config-prettier: 8.4.0
   hygen: 6.1.0
   just-clone: ^5.0.0
   moment: 2.29.1
@@ -70,7 +70,7 @@ devDependencies:
   cypress-real-events: 1.7.0_cypress@9.5.0
   esbuild-darwin-64: 0.14.23
   eslint: 8.9.0
-  eslint-config-prettier: 8.3.0_eslint@8.9.0
+  eslint-config-prettier: 8.4.0_eslint@8.9.0
   hygen: 6.1.0
   moment: 2.29.1
   npm-run-all: 4.1.5
@@ -7148,8 +7148,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-prettier/8.3.0_eslint@8.9.0:
-    resolution: {integrity: sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==}
+  /eslint-config-prettier/8.4.0_eslint@8.9.0:
+    resolution: {integrity: sha512-CFotdUcMY18nGRo5KGsnNxpznzhkopOcOo0InID+sgQssPrzjvsyKZPvOgymTFeHrFuC3Tzdf2YndhXtULK9Iw==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
