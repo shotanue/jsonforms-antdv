@@ -26,7 +26,7 @@ specifiers:
   cypress-real-events: 1.7.0
   esbuild-darwin-64: 0.14.23
   eslint: 8.10.0
-  eslint-config-prettier: 8.4.0
+  eslint-config-prettier: 8.5.0
   hygen: 6.2.0
   just-clone: ^5.0.0
   moment: 2.29.1
@@ -70,8 +70,8 @@ devDependencies:
   cypress-real-events: 1.7.0_cypress@9.5.1
   esbuild-darwin-64: 0.14.23
   eslint: 8.10.0
-  eslint-config-prettier: 8.4.0_eslint@8.10.0
-  hygen: 6.2.0_1669956a82292b1f29101a00a555e5bf
+  eslint-config-prettier: 8.5.0_eslint@8.10.0
+  hygen: 6.2.0_f3d13a703a9c1079e3d1af6044603beb
   moment: 2.29.1
   npm-run-all: 4.1.5
   prettier: 2.5.1
@@ -7170,8 +7170,8 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-prettier/8.4.0_eslint@8.10.0:
-    resolution: {integrity: sha512-CFotdUcMY18nGRo5KGsnNxpznzhkopOcOo0InID+sgQssPrzjvsyKZPvOgymTFeHrFuC3Tzdf2YndhXtULK9Iw==}
+  /eslint-config-prettier/8.5.0_eslint@8.10.0:
+    resolution: {integrity: sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -7290,7 +7290,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.0.0_1669956a82292b1f29101a00a555e5bf:
+  /eslint-plugin-prettier/4.0.0_f3d13a703a9c1079e3d1af6044603beb:
     resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -7302,7 +7302,7 @@ packages:
         optional: true
     dependencies:
       eslint: 8.10.0
-      eslint-config-prettier: 8.4.0_eslint@8.10.0
+      eslint-config-prettier: 8.5.0_eslint@8.10.0
       prettier: 2.5.1
       prettier-linter-helpers: 1.0.0
     dev: true
@@ -8710,7 +8710,7 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /hygen/6.2.0_1669956a82292b1f29101a00a555e5bf:
+  /hygen/6.2.0_f3d13a703a9c1079e3d1af6044603beb:
     resolution: {integrity: sha512-5kma/nx7K+gJu8Q8kirkamUDb2TLvDJEiG/hfAL2Jt93SGrWEd0vWVEwaJW7qQylbIoT7gBVefrXZS2sYS8aag==}
     hasBin: true
     dependencies:
@@ -8721,7 +8721,7 @@ packages:
       degit: 2.8.4
       ejs: 3.1.6
       enquirer: 2.3.6
-      eslint-plugin-prettier: 4.0.0_1669956a82292b1f29101a00a555e5bf
+      eslint-plugin-prettier: 4.0.0_f3d13a703a9c1079e3d1af6044603beb
       execa: 5.1.1
       front-matter: 4.0.2
       fs-extra: 10.0.0
