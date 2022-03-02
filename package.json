@@ -76,7 +76,7 @@
     "esbuild-darwin-64": "0.14.23",
     "eslint": "8.10.0",
     "eslint-config-prettier": "8.4.0",
-    "hygen": "6.1.5",
+    "hygen": "6.2.0",
     "moment": "2.29.1",
     "npm-run-all": "4.1.5",
     "prettier": "2.5.1",

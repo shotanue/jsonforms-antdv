@@ -27,7 +27,7 @@ specifiers:
   esbuild-darwin-64: 0.14.23
   eslint: 8.10.0
   eslint-config-prettier: 8.4.0
-  hygen: 6.1.5
+  hygen: 6.2.0
   just-clone: ^5.0.0
   moment: 2.29.1
   npm-run-all: 4.1.5
@@ -71,7 +71,7 @@ devDependencies:
   esbuild-darwin-64: 0.14.23
   eslint: 8.10.0
   eslint-config-prettier: 8.4.0_eslint@8.10.0
-  hygen: 6.1.5_1669956a82292b1f29101a00a555e5bf
+  hygen: 6.2.0_1669956a82292b1f29101a00a555e5bf
   moment: 2.29.1
   npm-run-all: 4.1.5
   prettier: 2.5.1
@@ -6513,6 +6513,12 @@ packages:
       isobject: 3.0.1
     dev: true
 
+  /degit/2.8.4:
+    resolution: {integrity: sha512-vqYuzmSA5I50J882jd+AbAhQtgK6bdKUJIex1JNfEUPENCgYsxugzKVZlFyMwV4i06MmnV47/Iqi5Io86zf3Ng==}
+    engines: {node: '>=8.0.0'}
+    hasBin: true
+    dev: true
+
   /delayed-stream/1.0.0:
     resolution: {integrity: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=}
     engines: {node: '>=0.4.0'}
@@ -8704,14 +8710,15 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /hygen/6.1.5_1669956a82292b1f29101a00a555e5bf:
-    resolution: {integrity: sha512-XZBK/RHPCiJ1MpLJI2x6e/fCRRz+2R8AdNrMR2AxSFIuvmTlfW2KIr2gziqkkKc+LP2ZjHEvDbLagIWc0mJfnQ==}
+  /hygen/6.2.0_1669956a82292b1f29101a00a555e5bf:
+    resolution: {integrity: sha512-5kma/nx7K+gJu8Q8kirkamUDb2TLvDJEiG/hfAL2Jt93SGrWEd0vWVEwaJW7qQylbIoT7gBVefrXZS2sYS8aag==}
     hasBin: true
     dependencies:
       '@types/node': 17.0.21
       chalk: 4.1.2
       change-case: 3.1.0
       debug: 4.3.3
+      degit: 2.8.4
       ejs: 3.1.6
       enquirer: 2.3.6
       eslint-plugin-prettier: 4.0.0_1669956a82292b1f29101a00a555e5bf
