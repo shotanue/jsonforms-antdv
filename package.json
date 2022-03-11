@@ -1,6 +1,6 @@
 {
   "name": "@shotanue/jsonforms-antdv",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "JSON Forms renderer for Ant Design Vue",
   "homepage": "https://github.com/shotanue/jsonforms-antdv",
   "bugs": "https://github.com/shotanue/jsonforms-antdv/issues",
