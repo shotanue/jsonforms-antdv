@@ -73,7 +73,7 @@
     "babel-loader": "8.2.3",
     "cypress": "9.5.2",
     "cypress-real-events": "1.7.0",
-    "esbuild-darwin-64": "0.14.26",
+    "esbuild-darwin-64": "0.14.27",
     "eslint": "8.11.0",
     "eslint-config-prettier": "8.5.0",
     "hygen": "6.2.0",
