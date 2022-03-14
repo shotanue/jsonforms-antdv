@@ -33,7 +33,7 @@ specifiers:
   npm-run-all: 4.1.5
   prettier: 2.5.1
   rimraf: 3.0.2
-  storybook-builder-vite: 0.1.18
+  storybook-builder-vite: 0.1.20
   typescript: 4.6.2
   vite: 2.8.6
   vite-plugin-components: 0.13.3
@@ -76,7 +76,7 @@ devDependencies:
   npm-run-all: 4.1.5
   prettier: 2.5.1
   rimraf: 3.0.2
-  storybook-builder-vite: 0.1.18_typescript@4.6.2+vite@2.8.6
+  storybook-builder-vite: 0.1.20_typescript@4.6.2+vite@2.8.6
   typescript: 4.6.2
   vite: 2.8.6
   vite-plugin-components: 0.13.3_vite@2.8.6
@@ -230,15 +230,6 @@ packages:
       semver: 6.3.0
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@babel/generator/7.17.3:
-    resolution: {integrity: sha512-+R6Dctil/MgUsZsZAkYgK+ADNSZzJRRy0TvY65T71z/CR854xHQ1EweBYXdfT+HNeN7w0cSJJEzgxZMv40pxsg==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/types': 7.17.0
-      jsesc: 2.5.2
-      source-map: 0.5.7
     dev: true
 
   /@babel/generator/7.17.7:
@@ -513,12 +504,6 @@ packages:
 
   /@babel/parser/7.17.0:
     resolution: {integrity: sha512-VKXSCQx5D8S04ej+Dqsr1CzYvvWgf20jIw2D+YhQCrIlr2UZGaDds23Y0xg75/skOxpLCRpUZvk/1EAVkGoDOw==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-    dev: true
-
-  /@babel/parser/7.17.3:
-    resolution: {integrity: sha512-7yJPvPV+ESz2IUTPbOL+YkIGyCqOyNIzdguKQuJGnH7bg1WTIifuM21YqokFt/THWh1AkCRn9IgoykTRCBVpzA==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dev: true
@@ -3457,8 +3442,8 @@ packages:
     resolution: {integrity: sha512-gf/zRhGoAVsFwSyV2tc+jeJfZQkxF6QsaZgbUSe24/IUvGFCT/PS/jZq1qy7dECAwrTOfykgu8juyBtj6WhWyw==}
     dependencies:
       '@babel/core': 7.17.7
-      '@babel/generator': 7.17.3
-      '@babel/parser': 7.17.3
+      '@babel/generator': 7.17.7
+      '@babel/parser': 7.17.7
       '@babel/plugin-transform-react-jsx': 7.14.9_@babel+core@7.17.7
       '@babel/preset-env': 7.15.8_@babel+core@7.17.7
       '@babel/traverse': 7.17.3
@@ -12750,8 +12735,8 @@ packages:
     resolution: {integrity: sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==}
     dev: true
 
-  /storybook-builder-vite/0.1.18_typescript@4.6.2+vite@2.8.6:
-    resolution: {integrity: sha512-XKyDgvgm6M5MBUOndXQH+0XvDzdt5JbsD0QorhCE0ExDGSOxMRdlQxCc24yYy0wYYbPL/7PQ5yEorg2TTuP8eQ==}
+  /storybook-builder-vite/0.1.20_typescript@4.6.2+vite@2.8.6:
+    resolution: {integrity: sha512-UEiFcLX7z4h37nIeu8EBL7LdckoHRYwaxE6zZTM52zfeYDhhGdT9TBbSDhdPrWgyazzIe8UpgBdJD0T5PhcUmQ==}
     peerDependencies:
       '@storybook/core-common': ^6.4.3
       vite: '>=2.6.7'
