@@ -31,7 +31,7 @@ specifiers:
   just-clone: ^5.0.0
   moment: 2.29.1
   npm-run-all: 4.1.5
-  prettier: 2.5.1
+  prettier: 2.6.0
   rimraf: 3.0.2
   storybook-builder-vite: 0.1.20
   typescript: 4.6.2
@@ -71,10 +71,10 @@ devDependencies:
   esbuild-darwin-64: 0.14.27
   eslint: 8.11.0
   eslint-config-prettier: 8.5.0_eslint@8.11.0
-  hygen: 6.2.0_c9d5adccfd1d43a8805a302169f6a967
+  hygen: 6.2.0_68edcf5670f37721baf5d2cac6124e4d
   moment: 2.29.1
   npm-run-all: 4.1.5
-  prettier: 2.5.1
+  prettier: 2.6.0
   rimraf: 3.0.2
   storybook-builder-vite: 0.1.20_typescript@4.6.2+vite@2.8.6
   typescript: 4.6.2
@@ -7309,7 +7309,7 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /eslint-plugin-prettier/4.0.0_c9d5adccfd1d43a8805a302169f6a967:
+  /eslint-plugin-prettier/4.0.0_68edcf5670f37721baf5d2cac6124e4d:
     resolution: {integrity: sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
@@ -7322,7 +7322,7 @@ packages:
     dependencies:
       eslint: 8.11.0
       eslint-config-prettier: 8.5.0_eslint@8.11.0
-      prettier: 2.5.1
+      prettier: 2.6.0
       prettier-linter-helpers: 1.0.0
     dev: true
 
@@ -8729,7 +8729,7 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /hygen/6.2.0_c9d5adccfd1d43a8805a302169f6a967:
+  /hygen/6.2.0_68edcf5670f37721baf5d2cac6124e4d:
     resolution: {integrity: sha512-5kma/nx7K+gJu8Q8kirkamUDb2TLvDJEiG/hfAL2Jt93SGrWEd0vWVEwaJW7qQylbIoT7gBVefrXZS2sYS8aag==}
     hasBin: true
     dependencies:
@@ -8740,7 +8740,7 @@ packages:
       degit: 2.8.4
       ejs: 3.1.6
       enquirer: 2.3.6
-      eslint-plugin-prettier: 4.0.0_c9d5adccfd1d43a8805a302169f6a967
+      eslint-plugin-prettier: 4.0.0_68edcf5670f37721baf5d2cac6124e4d
       execa: 5.1.1
       front-matter: 4.0.2
       fs-extra: 10.0.0
@@ -11165,8 +11165,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier/2.5.1:
-    resolution: {integrity: sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==}
+  /prettier/2.6.0:
+    resolution: {integrity: sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
@@ -13905,8 +13905,8 @@ packages:
     resolution: {integrity: sha512-EcswR2S8bpR7fD0YPeS7r2xXExrScVMxg4MedACaWHEtx9ftCF/qHG1xGkolzTPcEmjTavCQgbVzHUIdTMzFGA==}
     dev: true
 
-  /vue-demi/0.12.1_vue@3.2.31:
-    resolution: {integrity: sha512-QL3ny+wX8c6Xm1/EZylbgzdoDolye+VpCXRhI2hug9dJTP3OUJ3lmiKN3CsVV3mOJKwFi0nsstbgob0vG7aoIw==}
+  /vue-demi/0.12.3_vue@3.2.31:
+    resolution: {integrity: sha512-u1dV2Y7nxUCHJC0+KZG7YgqjOgDgd8GS0rHp2YTiXy6rBPaYvEraoXkndU3UrExMLoN8SOnCWkDB27yu0BxGtg==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
@@ -13975,7 +13975,7 @@ packages:
     resolution: {integrity: sha512-283vpYOhVHJCpMkjNVEwZdgaAb+Y93zFaXGAWTI378MLoNuwQydjD/BAy1e81QYEmyA+JbxqcmMZVWcM9rbriw==}
     dependencies:
       eslint-config-vue-global-api: 0.4.1
-      vue-demi: 0.12.1_vue@3.2.31
+      vue-demi: 0.12.3_vue@3.2.31
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
