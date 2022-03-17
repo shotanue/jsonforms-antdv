@@ -33,7 +33,7 @@ specifiers:
   npm-run-all: 4.1.5
   prettier: 2.6.0
   rimraf: 3.0.2
-  storybook-builder-vite: 0.1.20
+  storybook-builder-vite: 0.1.21
   typescript: 4.6.2
   vite: 2.8.6
   vite-plugin-components: 0.13.3
@@ -76,7 +76,7 @@ devDependencies:
   npm-run-all: 4.1.5
   prettier: 2.6.0
   rimraf: 3.0.2
-  storybook-builder-vite: 0.1.20_typescript@4.6.2+vite@2.8.6
+  storybook-builder-vite: 0.1.21_typescript@4.6.2+vite@2.8.6
   typescript: 4.6.2
   vite: 2.8.6
   vite-plugin-components: 0.13.3_vite@2.8.6
@@ -12735,8 +12735,8 @@ packages:
     resolution: {integrity: sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==}
     dev: true
 
-  /storybook-builder-vite/0.1.20_typescript@4.6.2+vite@2.8.6:
-    resolution: {integrity: sha512-UEiFcLX7z4h37nIeu8EBL7LdckoHRYwaxE6zZTM52zfeYDhhGdT9TBbSDhdPrWgyazzIe8UpgBdJD0T5PhcUmQ==}
+  /storybook-builder-vite/0.1.21_typescript@4.6.2+vite@2.8.6:
+    resolution: {integrity: sha512-yVlBUtb+YhBgHdUXacOJ6hmfRkN/+VoH7uGkWOnksl3NBGUeAw3tvhQ5FzOGjX9510VtiJCCvR0iQwKRmpoYlA==}
     peerDependencies:
       '@storybook/core-common': ^6.4.3
       vite: '>=2.6.7'
@@ -13905,8 +13905,8 @@ packages:
     resolution: {integrity: sha512-EcswR2S8bpR7fD0YPeS7r2xXExrScVMxg4MedACaWHEtx9ftCF/qHG1xGkolzTPcEmjTavCQgbVzHUIdTMzFGA==}
     dev: true
 
-  /vue-demi/0.12.3_vue@3.2.31:
-    resolution: {integrity: sha512-u1dV2Y7nxUCHJC0+KZG7YgqjOgDgd8GS0rHp2YTiXy6rBPaYvEraoXkndU3UrExMLoN8SOnCWkDB27yu0BxGtg==}
+  /vue-demi/0.12.4_vue@3.2.31:
+    resolution: {integrity: sha512-ztPDkFt0TSUdoq1ZI6oD730vgztBkiByhUW7L1cOTebiSBqSYfSQgnhYakYigBkyAybqCTH7h44yZuDJf2xILQ==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
@@ -13975,7 +13975,7 @@ packages:
     resolution: {integrity: sha512-283vpYOhVHJCpMkjNVEwZdgaAb+Y93zFaXGAWTI378MLoNuwQydjD/BAy1e81QYEmyA+JbxqcmMZVWcM9rbriw==}
     dependencies:
       eslint-config-vue-global-api: 0.4.1
-      vue-demi: 0.12.3_vue@3.2.31
+      vue-demi: 0.12.4_vue@3.2.31
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
