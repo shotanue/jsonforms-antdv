@@ -70,7 +70,7 @@
     "@vitejs/plugin-vue": "2.2.4",
     "@vue/compiler-sfc": "3.2.31",
     "ant-design-vue": "2.2.8",
-    "babel-loader": "8.2.3",
+    "babel-loader": "8.2.4",
     "cypress": "9.5.2",
     "cypress-real-events": "1.7.0",
     "esbuild-darwin-64": "0.14.27",
