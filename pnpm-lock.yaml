@@ -33,7 +33,7 @@ specifiers:
   npm-run-all: 4.1.5
   prettier: 2.6.1
   rimraf: 3.0.2
-  storybook-builder-vite: 0.1.21
+  storybook-builder-vite: 0.1.22
   typescript: 4.6.3
   vite: 2.8.6
   vite-plugin-components: 0.13.3
@@ -76,7 +76,7 @@ devDependencies:
   npm-run-all: 4.1.5
   prettier: 2.6.1
   rimraf: 3.0.2
-  storybook-builder-vite: 0.1.21_typescript@4.6.3+vite@2.8.6
+  storybook-builder-vite: 0.1.22_typescript@4.6.3+vite@2.8.6
   typescript: 4.6.3
   vite: 2.8.6
   vite-plugin-components: 0.13.3_vite@2.8.6
@@ -504,12 +504,6 @@ packages:
 
   /@babel/parser/7.17.0:
     resolution: {integrity: sha512-VKXSCQx5D8S04ej+Dqsr1CzYvvWgf20jIw2D+YhQCrIlr2UZGaDds23Y0xg75/skOxpLCRpUZvk/1EAVkGoDOw==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-    dev: true
-
-  /@babel/parser/7.17.7:
-    resolution: {integrity: sha512-bm3AQf45vR4gKggRfvJdYJ0gFLoCbsPxiFLSH6hTVYABptNHY6l9NrhnucVjQ/X+SPtLANT9lc0fFhikj+VBRA==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dev: true
@@ -3449,7 +3443,7 @@ packages:
     dependencies:
       '@babel/core': 7.17.8
       '@babel/generator': 7.17.7
-      '@babel/parser': 7.17.7
+      '@babel/parser': 7.17.8
       '@babel/plugin-transform-react-jsx': 7.14.9_@babel+core@7.17.8
       '@babel/preset-env': 7.15.8_@babel+core@7.17.8
       '@babel/traverse': 7.17.3
@@ -12770,8 +12764,8 @@ packages:
     resolution: {integrity: sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==}
     dev: true
 
-  /storybook-builder-vite/0.1.21_typescript@4.6.3+vite@2.8.6:
-    resolution: {integrity: sha512-yVlBUtb+YhBgHdUXacOJ6hmfRkN/+VoH7uGkWOnksl3NBGUeAw3tvhQ5FzOGjX9510VtiJCCvR0iQwKRmpoYlA==}
+  /storybook-builder-vite/0.1.22_typescript@4.6.3+vite@2.8.6:
+    resolution: {integrity: sha512-a4cjsuGX9JdrIJyO1IWrPKwLV2dCTk+TDvcf7cFpwyEdJylfWGpHk95WYP3/sQY0+8MZK8PzVQseSWU5qk72lw==}
     peerDependencies:
       '@storybook/core-common': ^6.4.3
       vite: '>=2.6.7'
