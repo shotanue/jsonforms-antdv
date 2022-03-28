@@ -37,7 +37,7 @@ specifiers:
   typescript: 4.6.3
   vite: 2.8.6
   vite-plugin-components: 0.13.3
-  vite-plugin-dts: 1.0.3
+  vite-plugin-dts: 1.0.4
   vue: 3.2.31
   vue-global-api: 0.4.1
   vue-loader: 17.0.0
@@ -80,7 +80,7 @@ devDependencies:
   typescript: 4.6.3
   vite: 2.8.6
   vite-plugin-components: 0.13.3_vite@2.8.6
-  vite-plugin-dts: 1.0.3_vite@2.8.6
+  vite-plugin-dts: 1.0.4_vite@2.8.6
   vue: 3.2.31
   vue-global-api: 0.4.1_vue@3.2.31
   vue-loader: 17.0.0
@@ -13821,17 +13821,20 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-dts/1.0.3_vite@2.8.6:
-    resolution: {integrity: sha512-MY8BGePXuWj/shb7ZuInFluzxyyduHB8aM9ODTyj78mUU9D7eCy1Msg/GxiCUhFcZjKqzawiaScNHJ81/YLEKA==}
+  /vite-plugin-dts/1.0.4_vite@2.8.6:
+    resolution: {integrity: sha512-RANcFpButKOiYIwiC33DmmMRa75tDzaov8FHRM643ZyLTIVGENo3mG92plevQIX2eaiYA4kA+OgQm8d59TmIBQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: '>=2.4.4'
     dependencies:
       chalk: 4.1.2
+      debug: 4.3.4
       fast-glob: 3.2.11
       fs-extra: 10.0.1
       ts-morph: 14.0.0
       vite: 2.8.6
+    transitivePeerDependencies:
+      - supports-color
     dev: true
 
   /vite-plugin-mdx/3.5.8_@mdx-js+mdx@1.6.22+vite@2.8.6:
