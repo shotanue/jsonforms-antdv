@@ -53,7 +53,7 @@
     "just-clone": "^5.0.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config-vue": "0.19.1",
+    "@antfu/eslint-config-vue": "0.19.2",
     "@babel/core": "7.17.8",
     "@cypress/vite-dev-server": "2.2.2",
     "@cypress/vue": "3.1.1",
