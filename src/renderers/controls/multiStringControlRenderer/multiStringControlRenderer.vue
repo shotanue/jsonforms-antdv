@@ -1,9 +1,3 @@
-<template>
-  <control-wrapper :form-item-bind="controlWrapperBind">
-    <a-textarea v-bind="inputBind" @update:value="updateValue" />
-  </control-wrapper>
-</template>
-
 <script lang="ts" setup>
   import { rendererProps, useJsonFormsControl } from '@jsonforms/vue';
   import type { ControlElement } from '@jsonforms/core';
@@ -20,3 +14,9 @@
     on: { updateValue },
   } = useControl(useJsonFormsControl(props));
 </script>
+
+<template>
+  <control-wrapper :form-item-bind="controlWrapperBind">
+    <a-textarea v-bind="inputBind" @update:value="updateValue" />
+  </control-wrapper>
+</template>

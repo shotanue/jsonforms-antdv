@@ -1,9 +1,3 @@
-<template>
-  <control-wrapper :form-item-bind="controlWrapperBind">
-    <a-select v-bind="inputBind" @update:value="updateValue" />
-  </control-wrapper>
-</template>
-
 <script lang="ts" setup>
   import { rendererProps, useJsonFormsOneOfEnumControl } from '@jsonforms/vue';
   import type { ControlElement } from '@jsonforms/core';
@@ -20,3 +14,9 @@
     on: { updateValue },
   } = useControl(useJsonFormsOneOfEnumControl(props));
 </script>
+
+<template>
+  <control-wrapper :form-item-bind="controlWrapperBind">
+    <a-select v-bind="inputBind" @update:value="updateValue" />
+  </control-wrapper>
+</template>
