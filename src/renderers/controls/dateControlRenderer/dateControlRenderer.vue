@@ -1,9 +1,3 @@
-<template>
-  <control-wrapper :form-item-bind="controlWrapperBind">
-    <a-date-picker v-bind="inputBind" @update:value="updateValue" />
-  </control-wrapper>
-</template>
-
 <script lang="ts" setup>
   import { rendererProps, useJsonFormsControl } from '@jsonforms/vue';
   import type { ControlElement } from '@jsonforms/core';
@@ -35,3 +29,9 @@
     }
   };
 </script>
+
+<template>
+  <control-wrapper :form-item-bind="controlWrapperBind">
+    <a-date-picker v-bind="inputBind" @update:value="updateValue" />
+  </control-wrapper>
+</template>

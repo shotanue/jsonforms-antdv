@@ -1,9 +1,3 @@
-<template>
-  <control-wrapper :form-item-bind="controlWrapperBind">
-    <a-time-picker v-bind="inputBind" @update:value="updateValue" />
-  </control-wrapper>
-</template>
-
 <script lang="ts" setup>
   import { rendererProps, useJsonFormsControl } from '@jsonforms/vue';
   import type { ControlElement } from '@jsonforms/core';
@@ -32,3 +26,9 @@
     on.updateValue(value === null ? undefined : value.format('HH:mm:ss'));
   };
 </script>
+
+<template>
+  <control-wrapper :form-item-bind="controlWrapperBind">
+    <a-time-picker v-bind="inputBind" @update:value="updateValue" />
+  </control-wrapper>
+</template>

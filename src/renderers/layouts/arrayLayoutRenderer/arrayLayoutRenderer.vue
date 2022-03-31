@@ -1,3 +1,16 @@
+<script lang="ts" setup>
+  import { DispatchRenderer, rendererProps, useJsonFormsArrayControl } from '@jsonforms/vue';
+  import type { ControlElement } from '@jsonforms/core';
+  import { composePaths } from '@jsonforms/core';
+  import { useArrayControl } from '@/renderers/layouts/arrayLayoutRenderer/useArrayControl';
+
+  const props = defineProps({
+    ...rendererProps<ControlElement>(),
+  });
+
+  const { addElement, control, foundUiSchema } = useArrayControl(useJsonFormsArrayControl(props));
+</script>
+
 <template>
   <div>
     <a-button type="default" @click="addElement">+</a-button>
@@ -17,16 +30,3 @@
     </a-list>
   </div>
 </template>
-
-<script lang="ts" setup>
-  import { DispatchRenderer, rendererProps, useJsonFormsArrayControl } from '@jsonforms/vue';
-  import type { ControlElement } from '@jsonforms/core';
-  import { composePaths } from '@jsonforms/core';
-  import { useArrayControl } from '@/renderers/layouts/arrayLayoutRenderer/useArrayControl';
-
-  const props = defineProps({
-    ...rendererProps<ControlElement>(),
-  });
-
-  const { addElement, control, foundUiSchema } = useArrayControl(useJsonFormsArrayControl(props));
-</script>

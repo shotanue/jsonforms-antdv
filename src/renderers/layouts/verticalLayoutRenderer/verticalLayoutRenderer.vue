@@ -1,3 +1,15 @@
+<script lang="ts" setup>
+  import { DispatchRenderer, rendererProps, useJsonFormsLayout } from '@jsonforms/vue';
+  import type { Layout } from '@jsonforms/core';
+  import { useLayout } from '@/renderers/layouts/useLayout';
+
+  const props = defineProps({
+    ...rendererProps<Layout>(),
+  });
+
+  const { layout, elements } = useLayout(useJsonFormsLayout(props));
+</script>
+
 <template>
   <a-card :bordered="false" :hoverable="true">
     <a-row>
@@ -16,15 +28,3 @@
     </a-row>
   </a-card>
 </template>
-
-<script lang="ts" setup>
-  import { DispatchRenderer, rendererProps, useJsonFormsLayout } from '@jsonforms/vue';
-  import type { Layout } from '@jsonforms/core';
-  import { useLayout } from '@/renderers/layouts/useLayout';
-
-  const props = defineProps({
-    ...rendererProps<Layout>(),
-  });
-
-  const { layout, elements } = useLayout(useJsonFormsLayout(props));
-</script>
