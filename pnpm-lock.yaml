@@ -37,7 +37,7 @@ specifiers:
   typescript: 4.6.3
   vite: 2.9.1
   vite-plugin-components: 0.13.3
-  vite-plugin-dts: 1.0.4
+  vite-plugin-dts: 1.0.5
   vue: 3.2.31
   vue-global-api: 0.4.1
   vue-loader: 17.0.0
@@ -80,7 +80,7 @@ devDependencies:
   typescript: 4.6.3
   vite: 2.9.1
   vite-plugin-components: 0.13.3_vite@2.9.1
-  vite-plugin-dts: 1.0.4_vite@2.9.1
+  vite-plugin-dts: 1.0.5_vite@2.9.1
   vue: 3.2.31
   vue-global-api: 0.4.1_vue@3.2.31
   vue-loader: 17.0.0
@@ -13807,8 +13807,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-dts/1.0.4_vite@2.9.1:
-    resolution: {integrity: sha512-RANcFpButKOiYIwiC33DmmMRa75tDzaov8FHRM643ZyLTIVGENo3mG92plevQIX2eaiYA4kA+OgQm8d59TmIBQ==}
+  /vite-plugin-dts/1.0.5_vite@2.9.1:
+    resolution: {integrity: sha512-gTm9f+yUK88fNngpxdQIDpGk7oeWnD01fnKOmS2Z9sTRKTmDfMowXGE78g1mxfNMApnt99RNS0CNq9qc+RMCQA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: '>=2.4.4'
