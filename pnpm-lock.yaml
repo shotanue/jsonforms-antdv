@@ -17,7 +17,7 @@ specifiers:
   '@storybook/testing-vue3': 0.0.2
   '@storybook/vue3': 6.4.21
   '@testing-library/cypress': 8.0.2
-  '@types/node': 16.11.26
+  '@types/node': 16.11.27
   '@vitejs/plugin-vue': 2.3.1
   '@vue/compiler-sfc': 3.2.33
   ant-design-vue: 2.2.8
@@ -61,7 +61,7 @@ devDependencies:
   '@storybook/testing-vue3': 0.0.2_dff63a77cc4346029838c103ee9ba67a
   '@storybook/vue3': 6.4.21_e3f87981322662a699aad85757c20a57
   '@testing-library/cypress': 8.0.2_cypress@9.5.4
-  '@types/node': 16.11.26
+  '@types/node': 16.11.27
   '@vitejs/plugin-vue': 2.3.1_vite@2.9.4+vue@3.2.33
   '@vue/compiler-sfc': 3.2.33
   ant-design-vue: 2.2.8_344328493c1f0d14bde2ad764605e012
@@ -4209,8 +4209,8 @@ packages:
     resolution: {integrity: sha512-94+Ahf9IcaDuJTle/2b+wzvjmutxXAEXU6O81JHblYXUg2BDG+dnBy7VxIPHKAyEEDHzCMQydTJuWvrE+Aanzw==}
     dev: true
 
-  /@types/node/16.11.26:
-    resolution: {integrity: sha512-GZ7bu5A6+4DtG7q9GsoHXy3ALcgeIHP4NnL0Vv2wu0uUB/yQex26v0tf6/na1mm0+bS9Uw+0DFex7aaKr2qawQ==}
+  /@types/node/16.11.27:
+    resolution: {integrity: sha512-C1pD3kgLoZ56Uuy5lhfOxie4aZlA3UMGLX9rXteq4WitEZH6Rl80mwactt9QG0w0gLFlN/kLBTFnGXtDVWvWQw==}
     dev: true
 
   /@types/node/17.0.21:
