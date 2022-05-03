@@ -7,7 +7,7 @@ specifiers:
   '@antfu/eslint-config-vue': 0.23.0
   '@babel/core': 7.17.10
   '@cypress/vite-dev-server': 2.2.2
-  '@cypress/vue': 3.1.1
+  '@cypress/vue': 3.1.2
   '@jsonforms/core': 3.0.0-beta.1
   '@jsonforms/vue': 3.0.0-beta.1
   '@storybook/addon-actions': 6.4.22
@@ -51,7 +51,7 @@ devDependencies:
   '@antfu/eslint-config-vue': 0.23.0_eslint@8.14.0+typescript@4.6.4
   '@babel/core': 7.17.10
   '@cypress/vite-dev-server': 2.2.2_vite@2.9.7
-  '@cypress/vue': 3.1.1_0346b8e00a13e00204bca0a779b659c1
+  '@cypress/vue': 3.1.2_0346b8e00a13e00204bca0a779b659c1
   '@jsonforms/core': 3.0.0-beta.1
   '@jsonforms/vue': 3.0.0-beta.1_119e87344a1a02ae06c7a5dc88833198
   '@storybook/addon-actions': 6.4.22
@@ -1645,8 +1645,8 @@ packages:
       - supports-color
     dev: true
 
-  /@cypress/vue/3.1.1_0346b8e00a13e00204bca0a779b659c1:
-    resolution: {integrity: sha512-wD1vunuPFPLC8FZtgwdq+mcSEOs27qquuJJdGcY8aAN0y38rqYuuaj+N4UxKoAjhkSwthaOeZehjBtvDvv9C6w==}
+  /@cypress/vue/3.1.2_0346b8e00a13e00204bca0a779b659c1:
+    resolution: {integrity: sha512-CqIBupPW6EhXJ7lXE64MBKh3VfdShHnuC3HBV/euHBt9tsgSo7RZHBTZUsKc8aM745VzVnuNiax+JV4CplrtLQ==}
     engines: {node: '>=8'}
     peerDependencies:
       '@cypress/webpack-dev-server': '*'
