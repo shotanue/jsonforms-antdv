@@ -8,7 +8,7 @@ specifiers:
   '@babel/core': 7.18.0
   '@cypress/vite-dev-server': 2.2.3
   '@cypress/vue': 3.1.2
-  '@jsonforms/core': 3.0.0-beta.2
+  '@jsonforms/core': 3.0.0-beta.3
   '@jsonforms/vue': 3.0.0-beta.2
   '@storybook/addon-actions': 6.5.4
   '@storybook/addon-essentials': 6.5.4
@@ -52,8 +52,8 @@ devDependencies:
   '@babel/core': 7.18.0
   '@cypress/vite-dev-server': 2.2.3_vite@2.9.9
   '@cypress/vue': 3.1.2_80409e37e4e6dcefa8a4664929117faf
-  '@jsonforms/core': 3.0.0-beta.2
-  '@jsonforms/vue': 3.0.0-beta.2_8869293f8ce42ad14d1f3528ade83589
+  '@jsonforms/core': 3.0.0-beta.3
+  '@jsonforms/vue': 3.0.0-beta.2_4eca1928656220e0b72731cbcdeba846
   '@storybook/addon-actions': 6.5.4
   '@storybook/addon-essentials': 6.5.4_633131c9fa17f4f050e5c86fbdcc6a5d
   '@storybook/addon-links': 6.5.4
@@ -1924,8 +1924,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.11
     dev: true
 
-  /@jsonforms/core/3.0.0-beta.2:
-    resolution: {integrity: sha512-usquDE9ItW8BuY4ueeHilozop+OiiIh4mjMJzxWcgjtxbIDmIlV1zlS8KIxzi3SfOViCLiaip2/MSZVFT/YJ1A==}
+  /@jsonforms/core/3.0.0-beta.3:
+    resolution: {integrity: sha512-gXCwLgHiTcY8M1bdtEWVYa+lF485NVmk2QycqcNyNdcXM530GF9nzzqXrMIhCBVcyoT6MulDsTlP26wgeuMbFg==}
     dependencies:
       '@types/json-schema': 7.0.9
       ajv: 8.6.3
@@ -1933,13 +1933,13 @@ packages:
       lodash: 4.17.21
     dev: true
 
-  /@jsonforms/vue/3.0.0-beta.2_8869293f8ce42ad14d1f3528ade83589:
+  /@jsonforms/vue/3.0.0-beta.2_4eca1928656220e0b72731cbcdeba846:
     resolution: {integrity: sha512-1Iqt0SWyAmB2EnYmU5xPu5jn5dVqc5tS+OPEJBTEo5aM0lm5pdHbWyw3wfW3IYPxxS7qXTE/z/PAYLZJKzedfg==}
     peerDependencies:
       '@jsonforms/core': 3.0.0-beta.2
       vue: ^3.2.26
     dependencies:
-      '@jsonforms/core': 3.0.0-beta.2
+      '@jsonforms/core': 3.0.0-beta.3
       lodash: 4.17.21
       vue: 3.2.36
     dev: true
