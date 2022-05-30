@@ -27,7 +27,7 @@ specifiers:
   esbuild-darwin-64: 0.14.42
   eslint: 8.16.0
   eslint-config-prettier: 8.5.0
-  hygen: 6.2.2
+  hygen: 6.2.3
   just-clone: ^5.0.0
   moment: 2.29.3
   npm-run-all: 4.1.5
@@ -71,7 +71,7 @@ devDependencies:
   esbuild-darwin-64: 0.14.42
   eslint: 8.16.0
   eslint-config-prettier: 8.5.0_eslint@8.16.0
-  hygen: 6.2.2_4fe3201cd09a8826bbd8050f2348cb2f
+  hygen: 6.2.3_4fe3201cd09a8826bbd8050f2348cb2f
   moment: 2.29.3
   npm-run-all: 4.1.5
   prettier: 2.6.2
@@ -5802,7 +5802,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
   /concat-stream/1.6.2:
@@ -8569,8 +8569,8 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /hygen/6.2.2_4fe3201cd09a8826bbd8050f2348cb2f:
-    resolution: {integrity: sha512-nAnZE+pE/IzekjVycFA3m5A3A+scWQnFU+bWXzewrburFkH1oXv+mpXGAR3P1gFlbvS0pB7rBECPhpDT3QDNnA==}
+  /hygen/6.2.3_4fe3201cd09a8826bbd8050f2348cb2f:
+    resolution: {integrity: sha512-ZpOCKv5VAQmwC7pq6S/7fsC5mBGkD0alUnWZ8nMmj+91jkl5+xZFyB8uRSLQIEQWoj4Pnw/lcbYFhTsT52MOZw==}
     hasBin: true
     dependencies:
       '@types/node': 17.0.21
@@ -8979,7 +8979,7 @@ packages:
     dev: true
 
   /is-lower-case/1.1.3:
-    resolution: {integrity: sha1-fhR75HaNxGbbO/shzGCzHmrWk5M=}
+    resolution: {integrity: sha512-+5A1e/WJpLLXZEDlgz4G//WYSHyQBD32qa4Jd3Lw06qQlv3fJHnp3YIHjTQSGzHMgzmVKz2ZP3rBxTHkPw/lxA==}
     dependencies:
       lower-case: 1.1.4
     dev: true
@@ -9102,7 +9102,7 @@ packages:
     dev: true
 
   /is-upper-case/1.1.2:
-    resolution: {integrity: sha1-jQsfp+eTOh5YSDYA7H2WYcuvdW8=}
+    resolution: {integrity: sha512-GQYSJMgfeAmVwh9ixyk888l7OIhNAGKtY6QA+IrWlu9MDTCaXmeozOZ2S9Knj7bQwBO/H6J2kb+pbyTUiMNbsw==}
     dependencies:
       upper-case: 1.1.3
     dev: true
@@ -9160,7 +9160,7 @@ packages:
     dev: true
 
   /isexe/2.0.0:
-    resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
+    resolution: {integrity: sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==}
     dev: true
 
   /isobject/2.1.0:
@@ -9737,13 +9737,13 @@ packages:
     optional: true
 
   /lower-case-first/1.0.2:
-    resolution: {integrity: sha1-5dp8JvKacHO+AtUrrJmA5ZIq36E=}
+    resolution: {integrity: sha512-UuxaYakO7XeONbKrZf5FEgkantPf5DUqDayzP5VXZrtRPdH86s4kN47I8B3TW10S4QKiE3ziHNf3kRN//okHjA==}
     dependencies:
       lower-case: 1.1.4
     dev: true
 
   /lower-case/1.1.4:
-    resolution: {integrity: sha1-miyr0bno4K6ZOkv31YdcOcQujqw=}
+    resolution: {integrity: sha512-2Fgx1Ycm599x+WGpIYwJOvsjmXFzTSc34IwDWALRA/8AopUKAVPwfJ+h5+f85BCp0PWmmJcWzEpxOpoXycMpdA==}
     dev: true
 
   /lower-case/2.0.2:
