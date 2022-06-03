@@ -16,7 +16,7 @@ specifiers:
   '@storybook/cli': 6.5.6
   '@storybook/testing-vue3': 0.0.2
   '@storybook/vue3': 6.5.6
-  '@testing-library/cypress': 8.0.2
+  '@testing-library/cypress': 8.0.3
   '@types/node': 16.11.38
   '@vitejs/plugin-vue': 2.3.3
   '@vue/compiler-sfc': 3.2.36
@@ -60,7 +60,7 @@ devDependencies:
   '@storybook/cli': 6.5.6_916fc0abf71ac1f7d4eb1abaaa9330e5
   '@storybook/testing-vue3': 0.0.2_@storybook+vue3@6.5.6+vue@3.2.36
   '@storybook/vue3': 6.5.6_e22291b4c691f6b2ff157c4588f8e6ed
-  '@testing-library/cypress': 8.0.2_cypress@9.7.0
+  '@testing-library/cypress': 8.0.3_cypress@9.7.0
   '@types/node': 16.11.38
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.36
   '@vue/compiler-sfc': 3.2.36
@@ -3714,13 +3714,13 @@ packages:
       defer-to-connect: 1.1.3
     dev: true
 
-  /@testing-library/cypress/8.0.2_cypress@9.7.0:
-    resolution: {integrity: sha512-KVdm7n37sg/A4e3wKMD4zUl0NpzzVhx06V9Tf0hZHZ7nrZ4yFva6Zwg2EFF1VzHkEfN/ahUzRtT1qiW+vuWnJw==}
+  /@testing-library/cypress/8.0.3_cypress@9.7.0:
+    resolution: {integrity: sha512-nY2YaSbmuPo5k6kL0iLj/pGPPfka3iwb3kpTx8QN/vOCns92Saz9wfACqB8FJzcR7+lfA4d5HUOWqmTddBzczg==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
-      cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
+      cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
     dependencies:
-      '@babel/runtime': 7.15.4
+      '@babel/runtime': 7.17.9
       '@testing-library/dom': 8.10.1
       cypress: 9.7.0
     dev: true
@@ -3730,7 +3730,7 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.16.7
-      '@babel/runtime': 7.15.4
+      '@babel/runtime': 7.17.9
       '@types/aria-query': 4.2.2
       aria-query: 5.0.0
       chalk: 4.1.2
@@ -9820,7 +9820,7 @@ packages:
     dev: true
 
   /lz-string/1.4.4:
-    resolution: {integrity: sha1-wNjq82BZ9wV5bh40SBHPTEmNOiY=}
+    resolution: {integrity: sha512-0ckx7ZHRPqb0oUm8zNr+90mtf9DQB60H1wMCjBtfi62Kl3a7JbHob6gA2bC+xRvZoOL+1hzUK8jeuEIQE8svEQ==}
     hasBin: true
     dev: true
 
