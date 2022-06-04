@@ -28,7 +28,7 @@ specifiers:
   eslint: 8.17.0
   eslint-config-prettier: 8.5.0
   hygen: 6.2.4
-  just-clone: ^5.0.0
+  just-clone: ^6.0.0
   moment: 2.29.3
   npm-run-all: 4.1.5
   prettier: 2.6.2
@@ -45,7 +45,7 @@ specifiers:
   vue-tsc: 0.35.2
 
 dependencies:
-  just-clone: 5.0.0
+  just-clone: 6.0.0
 
 devDependencies:
   '@antfu/eslint-config-vue': 0.25.1_eslint@8.17.0+typescript@4.7.3
@@ -9519,8 +9519,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /just-clone/5.0.0:
-    resolution: {integrity: sha512-XZ/N6GYZvmFQ+qnXFLaRNAOsnGF5EYXDJ8M9Xu8XaKMlvRe4lVrVv1GBbYXR3jT7KW3ywcrQSbk/70grC8MYbw==}
+  /just-clone/6.0.0:
+    resolution: {integrity: sha512-ME+785hBmPOkO/Lcd1GnAq9sf2dMuMJFrOi2QiqQgJ4GH+QSpv/v2y8HSHrQKAIaTXmClMWSziL5m0GYO8oAXA==}
     dev: false
 
   /keyv/3.1.0:
