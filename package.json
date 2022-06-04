@@ -50,7 +50,7 @@
   },
   "packageManager": "pnpm@6.32.19",
   "dependencies": {
-    "just-clone": "^5.0.0"
+    "just-clone": "^6.0.0"
   },
   "devDependencies": {
     "@antfu/eslint-config-vue": "0.25.1",
