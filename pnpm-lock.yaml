@@ -27,7 +27,7 @@ specifiers:
   esbuild-darwin-64: 0.14.42
   eslint: 8.17.0
   eslint-config-prettier: 8.5.0
-  hygen: 6.2.4
+  hygen: 6.2.6
   just-clone: ^6.0.0
   moment: 2.29.3
   npm-run-all: 4.1.5
@@ -71,7 +71,7 @@ devDependencies:
   esbuild-darwin-64: 0.14.42
   eslint: 8.17.0
   eslint-config-prettier: 8.5.0_eslint@8.17.0
-  hygen: 6.2.4_ucegkljdju7q4zmvwxzqoprf3y
+  hygen: 6.2.6_ucegkljdju7q4zmvwxzqoprf3y
   moment: 2.29.3
   npm-run-all: 4.1.5
   prettier: 2.6.2
@@ -8593,8 +8593,8 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /hygen/6.2.4_ucegkljdju7q4zmvwxzqoprf3y:
-    resolution: {integrity: sha512-KdvcsC5tY8L2dgmq/h6dvH2OUd5EOC2h1H3TcYstnOO5RxbsEoAMJW3KJUv6TwpLoNmkNN5wVeaposHW35TeoQ==}
+  /hygen/6.2.6_ucegkljdju7q4zmvwxzqoprf3y:
+    resolution: {integrity: sha512-uBnhhfmJKMh9AKuudk2ilD14G80HyBJavm4uwrQxI2hj8m2B3f7e8GnOYavUdd8uXJT1fTpA8tDZCVOXJ4+RTA==}
     hasBin: true
     dependencies:
       '@types/node': 17.0.21
@@ -10896,7 +10896,7 @@ packages:
     dev: true
 
   /path-key/2.0.1:
-    resolution: {integrity: sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=}
+    resolution: {integrity: sha512-fEHGKCSmUSDPv4uoj8AlD+joPlq3peND+HRYyxFz4KPw4z926S/b8rIuFs2FYJg3BwsxJf6A9/3eIdLaYC+9Dw==}
     engines: {node: '>=4'}
     dev: true
 
