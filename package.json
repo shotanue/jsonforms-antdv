@@ -71,7 +71,7 @@
     "@vue/compiler-sfc": "3.2.36",
     "ant-design-vue": "2.2.8",
     "babel-loader": "8.2.5",
-    "cypress": "9.7.0",
+    "cypress": "10.0.2",
     "cypress-real-events": "1.7.0",
     "esbuild-darwin-64": "0.14.42",
     "eslint": "8.17.0",
