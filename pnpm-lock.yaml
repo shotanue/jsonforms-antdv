@@ -17,7 +17,7 @@ specifiers:
   '@storybook/testing-vue3': 0.0.2
   '@storybook/vue3': 6.5.7
   '@testing-library/cypress': 8.0.3
-  '@types/node': 16.11.38
+  '@types/node': 16.11.39
   '@vitejs/plugin-vue': 2.3.3
   '@vue/compiler-sfc': 3.2.37
   ant-design-vue: 2.2.8
@@ -61,7 +61,7 @@ devDependencies:
   '@storybook/testing-vue3': 0.0.2_rc5ja335j5u2g23i7mb6ait4ze
   '@storybook/vue3': 6.5.7_qiu6dazsmq5nxazbqlomixi7gm
   '@testing-library/cypress': 8.0.3_cypress@9.7.0
-  '@types/node': 16.11.38
+  '@types/node': 16.11.39
   '@vitejs/plugin-vue': 2.3.3_vite@2.9.10+vue@3.2.37
   '@vue/compiler-sfc': 3.2.37
   ant-design-vue: 2.2.8_2yymnzrok6eda47acnj2yjm3ae
@@ -2620,7 +2620,7 @@ packages:
       '@storybook/store': 6.5.7_wcqkhtmu7mswc6yz4uyexck3ty
       '@storybook/theming': 6.5.7_wcqkhtmu7mswc6yz4uyexck3ty
       '@storybook/ui': 6.5.7_wcqkhtmu7mswc6yz4uyexck3ty
-      '@types/node': 16.11.38
+      '@types/node': 16.11.39
       '@types/webpack': 4.41.31
       autoprefixer: 9.8.8
       babel-loader: 8.2.5_lzsemofhph6vepnub4bnemnm6m
@@ -2921,7 +2921,7 @@ packages:
       '@babel/register': 7.15.3_@babel+core@7.18.2
       '@storybook/node-logger': 6.5.7
       '@storybook/semver': 7.3.2
-      '@types/node': 16.11.38
+      '@types/node': 16.11.39
       '@types/pretty-hrtime': 1.0.1
       babel-loader: 8.2.5_lzsemofhph6vepnub4bnemnm6m
       babel-plugin-macros: 3.1.0
@@ -2992,7 +2992,7 @@ packages:
       '@babel/register': 7.15.3_@babel+core@7.18.2
       '@storybook/node-logger': 6.5.7
       '@storybook/semver': 7.3.2
-      '@types/node': 16.11.38
+      '@types/node': 16.11.39
       '@types/pretty-hrtime': 1.0.1
       babel-loader: 8.2.5_lzsemofhph6vepnub4bnemnm6m
       babel-plugin-macros: 3.1.0
@@ -3067,7 +3067,7 @@ packages:
       '@storybook/semver': 7.3.2
       '@storybook/store': 6.5.7_wcqkhtmu7mswc6yz4uyexck3ty
       '@storybook/telemetry': 6.5.7_dwbcfhohvkkjvvsflg35xalmom
-      '@types/node': 16.11.38
+      '@types/node': 16.11.39
       '@types/node-fetch': 2.5.12
       '@types/pretty-hrtime': 1.0.1
       '@types/webpack': 4.41.31
@@ -3265,7 +3265,7 @@ packages:
       '@storybook/node-logger': 6.5.7
       '@storybook/theming': 6.5.7_wcqkhtmu7mswc6yz4uyexck3ty
       '@storybook/ui': 6.5.7_wcqkhtmu7mswc6yz4uyexck3ty
-      '@types/node': 16.11.38
+      '@types/node': 16.11.39
       '@types/webpack': 4.41.31
       babel-loader: 8.2.5_lzsemofhph6vepnub4bnemnm6m
       case-sensitive-paths-webpack-plugin: 2.4.0
@@ -3674,7 +3674,7 @@ packages:
       '@storybook/csf': 0.0.2--canary.4566f4d.1
       '@storybook/docs-tools': 6.5.7_wcqkhtmu7mswc6yz4uyexck3ty
       '@storybook/store': 6.5.7_wcqkhtmu7mswc6yz4uyexck3ty
-      '@types/node': 16.11.38
+      '@types/node': 16.11.39
       '@types/webpack-env': 1.16.3
       '@vue/compiler-sfc': 3.2.37
       babel-loader: 8.2.5_@babel+core@7.18.2
@@ -3846,8 +3846,8 @@ packages:
     resolution: {integrity: sha512-94+Ahf9IcaDuJTle/2b+wzvjmutxXAEXU6O81JHblYXUg2BDG+dnBy7VxIPHKAyEEDHzCMQydTJuWvrE+Aanzw==}
     dev: true
 
-  /@types/node/16.11.38:
-    resolution: {integrity: sha512-hjO/0K140An3GWDw2HJfq7gko3wWeznbjXgg+rzPdVzhe198hp4x2i1dgveAOEiFKd8sOilAxzoSJiVv5P/CUg==}
+  /@types/node/16.11.39:
+    resolution: {integrity: sha512-K0MsdV42vPwm9L6UwhIxMAOmcvH/1OoVkZyCgEtVu4Wx7sElGloy/W7kMBNe/oJ7V/jW9BVt1F6RahH6e7tPXw==}
     dev: true
 
   /@types/node/17.0.21:
