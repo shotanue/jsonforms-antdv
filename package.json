@@ -72,7 +72,7 @@
     "ant-design-vue": "2.2.8",
     "babel-loader": "8.2.5",
     "cypress": "9.7.0",
-    "cypress-real-events": "1.7.0",
+    "cypress-real-events": "1.7.1",
     "esbuild-darwin-64": "0.14.47",
     "eslint": "8.18.0",
     "eslint-config-prettier": "8.5.0",
