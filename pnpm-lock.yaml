@@ -37,7 +37,7 @@ specifiers:
   typescript: 4.7.4
   vite: 2.9.13
   vite-plugin-components: 0.13.3
-  vite-plugin-dts: 1.2.0
+  vite-plugin-dts: 1.2.1
   vue: 3.2.37
   vue-global-api: 0.4.1
   vue-loader: 17.0.0
@@ -80,7 +80,7 @@ devDependencies:
   typescript: 4.7.4
   vite: 2.9.13
   vite-plugin-components: 0.13.3_vite@2.9.13
-  vite-plugin-dts: 1.2.0_vite@2.9.13
+  vite-plugin-dts: 1.2.1_vite@2.9.13
   vue: 3.2.37
   vue-global-api: 0.4.1_vue@3.2.37
   vue-loader: 17.0.0
@@ -9348,7 +9348,7 @@ packages:
     dev: true
 
   /jju/1.4.0:
-    resolution: {integrity: sha1-o6vicYryQaKykE+EpiWXDzia4yo=}
+    resolution: {integrity: sha512-8wb9Yw966OSxApiCt0K3yNJL8pnNeIv+OEq2YMidz4FKP6nonSRoOXc80iXY4JaN2FC11B9qsNmDsm+ZOfMROA==}
     dev: true
 
   /js-string-escape/1.0.1:
@@ -9737,11 +9737,11 @@ packages:
     dev: true
 
   /lodash.get/4.4.2:
-    resolution: {integrity: sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk=}
+    resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
     dev: true
 
   /lodash.isequal/4.5.0:
-    resolution: {integrity: sha1-QVxEePK8wwEgwizhDtMib30+GOA=}
+    resolution: {integrity: sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==}
     dev: true
 
   /lodash.merge/4.6.2:
@@ -13067,7 +13067,7 @@ packages:
     dev: true
 
   /timsort/0.3.0:
-    resolution: {integrity: sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=}
+    resolution: {integrity: sha512-qsdtZH+vMoCARQtyod4imc2nIJwg9Cc7lPRrw9CzF8ZKR0khdr8+2nX80PBhET3tcyTtJDxAffGh2rXH4tyU8A==}
     dev: true
 
   /title-case/2.1.1:
@@ -13697,8 +13697,8 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-dts/1.2.0_vite@2.9.13:
-    resolution: {integrity: sha512-dg0x2VKHDnpNQvx0iPKkPpX+aJNBqzusMJv1l7SwzTV8J62eLhIKzE2FKOp4oYkPlN/vi+MqNEDKvv+XE70lzA==}
+  /vite-plugin-dts/1.2.1_vite@2.9.13:
+    resolution: {integrity: sha512-V59rsKQnPI6FTGybh/ED4+dyK3UeSkvC1CJzpuDNoXb7mKNUcWmg66EM0N5Ijoc8xDAfZIXYxQjg675YHIDvFw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: '>=2.4.4'
