@@ -48,7 +48,7 @@
   "resolutions": {
     "@types/react": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.1.1.tgz"
   },
-  "packageManager": "pnpm@7.5.0",
+  "packageManager": "pnpm@7.5.1",
   "dependencies": {
     "just-clone": "^6.0.0"
   },
