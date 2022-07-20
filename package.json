@@ -90,7 +90,7 @@
     "vue-global-api": "0.4.1",
     "vue-loader": "17.0.0",
     "vue-template-compiler": "2.7.7",
-    "vue-tsc": "0.35.2"
+    "vue-tsc": "0.38.9"
   },
   "peerDependencies": {
     "@jsonforms/core": "^3.0.0-alpha.1",
