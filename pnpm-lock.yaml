@@ -35,7 +35,7 @@ specifiers:
   rimraf: 3.0.2
   storybook-builder-vite: 0.1.23
   typescript: 4.7.4
-  vite: 3.0.3
+  vite: 3.0.4
   vite-plugin-components: 0.13.3
   vite-plugin-dts: 1.4.0
   vue: 3.2.37
@@ -50,7 +50,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config-vue': 0.25.2_he2ccbldppg44uulnyq4rwocfa
   '@babel/core': 7.18.9
-  '@cypress/vite-dev-server': 2.2.3_vite@3.0.3
+  '@cypress/vite-dev-server': 2.2.3_vite@3.0.4
   '@cypress/vue': 3.1.2_6xcetagcwxomph7427det2ou4i
   '@jsonforms/core': 3.0.0-rc.0
   '@jsonforms/vue': 3.0.0-rc.0_xx5tw5h5u2kn7idj6sl377hgbi
@@ -62,7 +62,7 @@ devDependencies:
   '@storybook/vue3': 6.5.9_pzrzl22atvdq5kc5gfbew53sf4
   '@testing-library/cypress': 8.0.3_cypress@9.7.0
   '@types/node': 16.11.46
-  '@vitejs/plugin-vue': 3.0.1_vite@3.0.3+vue@3.2.37
+  '@vitejs/plugin-vue': 3.0.1_vite@3.0.4+vue@3.2.37
   '@vue/compiler-sfc': 3.2.37
   ant-design-vue: 2.2.8_2yymnzrok6eda47acnj2yjm3ae
   babel-loader: 8.2.5_@babel+core@7.18.9
@@ -76,11 +76,11 @@ devDependencies:
   npm-run-all: 4.1.5
   prettier: 2.7.1
   rimraf: 3.0.2
-  storybook-builder-vite: 0.1.23_jpjzt7ac3smvvseyxvpa6vpbpu
+  storybook-builder-vite: 0.1.23_re5xqwicseixxbvc3sotnuaea4
   typescript: 4.7.4
-  vite: 3.0.3
-  vite-plugin-components: 0.13.3_vite@3.0.3
-  vite-plugin-dts: 1.4.0_vite@3.0.3
+  vite: 3.0.4
+  vite-plugin-components: 0.13.3_vite@3.0.4
+  vite-plugin-dts: 1.4.0_vite@3.0.4
   vue: 3.2.37
   vue-global-api: 0.4.1_vue@3.2.37
   vue-loader: 17.0.0
@@ -1645,14 +1645,14 @@ packages:
       uuid: 8.3.2
     dev: true
 
-  /@cypress/vite-dev-server/2.2.3_vite@3.0.3:
+  /@cypress/vite-dev-server/2.2.3_vite@3.0.4:
     resolution: {integrity: sha512-E9cPKwReweYGRsupfR6Va1R1bHv3zPb3gHG68fyQwAjG4oPORaQlgfFWiR2i1pF+tRftvNfM0O2PBuKX3IvPxg==}
     peerDependencies:
       vite: '>= 2.1.3'
     dependencies:
       debug: 4.3.4
       get-port: 5.1.1
-      vite: 3.0.3
+      vite: 3.0.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1887,7 +1887,7 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@joshwooding/vite-plugin-react-docgen-typescript/0.0.2_jpjzt7ac3smvvseyxvpa6vpbpu:
+  /@joshwooding/vite-plugin-react-docgen-typescript/0.0.2_re5xqwicseixxbvc3sotnuaea4:
     resolution: {integrity: sha512-0hbsoX2c7Z3lJKY+88ToduiQDyh+Mggpd6Go0vVV3PchMRyE9iOCVUBiqd4FFfgNdFdk6iNKrO9bdIiHOpW6jA==}
     peerDependencies:
       typescript: '>= 4.3.x'
@@ -1897,7 +1897,7 @@ packages:
       glob-promise: 4.2.1_glob@7.2.0
       react-docgen-typescript: 2.2.2_typescript@4.7.4
       typescript: 4.7.4
-      vite: 3.0.3
+      vite: 3.0.4
     dev: true
 
   /@jridgewell/gen-mapping/0.3.2:
@@ -4123,14 +4123,14 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-vue/3.0.1_vite@3.0.3+vue@3.2.37:
+  /@vitejs/plugin-vue/3.0.1_vite@3.0.4+vue@3.2.37:
     resolution: {integrity: sha512-Ll9JgxG7ONIz/XZv3dssfoMUDu9qAnlJ+km+pBA0teYSXzwPCIzS/e1bmwNYl5dcQGs677D21amgfYAnzMl17A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.0.3
+      vite: 3.0.4
       vue: 3.2.37
     dev: true
 
@@ -12642,14 +12642,14 @@ packages:
     resolution: {integrity: sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==}
     dev: true
 
-  /storybook-builder-vite/0.1.23_jpjzt7ac3smvvseyxvpa6vpbpu:
+  /storybook-builder-vite/0.1.23_re5xqwicseixxbvc3sotnuaea4:
     resolution: {integrity: sha512-PmeeYKHaBNQgRVJEwhfyo4Psev1Y7Gj51nlYxUDIG3dpy1e1aGzFubDgsmg9W/BhyHKcLIKp98JBpa1DwL702A==}
     deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
     peerDependencies:
       '@storybook/core-common': ^6.4.3
       vite: '>=2.6.7'
     dependencies:
-      '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.2_jpjzt7ac3smvvseyxvpa6vpbpu
+      '@joshwooding/vite-plugin-react-docgen-typescript': 0.0.2_re5xqwicseixxbvc3sotnuaea4
       '@mdx-js/mdx': 1.6.22
       '@storybook/csf-tools': 6.4.20
       '@storybook/source-loader': 6.4.20
@@ -12658,8 +12658,8 @@ packages:
       glob: 7.2.0
       glob-promise: 4.2.1_glob@7.2.0
       slash: 3.0.0
-      vite: 3.0.3
-      vite-plugin-mdx: 3.5.8_jkewufkn66ruhtdr5erktneh4i
+      vite: 3.0.4
+      vite-plugin-mdx: 3.5.8_iqtkz3vjn6leiwyte674lwfd3q
     transitivePeerDependencies:
       - react
       - react-dom
@@ -13663,7 +13663,7 @@ packages:
       vfile-message: 2.0.4
     dev: true
 
-  /vite-plugin-components/0.13.3_vite@3.0.3:
+  /vite-plugin-components/0.13.3_vite@3.0.4:
     resolution: {integrity: sha512-6vLWPrEqFSW7REYvux/WVwxsytg/DcstVhdgAT806cZi/KGiQgB8dyFnLkrkFawxUQruuGkLWfS99Z/64mMC0w==}
     deprecated: renamed to `unplugin-vue-components`, see https://github.com/antfu/unplugin-vue-components/releases/tag/v0.14.0
     peerDependencies:
@@ -13673,12 +13673,12 @@ packages:
       fast-glob: 3.2.7
       magic-string: 0.25.7
       minimatch: 3.0.4
-      vite: 3.0.3
+      vite: 3.0.4
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-dts/1.4.0_vite@3.0.3:
+  /vite-plugin-dts/1.4.0_vite@3.0.4:
     resolution: {integrity: sha512-RyDCjQzVxUeDqF+Rl1hQT+t/rKmvfvo04gaGV/l3597FpeIWGKtNF1S4x509Kx1AfHOjLa1JdmjVgnSEIv+lpw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -13691,12 +13691,12 @@ packages:
       fast-glob: 3.2.11
       fs-extra: 10.0.1
       ts-morph: 14.0.0
-      vite: 3.0.3
+      vite: 3.0.4
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite-plugin-mdx/3.5.8_jkewufkn66ruhtdr5erktneh4i:
+  /vite-plugin-mdx/3.5.8_iqtkz3vjn6leiwyte674lwfd3q:
     resolution: {integrity: sha512-UvJc+xpbgfjHGKPkvO38yALDmilIXe6m5C/VJewkERmEDEtqb5DkKh4XsxCw1Mv/oeAL+PyFSIHZCafMGkrZ4w==}
     peerDependencies:
       '@mdx-js/mdx': '*'
@@ -13707,11 +13707,11 @@ packages:
       esbuild: 0.8.57
       resolve: 1.22.1
       unified: 9.2.2
-      vite: 3.0.3
+      vite: 3.0.4
     dev: true
 
-  /vite/3.0.3:
-    resolution: {integrity: sha512-sDIpIcl3mv1NUaSzZwiXGEy1ZoWwwC2vkxUHY6yiDacR6zf//ZFuBJrozO62gedpE43pmxnLATNR5IYUdAEkMQ==}
+  /vite/3.0.4:
+    resolution: {integrity: sha512-NU304nqnBeOx2MkQnskBQxVsa0pRAH5FphokTGmyy8M3oxbvw7qAXts2GORxs+h/2vKsD+osMhZ7An6yK6F1dA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
