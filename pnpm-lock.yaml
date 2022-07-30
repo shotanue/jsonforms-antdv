@@ -7,7 +7,7 @@ specifiers:
   '@antfu/eslint-config-vue': 0.25.2
   '@babel/core': 7.18.9
   '@cypress/vite-dev-server': 2.2.3
-  '@cypress/vue': 3.1.2
+  '@cypress/vue': 4.0.0
   '@jsonforms/core': 3.0.0-rc.0
   '@jsonforms/vue': 3.0.0-rc.0
   '@storybook/addon-actions': 6.5.9
@@ -51,7 +51,7 @@ devDependencies:
   '@antfu/eslint-config-vue': 0.25.2_he2ccbldppg44uulnyq4rwocfa
   '@babel/core': 7.18.9
   '@cypress/vite-dev-server': 2.2.3_vite@3.0.4
-  '@cypress/vue': 3.1.2_6xcetagcwxomph7427det2ou4i
+  '@cypress/vue': 4.0.0_cypress@9.7.0+vue@3.2.37
   '@jsonforms/core': 3.0.0-rc.0
   '@jsonforms/vue': 3.0.0-rc.0_xx5tw5h5u2kn7idj6sl377hgbi
   '@storybook/addon-actions': 6.5.9
@@ -1617,10 +1617,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@cypress/mount-utils/1.0.2:
-    resolution: {integrity: sha512-Fn3fdTiyayHoy8Ol0RSu4MlBH2maQ2ZEXeEVKl/zHHXEQpld5HX3vdNLhK5YLij8cLynA4DxOT/nO9iEnIiOXw==}
-    dev: true
-
   /@cypress/request/2.88.10:
     resolution: {integrity: sha512-Zp7F+R93N0yZyG34GutyTNr+okam7s/Fzc1+i3kcqOP8vk6OuajuE9qZJ6Rs+10/1JFtXFYMdyarnU1rZuJesg==}
     engines: {node: '>= 6'}
@@ -1657,23 +1653,18 @@ packages:
       - supports-color
     dev: true
 
-  /@cypress/vue/3.1.2_6xcetagcwxomph7427det2ou4i:
-    resolution: {integrity: sha512-CqIBupPW6EhXJ7lXE64MBKh3VfdShHnuC3HBV/euHBt9tsgSo7RZHBTZUsKc8aM745VzVnuNiax+JV4CplrtLQ==}
+  /@cypress/vue/4.0.0_cypress@9.7.0+vue@3.2.37:
+    resolution: {integrity: sha512-IFskspGdC8O/Ukeog+TrnhfN+rL8kg4ue0dbLNXdGBWMHVMvZin1Y47KbZf++0kjogDmPmSqKIbrNUK3bs+RuQ==}
     engines: {node: '>=8'}
     peerDependencies:
       '@cypress/webpack-dev-server': '*'
-      babel-loader: '*'
       cypress: '>=7.0.0'
       vue: '>=3.0.0'
     peerDependenciesMeta:
       '@cypress/webpack-dev-server':
         optional: true
-      babel-loader:
-        optional: true
     dependencies:
-      '@cypress/mount-utils': 1.0.2
-      '@vue/test-utils': 2.0.0-rc.16_vue@3.2.37
-      babel-loader: 8.2.5_@babel+core@7.18.9
+      '@vue/test-utils': 2.0.0-rc.19_vue@3.2.37
       cypress: 9.7.0
       vue: 3.2.37
     dev: true
@@ -4261,8 +4252,8 @@ packages:
     resolution: {integrity: sha512-4rSJemR2NQIo9Klm1vabqWjD8rs/ZaJSzMxkMNeJS6lHiUjjUeYFbooN19NgFjztubEKh3WlZUeOLVdbbUWHsw==}
     dev: true
 
-  /@vue/test-utils/2.0.0-rc.16_vue@3.2.37:
-    resolution: {integrity: sha512-TubikDVkI2LuRKRPSLv3lYpbpvvucT2DIcGqfBVpvYs4W19u0EBTJEdmfwmSuLY7H1TyAr9Stur3PI1sWWvTGQ==}
+  /@vue/test-utils/2.0.0-rc.19_vue@3.2.37:
+    resolution: {integrity: sha512-vQ/34z9NH/pqJzl9YTWtTq/vrx5JzLbMojcBB0qydeb7FtGqxp11nLYCgVso+pa8ZOSn2j+OQfjc5aBnb32uzw==}
     peerDependencies:
       vue: ^3.0.1
     dependencies:
