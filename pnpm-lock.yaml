@@ -24,7 +24,7 @@ specifiers:
   babel-loader: 8.2.5
   cypress: 9.7.0
   cypress-real-events: 1.7.1
-  esbuild-darwin-64: 0.15.0
+  esbuild-darwin-64: 0.15.1
   eslint: 8.21.0
   eslint-config-prettier: 8.5.0
   hygen: 6.2.8
@@ -68,7 +68,7 @@ devDependencies:
   babel-loader: 8.2.5_@babel+core@7.18.10
   cypress: 9.7.0
   cypress-real-events: 1.7.1_cypress@9.7.0
-  esbuild-darwin-64: 0.15.0
+  esbuild-darwin-64: 0.15.1
   eslint: 8.21.0
   eslint-config-prettier: 8.5.0_eslint@8.21.0
   hygen: 6.2.8
@@ -6774,8 +6774,8 @@ packages:
     dev: true
     optional: true
 
-  /esbuild-darwin-64/0.15.0:
-    resolution: {integrity: sha512-aA5SVtXCetQ9ChREG8xDdzv43XGbdz+u4AxQgQZrRu0gXD3yJfawfZgquaej3CxVAlrOgBPbu5z+tA5SVhXAxQ==}
+  /esbuild-darwin-64/0.15.1:
+    resolution: {integrity: sha512-tyouWLyxwM/Y2fy/reuIvAvVB+KVQwuY9IVyV7LH5CGkJYxgtLb8xVEiwHFF8TG2uo9a2fqdgWffados4YA6Aw==}
     engines: {node: '>=12'}
     cpu: [x64]
     os: [darwin]
@@ -13691,8 +13691,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /vue-demi/0.13.6_vue@3.2.37:
-    resolution: {integrity: sha512-02NYpxgyGE2kKGegRPYlNQSL1UWfA/+JqvzhGCOYjhfbLWXU5QQX0+9pAm/R2sCOPKr5NBxVIab7fvFU0B1RxQ==}
+  /vue-demi/0.13.7_vue@3.2.37:
+    resolution: {integrity: sha512-hbhlvpx1gFW3TB5HxJ0mNxyA9Jh5iQt409taOs6zkhpvfJ7YzLs1rsLufJmDsjH5PI1cOyfikY1fE/meyHfU5A==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
@@ -13763,7 +13763,7 @@ packages:
     resolution: {integrity: sha512-283vpYOhVHJCpMkjNVEwZdgaAb+Y93zFaXGAWTI378MLoNuwQydjD/BAy1e81QYEmyA+JbxqcmMZVWcM9rbriw==}
     dependencies:
       eslint-config-vue-global-api: 0.4.1
-      vue-demi: 0.13.6_vue@3.2.37
+      vue-demi: 0.13.7_vue@3.2.37
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
