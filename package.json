@@ -89,7 +89,7 @@
     "vue": "3.2.37",
     "vue-global-api": "0.4.1",
     "vue-loader": "17.0.0",
-    "vue-template-compiler": "2.7.8",
+    "vue-template-compiler": "2.7.9",
     "vue-tsc": "0.39.5"
   },
   "peerDependencies": {
