@@ -27,7 +27,7 @@ specifiers:
   esbuild-darwin-64: 0.15.7
   eslint: 8.23.0
   eslint-config-prettier: 8.5.0
-  hygen: 6.2.8
+  hygen: 6.2.9
   just-clone: ^6.0.0
   moment: 2.29.4
   npm-run-all: 4.1.5
@@ -71,7 +71,7 @@ devDependencies:
   esbuild-darwin-64: 0.15.7
   eslint: 8.23.0
   eslint-config-prettier: 8.5.0_eslint@8.23.0
-  hygen: 6.2.8
+  hygen: 6.2.9
   moment: 2.29.4
   npm-run-all: 4.1.5
   prettier: 2.7.1
@@ -8599,8 +8599,8 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /hygen/6.2.8:
-    resolution: {integrity: sha512-hAf4zNDureugjoI59Bp5DfZ19GWwx0ArAHW8dmplxqzgIXdF8V87+PkmL2It8flMYj1qVj3VDptFD/ntGUfQkw==}
+  /hygen/6.2.9:
+    resolution: {integrity: sha512-9e84XTF3Wyj8icUm/I0cjE6Dd6s3suE7FeVrhjLaERuLdxnXmkQoJDAOiYrmsD7AFdreG7Y1H4x4ZXsahMBbxQ==}
     hasBin: true
     dependencies:
       '@types/node': 17.0.21
