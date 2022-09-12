@@ -74,7 +74,7 @@
     "cypress": "9.7.0",
     "cypress-real-events": "1.7.1",
     "esbuild-darwin-64": "0.15.7",
-    "eslint": "8.23.0",
+    "eslint": "8.23.1",
     "eslint-config-prettier": "8.5.0",
     "hygen": "6.2.11",
     "moment": "2.29.4",
