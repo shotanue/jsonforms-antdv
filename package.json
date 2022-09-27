@@ -54,7 +54,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config-vue": "0.25.2",
-    "@babel/core": "7.19.1",
+    "@babel/core": "7.19.3",
     "@cypress/vite-dev-server": "2.2.3",
     "@cypress/vue": "3.1.2",
     "@jsonforms/core": "3.0.0",
