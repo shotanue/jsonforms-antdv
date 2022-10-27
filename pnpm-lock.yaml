@@ -21,7 +21,7 @@ specifiers:
   '@vitejs/plugin-vue': 3.2.0
   '@vue/compiler-sfc': 3.2.41
   ant-design-vue: 2.2.8
-  babel-loader: 8.2.5
+  babel-loader: 9.0.0
   cypress: 9.7.0
   cypress-real-events: 1.7.2
   esbuild-darwin-64: 0.15.12
@@ -51,7 +51,7 @@ devDependencies:
   '@antfu/eslint-config-vue': 0.25.2_wyqvi574yv7oiwfeinomdzmc3m
   '@babel/core': 7.19.6
   '@cypress/vite-dev-server': 2.2.3_vite@3.0.9
-  '@cypress/vue': 3.1.2_e75566p4csy3jsuq7tmwnmhbam
+  '@cypress/vue': 3.1.2_rndn47wyokzarffv5t5tgscmga
   '@jsonforms/core': 3.0.0
   '@jsonforms/vue': 3.0.0_jcgqr2ogcmyh7y2hdeslcv5lou
   '@storybook/addon-actions': 6.5.13
@@ -59,13 +59,13 @@ devDependencies:
   '@storybook/addon-links': 6.5.13
   '@storybook/cli': 6.5.13_voroqkf7msz5lx7k3ntfg5am2m
   '@storybook/testing-vue3': 0.0.2_iswwkldgkbsijfjynss523dbam
-  '@storybook/vue3': 6.5.13_uxdxlrpfs32zcraxzrsenytv3m
+  '@storybook/vue3': 6.5.13_la5hrrou63mtkit5z3dfwb2vli
   '@testing-library/cypress': 8.0.3_cypress@9.7.0
   '@types/node': 18.11.7
   '@vitejs/plugin-vue': 3.2.0_vite@3.0.9+vue@3.2.41
   '@vue/compiler-sfc': 3.2.41
   ant-design-vue: 2.2.8_74iyevwgxgcv26n6rs4wwe3b6y
-  babel-loader: 8.2.5_@babel+core@7.19.6
+  babel-loader: 9.0.0_@babel+core@7.19.6
   cypress: 9.7.0
   cypress-real-events: 1.7.2_cypress@9.7.0
   esbuild-darwin-64: 0.15.12
@@ -1663,7 +1663,7 @@ packages:
       - supports-color
     dev: true
 
-  /@cypress/vue/3.1.2_e75566p4csy3jsuq7tmwnmhbam:
+  /@cypress/vue/3.1.2_rndn47wyokzarffv5t5tgscmga:
     resolution: {integrity: sha512-CqIBupPW6EhXJ7lXE64MBKh3VfdShHnuC3HBV/euHBt9tsgSo7RZHBTZUsKc8aM745VzVnuNiax+JV4CplrtLQ==}
     engines: {node: '>=8'}
     peerDependencies:
@@ -1679,7 +1679,7 @@ packages:
     dependencies:
       '@cypress/mount-utils': 1.0.2
       '@vue/test-utils': 2.0.0-rc.16_vue@3.2.41
-      babel-loader: 8.2.5_@babel+core@7.19.6
+      babel-loader: 9.0.0_@babel+core@7.19.6
       cypress: 9.7.0
       vue: 3.2.41
     dev: true
@@ -2347,7 +2347,7 @@ packages:
       '@storybook/api': 6.5.13
       '@storybook/core-common': 6.5.13_voroqkf7msz5lx7k3ntfg5am2m
       '@storybook/node-logger': 6.5.13
-      '@storybook/vue3': 6.5.13_uxdxlrpfs32zcraxzrsenytv3m
+      '@storybook/vue3': 6.5.13_la5hrrou63mtkit5z3dfwb2vli
       core-js: 3.18.3
       regenerator-runtime: 0.13.9
       ts-dedent: 2.2.0
@@ -3607,7 +3607,7 @@ packages:
       '@storybook/vue3': ^6.0.0
       vue: ^3.0.0
     dependencies:
-      '@storybook/vue3': 6.5.13_uxdxlrpfs32zcraxzrsenytv3m
+      '@storybook/vue3': 6.5.13_la5hrrou63mtkit5z3dfwb2vli
       vue: 3.2.41
     dev: true
 
@@ -3681,7 +3681,7 @@ packages:
       resolve-from: 5.0.0
     dev: true
 
-  /@storybook/vue3/6.5.13_uxdxlrpfs32zcraxzrsenytv3m:
+  /@storybook/vue3/6.5.13_la5hrrou63mtkit5z3dfwb2vli:
     resolution: {integrity: sha512-9tq83Q3eLoE/5deFXXYI6fmx4/AlFg3/OjkZKL5LstRT6cD+Iz95aMY6+wvMObdGaABXYPW1+jyAbNLAr1cZdg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
@@ -3701,7 +3701,7 @@ packages:
       '@types/node': 16.18.0
       '@types/webpack-env': 1.16.3
       '@vue/compiler-sfc': 3.2.41
-      babel-loader: 8.2.5_@babel+core@7.19.6
+      babel-loader: 9.0.0_@babel+core@7.19.6
       core-js: 3.18.3
       global: 4.4.0
       react: 16.14.0
@@ -4503,12 +4503,30 @@ packages:
       ajv: 6.12.6
     dev: true
 
+  /ajv-keywords/5.1.0_ajv@8.11.0:
+    resolution: {integrity: sha512-YCS/JNFAUyr5vAuhk1DWm1CBxRHW9LbJ2ozWeemrIqpbsqKjHVxYPyi5GC0rjZIT5JxJ3virVTS8wk4i/Z+krw==}
+    peerDependencies:
+      ajv: ^8.8.2
+    dependencies:
+      ajv: 8.11.0
+      fast-deep-equal: 3.1.3
+    dev: true
+
   /ajv/6.12.6:
     resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==}
     dependencies:
       fast-deep-equal: 3.1.3
       fast-json-stable-stringify: 2.1.0
       json-schema-traverse: 0.4.1
+      uri-js: 4.4.1
+    dev: true
+
+  /ajv/8.11.0:
+    resolution: {integrity: sha512-wGgprdCvMalC0BztXvitD2hC04YffAvtsUn93JbGXYLAtCUO4xd17mCCZQxUOItiBwZvJScWo8NIvQMQ71rdpg==}
+    dependencies:
+      fast-deep-equal: 3.1.3
+      json-schema-traverse: 1.0.0
+      require-from-string: 2.0.2
       uri-js: 4.4.1
     dev: true
 
@@ -4910,6 +4928,18 @@ packages:
       make-dir: 3.1.0
       schema-utils: 2.7.1
       webpack: 4.46.0
+    dev: true
+
+  /babel-loader/9.0.0_@babel+core@7.19.6:
+    resolution: {integrity: sha512-qVGQb0PNw/B1sGhPf0/KKsHZAPfa2Bk+JbjkW7yGjAHZyvjAULXYq0et0+/+7DL/rGYU+y8UoGPzA32NP29pVQ==}
+    engines: {node: '>= 14.15.0'}
+    peerDependencies:
+      '@babel/core': ^7.12.0
+      webpack: '>=5'
+    dependencies:
+      '@babel/core': 7.19.6
+      find-cache-dir: 3.3.2
+      schema-utils: 4.0.0
     dev: true
 
   /babel-plugin-apply-mdx-type-prop/1.6.22_@babel+core@7.12.9:
@@ -12183,6 +12213,16 @@ packages:
       '@types/json-schema': 7.0.9
       ajv: 6.12.6
       ajv-keywords: 3.5.2_ajv@6.12.6
+    dev: true
+
+  /schema-utils/4.0.0:
+    resolution: {integrity: sha512-1edyXKgh6XnJsJSQ8mKWXnN/BVaIbFMLpouRUrXgVq7WYne5kw3MW7UPhO44uRXQSIpTSXoJbmrR2X0w9kUTyg==}
+    engines: {node: '>= 12.13.0'}
+    dependencies:
+      '@types/json-schema': 7.0.9
+      ajv: 8.11.0
+      ajv-formats: 2.1.1
+      ajv-keywords: 5.1.0_ajv@8.11.0
     dev: true
 
   /scroll-into-view-if-needed/2.2.28:
