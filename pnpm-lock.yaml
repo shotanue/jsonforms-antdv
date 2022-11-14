@@ -37,7 +37,7 @@ specifiers:
   typescript: 4.8.4
   vite: 3.0.9
   vite-plugin-components: 0.13.3
-  vite-plugin-dts: 1.7.0
+  vite-plugin-dts: 1.7.1
   vue: 3.2.45
   vue-global-api: 0.4.1
   vue-loader: 17.0.1
@@ -80,7 +80,7 @@ devDependencies:
   typescript: 4.8.4
   vite: 3.0.9
   vite-plugin-components: 0.13.3_vite@3.0.9
-  vite-plugin-dts: 1.7.0_vite@3.0.9
+  vite-plugin-dts: 1.7.1_vite@3.0.9
   vue: 3.2.45
   vue-global-api: 0.4.1_vue@3.2.45
   vue-loader: 17.0.1_tfvhctuaqmmqnirfl65c47tqwu
@@ -2086,7 +2086,21 @@ packages:
     engines: {node: '>= 8.0.0'}
     dependencies:
       estree-walker: 2.0.2
-      picomatch: 2.3.0
+      picomatch: 2.3.1
+    dev: true
+
+  /@rollup/pluginutils/5.0.2:
+    resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@types/estree': 1.0.0
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
     dev: true
 
   /@rushstack/node-core-library/3.53.2:
@@ -2950,7 +2964,7 @@ packages:
       interpret: 2.2.0
       json5: 2.2.1
       lazy-universal-dotenv: 3.0.1
-      picomatch: 2.3.0
+      picomatch: 2.3.1
       pkg-dir: 5.0.0
       pretty-hrtime: 1.0.3
       resolve-from: 5.0.0
@@ -3019,7 +3033,7 @@ packages:
       interpret: 2.2.0
       json5: 2.2.1
       lazy-universal-dotenv: 3.0.1
-      picomatch: 2.3.0
+      picomatch: 2.3.1
       pkg-dir: 5.0.0
       pretty-hrtime: 1.0.3
       react: 16.14.0
@@ -3774,6 +3788,10 @@ packages:
 
   /@types/aria-query/4.2.2:
     resolution: {integrity: sha512-HnYpAE1Y6kRyKM/XkEuiRQhTHvkzMBurTHnpFLYLBGPIylZNPs9jJcuOOYWxPLJCSEtmZT0Y8rHDokKN7rRTig==}
+    dev: true
+
+  /@types/estree/1.0.0:
+    resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: true
 
   /@types/glob/7.1.4:
@@ -4651,7 +4669,7 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       normalize-path: 3.0.0
-      picomatch: 2.3.0
+      picomatch: 2.3.1
     dev: true
 
   /app-root-dir/1.0.2:
@@ -10090,7 +10108,7 @@ packages:
     engines: {node: '>=8.6'}
     dependencies:
       braces: 3.0.2
-      picomatch: 2.3.0
+      picomatch: 2.3.1
     dev: true
 
   /miller-rabin/4.0.1:
@@ -11010,8 +11028,8 @@ packages:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: true
 
-  /picomatch/2.3.0:
-    resolution: {integrity: sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==}
+  /picomatch/2.3.1:
+    resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
     dev: true
 
@@ -11761,7 +11779,7 @@ packages:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
     dependencies:
-      picomatch: 2.3.0
+      picomatch: 2.3.1
     dev: true
 
   /recast/0.18.10:
@@ -13677,13 +13695,14 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-dts/1.7.0_vite@3.0.9:
-    resolution: {integrity: sha512-SG1JRPFrrw8bseWXvKQJwcaZIoOcCsQjJub1h8hfywegdxJTT3hBDoKQyzT6Wi8wiTH3GidDWC2wxqiUS3gy5g==}
+  /vite-plugin-dts/1.7.1_vite@3.0.9:
+    resolution: {integrity: sha512-2oGMnAjcrZN7jM1TloiS1b1mCn42s3El04ix2RFhId5P1WfMigF8WAwsqT6a6jk0Yso8t7AeZsBkkxYShR0hBQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: '>=2.9.0'
     dependencies:
       '@microsoft/api-extractor': 7.33.5
+      '@rollup/pluginutils': 5.0.2
       '@rushstack/node-core-library': 3.53.2
       debug: 4.3.4
       fast-glob: 3.2.12
@@ -13692,6 +13711,7 @@ packages:
       ts-morph: 16.0.0
       vite: 3.0.9
     transitivePeerDependencies:
+      - rollup
       - supports-color
     dev: true
 
