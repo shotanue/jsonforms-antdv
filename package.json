@@ -82,7 +82,7 @@
     "prettier": "2.8.1",
     "rimraf": "3.0.2",
     "storybook-builder-vite": "0.1.23",
-    "typescript": "4.9.3",
+    "typescript": "4.9.4",
     "vite": "3.0.9",
     "vite-plugin-components": "0.13.3",
     "vite-plugin-dts": "1.7.1",
