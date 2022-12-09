@@ -67,7 +67,7 @@
     "@storybook/vue3": "6.5.14",
     "@testing-library/cypress": "8.0.7",
     "@types/node": "18.11.12",
-    "@vitejs/plugin-vue": "3.2.0",
+    "@vitejs/plugin-vue": "4.0.0",
     "@vue/compiler-sfc": "3.2.45",
     "ant-design-vue": "2.2.8",
     "babel-loader": "9.1.0",
