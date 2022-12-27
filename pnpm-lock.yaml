@@ -23,7 +23,7 @@ specifiers:
   ant-design-vue: 2.2.8
   babel-loader: 9.1.0
   cypress: 9.7.0
-  cypress-real-events: 1.7.4
+  cypress-real-events: 1.7.6
   esbuild-darwin-64: 0.15.18
   eslint: 8.30.0
   eslint-config-prettier: 8.5.0
@@ -67,7 +67,7 @@ devDependencies:
   ant-design-vue: 2.2.8_tfvhctuaqmmqnirfl65c47tqwu
   babel-loader: 9.1.0_@babel+core@7.20.7
   cypress: 9.7.0
-  cypress-real-events: 1.7.4_cypress@9.7.0
+  cypress-real-events: 1.7.6_cypress@9.7.0
   esbuild-darwin-64: 0.15.18
   eslint: 8.30.0
   eslint-config-prettier: 8.5.0_eslint@8.30.0
@@ -6195,10 +6195,10 @@ packages:
     resolution: {integrity: sha512-NJGVKPS81XejHcLhaLJS7plab0fK3slPh11mESeeDq2W4ZI5kUKK/LRRdVDvjJseojbPB7ZwjnyOybg3Igea/A==}
     dev: true
 
-  /cypress-real-events/1.7.4_cypress@9.7.0:
-    resolution: {integrity: sha512-bAlIf3w6uJa72hcbLFpQIl/hBoNGYnSVzFMgohefWcooyZz2WbFZdFAEDOl5qOPATtAU01o92sWvc2QW9eT8aA==}
+  /cypress-real-events/1.7.6_cypress@9.7.0:
+    resolution: {integrity: sha512-yP6GnRrbm6HK5q4DH6Nnupz37nOfZu/xn1xFYqsE2o4G73giPWQOdu6375QYpwfU1cvHNCgyD2bQ2hPH9D7NMw==}
     peerDependencies:
-      cypress: ^4.x || ^5.x || ^6.x || ^7.x || ^8.x || ^9.x || ^10.x || ^11.x
+      cypress: ^4.x || ^5.x || ^6.x || ^7.x || ^8.x || ^9.x || ^10.x || ^11.x || ^12.x
     dependencies:
       cypress: 9.7.0
     dev: true
