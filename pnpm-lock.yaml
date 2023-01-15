@@ -32,7 +32,7 @@ specifiers:
   moment: 2.29.4
   npm-run-all: 4.1.5
   prettier: 2.8.3
-  rimraf: 4.0.5
+  rimraf: 4.0.7
   storybook-builder-vite: 0.1.23
   typescript: 4.9.4
   vite: 3.0.9
@@ -75,7 +75,7 @@ devDependencies:
   moment: 2.29.4
   npm-run-all: 4.1.5
   prettier: 2.8.3
-  rimraf: 4.0.5
+  rimraf: 4.0.7
   storybook-builder-vite: 0.1.23_slrvfvssgrwedikhslech6f6xy
   typescript: 4.9.4
   vite: 3.0.9
@@ -12124,8 +12124,8 @@ packages:
       glob: 7.2.0
     dev: true
 
-  /rimraf/4.0.5:
-    resolution: {integrity: sha512-3gf/WdsBM+ZkuPb76MpXSxNKt00QQ3PdXqDCCBOsHgcoBs8DAhXbqtrGQUAkhxHgXYWzXxuaOsN4s21+at5fBw==}
+  /rimraf/4.0.7:
+    resolution: {integrity: sha512-CUEDDrZvc0swDgVdXGiv3FcYYQMpJxjvSGt85Amj6yU+MCVWurrLCeLiJDdJPHCzNJnwuebBEdcO//eP11Xa7w==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
