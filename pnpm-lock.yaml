@@ -7,7 +7,7 @@ specifiers:
   '@antfu/eslint-config-vue': 0.25.2
   '@babel/core': 7.20.12
   '@cypress/vite-dev-server': 2.2.3
-  '@cypress/vue': 3.1.2
+  '@cypress/vue': 5.0.3
   '@jsonforms/core': 3.0.0
   '@jsonforms/vue': 3.0.0
   '@storybook/addon-actions': 6.5.16
@@ -51,7 +51,7 @@ devDependencies:
   '@antfu/eslint-config-vue': 0.25.2_4vsywjlpuriuw3tl5oq6zy5a64
   '@babel/core': 7.20.12
   '@cypress/vite-dev-server': 2.2.3_vite@3.0.9
-  '@cypress/vue': 3.1.2_p6nfyakj6fkbh6v4l65exptzfu
+  '@cypress/vue': 5.0.3_cypress@9.7.0+vue@3.2.45
   '@jsonforms/core': 3.0.0
   '@jsonforms/vue': 3.0.0_nbn4ehqugx6udyh4uv5aag5iti
   '@storybook/addon-actions': 6.5.16
@@ -1624,10 +1624,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@cypress/mount-utils/1.0.2:
-    resolution: {integrity: sha512-Fn3fdTiyayHoy8Ol0RSu4MlBH2maQ2ZEXeEVKl/zHHXEQpld5HX3vdNLhK5YLij8cLynA4DxOT/nO9iEnIiOXw==}
-    dev: true
-
   /@cypress/request/2.88.10:
     resolution: {integrity: sha512-Zp7F+R93N0yZyG34GutyTNr+okam7s/Fzc1+i3kcqOP8vk6OuajuE9qZJ6Rs+10/1JFtXFYMdyarnU1rZuJesg==}
     engines: {node: '>= 6'}
@@ -1664,23 +1660,17 @@ packages:
       - supports-color
     dev: true
 
-  /@cypress/vue/3.1.2_p6nfyakj6fkbh6v4l65exptzfu:
-    resolution: {integrity: sha512-CqIBupPW6EhXJ7lXE64MBKh3VfdShHnuC3HBV/euHBt9tsgSo7RZHBTZUsKc8aM745VzVnuNiax+JV4CplrtLQ==}
+  /@cypress/vue/5.0.3_cypress@9.7.0+vue@3.2.45:
+    resolution: {integrity: sha512-wGOr/aI5KAwpbO44Anb0lgi3mdOUg8V+F16Mam7txBqSCIoX4nRHNDVOx6MR3fSUEsDRhYi3reF+mQgdZdc9rQ==}
     engines: {node: '>=8'}
     peerDependencies:
       '@cypress/webpack-dev-server': '*'
-      babel-loader: '*'
       cypress: '>=7.0.0'
       vue: '>=3.0.0'
     peerDependenciesMeta:
       '@cypress/webpack-dev-server':
         optional: true
-      babel-loader:
-        optional: true
     dependencies:
-      '@cypress/mount-utils': 1.0.2
-      '@vue/test-utils': 2.0.0-rc.16_vue@3.2.45
-      babel-loader: 9.1.2_@babel+core@7.20.12
       cypress: 9.7.0
       vue: 3.2.45
     dev: true
@@ -4282,14 +4272,6 @@ packages:
 
   /@vue/shared/3.2.45:
     resolution: {integrity: sha512-Ewzq5Yhimg7pSztDV+RH1UDKBzmtqieXQlpTVm2AwraoRL/Rks96mvd8Vgi7Lj+h+TH8dv7mXD3FRZR3TUvbSg==}
-    dev: true
-
-  /@vue/test-utils/2.0.0-rc.16_vue@3.2.45:
-    resolution: {integrity: sha512-TubikDVkI2LuRKRPSLv3lYpbpvvucT2DIcGqfBVpvYs4W19u0EBTJEdmfwmSuLY7H1TyAr9Stur3PI1sWWvTGQ==}
-    peerDependencies:
-      vue: ^3.0.1
-    dependencies:
-      vue: 3.2.45
     dev: true
 
   /@webassemblyjs/ast/1.9.0:
