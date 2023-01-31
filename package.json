@@ -69,7 +69,7 @@
     "@types/node": "18.11.18",
     "@vitejs/plugin-vue": "4.0.0",
     "@vue/compiler-sfc": "3.2.45",
-    "ant-design-vue": "2.2.8",
+    "ant-design-vue": "3.2.15",
     "babel-loader": "9.1.2",
     "cypress": "9.7.0",
     "cypress-real-events": "1.7.6",
@@ -95,7 +95,7 @@
   "peerDependencies": {
     "@jsonforms/core": "^3.0.0-alpha.1",
     "@jsonforms/vue": "^3.0.0-alpha.1",
-    "ant-design-vue": "^2.2.6",
+    "ant-design-vue": "^2.2.6 || ^3.0.0",
     "vue": "^3.0.0"
   }
 }
